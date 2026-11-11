@@ -81,12 +81,23 @@ def findings(stage, data):
                     elif "image" in detail: priority = 80
                     elif "incoming links" in detail: priority = 55
                     out.append(issue(scope, page["url"], kind, detail, priority))
+            for row in site.get("indexing", []):
+                scope = f"indexing:{name}:{row['url']}"
+                if row.get("error") or not row.get("verdict"):
+                    out.append(issue(scope, row["url"], "data-unavailable",
+                                     "Google indexing inspection unavailable: " + str(row.get("error", "Missing verdict")), 85))
+                    continue
+                coverage.add(scope)
+                if row["verdict"] != "PASS":
+                    state = row.get("coverageState") or "Unspecified Google indexing state"
+                    priority = 100 if row.get("pageFetchState") == "REDIRECT_ERROR" or row.get("indexingState") == "BLOCKED_BY_META_TAG" else 95
+                    out.append(issue(scope, row["url"], "indexing-blocker", "Google index status: " + state, priority))
             # Opportunities are recommendations, not technical failures. Only complete GSC data can refresh them.
             if not site.get("gsc_error") and "priority_pages" in site:
                 scope = f"opportunities:{name}"; coverage.add(scope)
                 for page in site["priority_pages"]:
                     out.append(issue(scope, page["url"], "content-opportunity", page["action"], 45))
-            for key in ("gsc_error", "ga_error", "crawl_error"):
+            for key in ("gsc_error", "ga_error", "crawl_error", "indexing_error"):
                 scope = f"availability:{name}:{key}"
                 coverage.add(scope)
                 if site.get(key): out.append(issue(scope,name,"data-unavailable",str(site[key]),85))

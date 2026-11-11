@@ -2,10 +2,26 @@ import unittest
 from unittest.mock import patch, MagicMock
 import io
 import json
-from growth_report import prioritize, md, public_inventory
+from growth_report import prioritize, md, public_inventory, inspect_sample
 
 
 class GrowthReportTests(unittest.TestCase):
+    def test_indexing_sample_preserves_google_exclusion_and_bounds_requests(self):
+        api=MagicMock()
+        api.urlInspection.return_value.index.return_value.inspect.return_value.execute.return_value={
+            'inspectionResult':{'indexStatusResult':{'verdict':'NEUTRAL','coverageState':'Crawled - currently not indexed','lastCrawlTime':'2026-11-01T00:00:00Z'}}}
+        rows=inspect_sample(api,'https://example.com/',['https://example.com/','https://example.com/','https://example.com/a','https://example.com/b','https://example.com/c'])
+        self.assertEqual(len(rows),3)
+        self.assertEqual(api.urlInspection.return_value.index.return_value.inspect.call_count,3)
+        self.assertEqual(rows[0]['coverageState'],'Crawled - currently not indexed')
+
+    def test_indexing_api_failure_is_not_reported_as_indexed_or_zero(self):
+        api=MagicMock()
+        api.urlInspection.return_value.index.return_value.inspect.return_value.execute.side_effect=RuntimeError('quota')
+        row=inspect_sample(api,'https://example.com/',['https://example.com/'])[0]
+        self.assertEqual(row['error'],'RuntimeError')
+        self.assertNotIn('verdict',row)
+
     def test_public_inventory_paginates_without_credentials(self):
         first={'feed':{'openSearch$totalResults':{'$t':'2'},'entry':[{'title':{'$t':'First'},'content':{'$t':'<p>A</p>'},'link':[{'rel':'alternate','href':'https://example.com/a'}]}]}}
         second={'feed':{'openSearch$totalResults':{'$t':'2'},'entry':[{'title':{'$t':'Second'},'link':[{'rel':'alternate','href':'https://example.com/b'}]}]}}

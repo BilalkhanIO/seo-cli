@@ -219,9 +219,30 @@ def md(value):
     return str(value).replace("|", "/").replace("\n", " ")
 
 
+def inspect_sample(sc, site, urls):
+    """Read stored Google index records for a bounded sample, not live tests."""
+    rows = []
+    for url in list(dict.fromkeys(urls))[:3]:
+        if not url.startswith(site):
+            continue
+        try:
+            result = sc.urlInspection().index().inspect(body={
+                "inspectionUrl": quote(url, safe=":/?&=%#@+;"), "siteUrl": site,
+            }).execute().get("inspectionResult", {}).get("indexStatusResult")
+            if not result:
+                raise ValueError("No index status returned")
+            rows.append({"url": url, **{key: result.get(key) for key in (
+                "verdict", "coverageState", "indexingState", "pageFetchState",
+                "lastCrawlTime", "googleCanonical", "userCanonical")}})
+        except Exception as exc:
+            rows.append({"url": url, "error": type(exc).__name__})
+    return rows
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-crawl", action="store_true")
+    parser.add_argument("--skip-inspection", action="store_true", help="Skip the bounded Google indexing sample")
     args = parser.parse_args()
     today = datetime.now(ZoneInfo("Asia/Karachi")).date()
     end = today - timedelta(days=3)
@@ -296,6 +317,21 @@ def main():
                 lines.append(f"\nAudited {len(d['audit'])} published posts. 403/429/timeouts are unverified, not confirmed broken links.")
             except Exception as exc:
                 d["crawl_error"] = str(exc)[:250]; lines.append(f"Crawl unavailable: {md(d['crawl_error'])}")
+        if not args.skip_inspection:
+            if sc is None:
+                d["indexing_error"] = auth_error
+            else:
+                targets = [site]
+                targets.extend(r["url"] for r in d.get("priority_pages", [])[:1])
+                targets.extend(r["url"] for r in d.get("audit", [])[:1])
+                d["indexing"] = inspect_sample(sc, site, targets)
+                if any(r.get("error") for r in d["indexing"]):
+                    d["indexing_error"] = "One or more indexing inspections were unavailable; earlier findings remain open."
+                lines.extend(["", "### Google indexing sample", "",
+                    "Stored Google records for up to three selected URLs; not a live URL test or a whole-site indexed-page count.", "",
+                    "| URL | Google coverage | Last crawl |", "|---|---|---|"])
+                for row in d["indexing"]:
+                    lines.append(f"| {md(row['url'])} | {md(row.get('coverageState') or row.get('error'))} | {md(row.get('lastCrawlTime') or 'Unknown')} |")
         lines.append("")
     lines.extend(["## Ahrefs CSV imports", ""])
     if not all_data["ahrefs"]: lines.append("No CSV exports found in ahrefs_exports/. Import pending; no backlink counts inferred.")

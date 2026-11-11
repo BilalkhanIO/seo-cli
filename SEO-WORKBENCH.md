@@ -26,6 +26,8 @@ Run IDs contain a UTC timestamp and random suffix. Both same-day and repeated ru
 
 ## Issue lifecycle
 
+Fresh growth runs also inspect stored Google index records for a maximum of three selected URLs per blog: the homepage, a performance priority and the newest crawled article when available. Non-indexed URLs and reported redirect failures are queued above content opportunities, even when the public HTML audit is clean. This sample is not a whole-site index count or a live Google URL test. An unavailable inspection preserves earlier findings. Use `growth_report.py --skip-inspection` to omit these API reads explicitly.
+
 - **New:** first observed finding.
 - **Persistent:** the same finding remains present.
 - **Resolved:** a successful measurement covers the same source/page and no longer reports the finding.

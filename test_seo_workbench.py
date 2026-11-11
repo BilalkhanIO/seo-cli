@@ -33,6 +33,21 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual(reconcile(self.db,'two',[],set())['resolved'],0)
         self.assertEqual(self.db.execute('SELECT state FROM issues').fetchone()[0],'open')
 
+    def test_indexing_failure_is_prioritized_even_when_public_audit_is_clean(self):
+        items,_=findings('growth',{'sites':{'site':{'indexing':[{'url':'https://example.com/','verdict':'NEUTRAL','coverageState':'Redirect error','pageFetchState':'REDIRECT_ERROR'}]}}})
+        self.assertEqual(items[0]['kind'],'indexing-blocker')
+        self.assertEqual(items[0]['priority'],100)
+
+    def test_unavailable_indexing_check_cannot_clear_prior_exclusion(self):
+        old=issue('indexing:site:https://example.com/','https://example.com/','indexing-blocker','Google index status: Crawled - currently not indexed',95)
+        reconcile(self.db,'one',[old],{old['scope']})
+        items,coverage=findings('growth',{'sites':{'site':{'indexing':[{'url':'https://example.com/','error':'HttpError'}]}}})
+        reconcile(self.db,'two',items,coverage)
+        self.assertEqual(self.db.execute('SELECT state FROM issues WHERE id=?',(old['id'],)).fetchone()[0],'open')
+        items,coverage=findings('growth',{'sites':{'site':{'indexing':[{'url':'https://example.com/','verdict':'PASS','coverageState':'Submitted and indexed'}]}}})
+        reconcile(self.db,'three',items,coverage)
+        self.assertEqual(self.db.execute('SELECT state FROM issues WHERE id=?',(old['id'],)).fetchone()[0],'resolved')
+
     def test_changes_on_one_page_do_not_resolve_another_page(self):
         a = issue('page-a','a','broken','404',100)
         b = issue('page-b','b','broken','404',100)
