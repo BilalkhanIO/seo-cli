@@ -1,0 +1,42 @@
+{
+  "total": 18,
+  "unique": 15,
+  "successful": 17,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 1,
+  "remaps": 0,
+  "excludes": 0,
+  "errors": 1,
+  "cached": 3,
+  "success_map": {},
+  "error_map": {
+    "pillar_free_ai_courses_2026.html": [
+      {
+        "url": "https://help.openai.com/en/articles/20001270-openai-academy-courses",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 75,
+          "column": 34
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 105342031
+        }
+      }
+    ]
+  },
+  "timeout_map": {},
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration": {
+    "secs": 4,
+    "nanos": 771745640
+  },
+  "detailed_stats": false
+}

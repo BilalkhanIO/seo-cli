@@ -1,0 +1,9 @@
+# Direct page/article checks, three requests at a time.
+max_concurrency = 3
+timeout = 15
+max_retries = 1
+user_agent = "StudentsTime-LinkAudit/1.0"
+include_mail = false
+exclude_private = true
+exclude_loopback = true
+exclude_link_local = true

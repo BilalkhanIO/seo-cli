@@ -1,0 +1,13 @@
+--- current.html
++++ candidate.html
+@@ -1,3 +1,4 @@
++<figure style="margin:1.2em 0"><img src="https://images.pexels.com/photos/20552572/pexels-photo-20552572.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="A modern workspace with a laptop, calculator, and documents on a desk, perfect for finance tasks." loading="eager" fetchpriority="high" width="1200" height="801" decoding="async" style="width:100%;height:auto;border-radius:10px" /><figcaption style="font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em">Photo by <a href="https://www.pexels.com/@jakubzerdzicki" rel="noopener">Jakub Zerdzicki</a> on <a href="https://www.pexels.com/photo/a-calculator-on-a-desk-20552572/" rel="noopener">Pexels</a></figcaption></figure>
+ <h2>High-Yield Savings vs Cash Sweep: 2026 Beginner Guide</h2>
+ 
+ <p>When you’re new to saving money, two options often come up: a high-yield savings account and cash sweep accounts offered by brokerage platforms. Both can help you earn interest while keeping funds accessible, but they work differently and suit different goals. This guide provides a clear, practical comparison for beginners, so you can decide which path fits your needs — and how to use each safely and effectively.</p>
+@@ -173,4 +174,5 @@
+ 
+ <p>In practice, many beginners benefit from starting with a strong, reliable high-yield savings account to build a safe cash cushion. As you gain comfort with personal finance concepts like APY and liquidity, you can evaluate whether a cash sweep within a brokerage adds value to your overall strategy without compromising safety or access to funds.</p>
+ 
+-<p>By following the practical steps outlined in this guide, you’ll be well-equipped to compare “high yield savings vs cash sweep options for beginners,” make informed decisions, and keep your money safe while earning a reasonable return.</p>+<p>By following the practical steps outlined in this guide, you’ll be well-equipped to compare “high yield savings vs cash sweep options for beginners,” make informed decisions, and keep your money safe while earning a reasonable return.</p>
++<aside class="related-reading"><h2>Related reading</h2><ul><li><a href="https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html">Best High-Yield Savings Account, No Minimum (2026)</a></li></ul></aside>

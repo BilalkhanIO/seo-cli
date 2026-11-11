@@ -1,0 +1,11 @@
+--- current.html
++++ candidate.html
+@@ -290,7 +290,7 @@
+ 
+   <li><a href="https://www.goodhousekeeping.com/home/gardening/" target="_blank">Good Housekeeping Gardening</a></li>
+ 
+-  <li><a href="https://www.allrecipes.com/gallery/farm-to-table-recipes/" target="_blank">Allrecipes Farm-to-Table</a></li>
++  <li>Allrecipes Farm-to-Table</li>
+ 
+ </ul>
+ 

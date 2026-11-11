@@ -1,0 +1,57 @@
+{
+  "total": 16,
+  "unique": 13,
+  "successful": 14,
+  "unknown": 0,
+  "unsupported": 0,
+  "timeouts": 0,
+  "redirects": 1,
+  "remaps": 0,
+  "excludes": 0,
+  "errors": 2,
+  "cached": 3,
+  "success_map": {},
+  "error_map": {
+    "pillar_free_ai_courses_2026.html": [
+      {
+        "url": "https://academy.openai.com/public/courses/ai-for-college-students",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 20,
+          "column": 18
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 424662936
+        }
+      },
+      {
+        "url": "https://academy.openai.com/public/courses/ai-for-educators",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 21,
+          "column": 18
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 481352759
+        }
+      }
+    ]
+  },
+  "timeout_map": {},
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "duration": {
+    "secs": 5,
+    "nanos": 249991462
+  },
+  "detailed_stats": false
+}

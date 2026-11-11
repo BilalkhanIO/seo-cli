@@ -1,0 +1,20 @@
+--- current.html
++++ candidate.html
+@@ -197,7 +197,7 @@
+ 
+ </ul>
+ 
+-<p>Governments, academia, and tech companies are collaborating on frameworks like <a href="https://www.un.org/en/artificial-intelligence-principles">UN AI Principles</a> and the <a href="https://www.ieee.org/ethics">IEEE Ethically Aligned Design</a> guidelines to ensure responsible AI deployment.</p>
++<p>Governments, academia, and tech companies are collaborating on frameworks like <a href="https://www.un.org/en/global-issues/artificial-intelligence">UN AI Principles</a> and the <a href="https://www.ieee.org/ethics">IEEE Ethically Aligned Design</a> guidelines to ensure responsible AI deployment.</p>
+ 
+ <h2 id="learn-ai">10. Learn AI Skills — Related Resources</h2>
+ 
+@@ -211,7 +211,7 @@
+ 
+   <li><a href="https://www.edx.org/professional-certificate/ibm-applied-ai" target="_blank">IBM Applied AI Professional Certificate (edX)</a></li>
+ 
+-  <li><strong>See also:</strong> <a href="https://studenttimepk.blogspot.com/2025/08/What%20is%20Cloud%20Computing%20A%20Complete%20Beginner's%20Guide.html">What is Cloud Computing?</a> &amp; <a href="https://studenttimepk.blogspot.com/2025/07/Top-10-Free-Tools-Every-Digital-Marketer.html">Top 10 Free Tools for Digital Marketers</a></li>
++  <li><strong>See also:</strong> What is Cloud Computing? &amp; Top 10 Free Tools for Digital Marketers</li>
+ 
+ </ul>
+ 

@@ -1,0 +1,13 @@
+===== WEEKLY SEO REPORT — studenttimepk =====
+
+28-day totals: 0 clicks / 0 impressions | avg pos 0.0
+
+
+--- STRIKING-DISTANCE KEYWORDS (pos 8-20 = quick wins) ---
+  (none yet — site needs impressions first; keep fixing indexing/content)
+
+--- INDEX STATUS: pillar pages ---
+  Redirect error                      https://studenttimepk.blogspot.com/
+  Discovered - currently not indexed  https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html
+  Redirect error                      https://studenttimepk.blogspot.com/2026/07/gpt-56-goes-public-what-developers.html
+  Discovered - currently not indexed  https://studenttimepk.blogspot.com/2026/07/google-antigravity-20-ai-agents-for.html

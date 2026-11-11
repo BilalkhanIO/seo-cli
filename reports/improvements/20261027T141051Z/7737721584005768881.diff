@@ -1,0 +1,11 @@
+--- current.html
++++ candidate.html
+@@ -31,7 +31,7 @@
+   <li><strong>Tools like Claude Code</strong> emphasize terminal-native workflows and model quality.</li>
+   <li><strong>How to choose:</strong> don't pick on hype — run the same real task through each, and compare output quality, speed, cost, and how easily you can audit and control what the agent does. The right tool is the one that fits your stack and your risk tolerance.</li>
+ </ul>
+-<p>Whichever you choose, the underlying skills transfer — see our guide to <a href="https://studenttimepk.blogspot.com/2026/08/gpt-56-and-rise-of-ai-agents-for.html">AI agents for developers</a>.</p>
++<p>Whichever you choose, the underlying skills transfer — see our guide to AI agents for developers.</p>
+ 
+ <h2>Antigravity and the road to AGI</h2>
+ <p>Antigravity's launch fueled headlines that Google is signaling AGI is "within reach." It's worth keeping perspective: agent-driven tools that plan and verify their own work are a real step toward more autonomous systems, but they're still tools that need human oversight, guardrails, and evaluation. The practical takeaway isn't to debate AGI timelines — it's to build the skills and safe workflows now so you're ready as capability grows. For more on that debate, see our piece on the <a href="https://studenttimepk.blogspot.com/2026/08/ai-singularity-debate-heats-up-as.html">AI singularity debate</a>.</p>

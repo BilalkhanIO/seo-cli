@@ -1,0 +1,11 @@
+extends: existence
+message: "Review unsupported claim '%s'; provide evidence or qualify it."
+level: warning
+ignorecase: true
+tokens:
+  - guaranteed rankings
+  - guaranteed returns
+  - risk-free investing
+  - guaranteed job
+  - guaranteed traffic
+  - Google-approved

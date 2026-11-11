@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-27",
+  "textstat_version": "0.7.13",
+  "vale_version": "3.25.1",
+  "files": [
+    {
+      "file": "drafts/learners-link-best-beginner-cash-back-credit-card.md",
+      "words": 1129,
+      "flesch_reading_ease": 53.9,
+      "flesch_kincaid_grade": 8.4,
+      "long_sentences_over_30_words": [],
+      "long_paragraphs_over_80_words": [],
+      "repeated_sentences": [],
+      "vale": {}
+    },
+    {
+      "file": "drafts/learners-link-robo-advisor-vs-diy-investing.md",
+      "words": 1295,
+      "flesch_reading_ease": 39.9,
+      "flesch_kincaid_grade": 10.3,
+      "long_sentences_over_30_words": [],
+      "long_paragraphs_over_80_words": [],
+      "repeated_sentences": [],
+      "vale": {
+        "/home/kwikcoders/seo/drafts/learners-link-robo-advisor-vs-diy-investing.md": [
+          {
+            "Action": {
+              "Name": "",
+              "Params": null
+            },
+            "Suggestions": [],
+            "Span": [
+              39,
+              56
+            ],
+            "Check": "Pipeline.Overclaim",
+            "Description": "",
+            "Link": "",
+            "Message": "Review unsupported claim 'guaranteed returns'; provide evidence or qualify it.",
+            "Severity": "warning",
+            "Match": "guaranteed returns",
+            "Line": 118
+          },
+          {
+            "Action": {
+              "Name": "",
+              "Params": null
+            },
+            "Suggestions": [],
+            "Span": [
+              59,
+              77
+            ],
+            "Check": "Pipeline.Overclaim",
+            "Description": "",
+            "Link": "",
+            "Message": "Review unsupported claim 'risk-free investing'; provide evidence or qualify it.",
+            "Severity": "warning",
+            "Match": "risk-free investing",
+            "Line": 118
+          }
+        ]
+      }
+    },
+    {
+      "file": "drafts/students-time-ai-skills-non-technical-professionals.md",
+      "words": 1111,
+      "flesch_reading_ease": 49.4,
+      "flesch_kincaid_grade": 9.0,
+      "long_sentences_over_30_words": [],
+      "long_paragraphs_over_80_words": [],
+      "repeated_sentences": [],
+      "vale": {}
+    },
+    {
+      "file": "drafts/students-time-free-ai-content-generation-courses-2026.md",
+      "words": 1321,
+      "flesch_reading_ease": 46.0,
+      "flesch_kincaid_grade": 9.9,
+      "long_sentences_over_30_words": [],
+      "long_paragraphs_over_80_words": [],
+      "repeated_sentences": [],
+      "vale": {}
+    },
+    {
+      "file": "pillar_free_ai_courses_2026.html",
+      "words": 2738,
+      "flesch_reading_ease": 42.7,
+      "flesch_kincaid_grade": 10.4,
+      "long_sentences_over_30_words": [
+        "Free learning is a good first step, but a paid program can make sense when it offers something you genuinely need: instructor feedback, graded projects, career services, a proctored credential, access to labs, or a recognized vendor exam."
+      ],
+      "long_paragraphs_over_80_words": [],
+      "repeated_sentences": [],
+      "vale": {}
+    }
+  ]
+}

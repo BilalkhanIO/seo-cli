@@ -1,0 +1,196 @@
+{
+  "url": "https://studenttimepk.blogspot.com/",
+  "status_code": 200,
+  "content": "<!DOCTYPE html>\n<html dir='ltr' lang='en-GB'>\n<head>\n<meta content='width=device-width, initial-scale=1' name='viewport'/>\n<title>Students Time</title>\n<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>\n<!-- Chrome, Firefox OS and Opera -->\n<meta content='#607d8b' name='theme-color'/>\n<!-- Windows Phone -->\n<meta content='#607d8b' name='msapplication-navbutton-color'/>\n<meta content='blogger' name='generator'/>\n<link href='https://studenttimepk.blogspot.com/favicon.ico' rel='ic...",
+  "raw_content": "<!DOCTYPE html>\n<html dir='ltr' lang='en-GB'>\n<head>\n<meta content='width=device-width, initial-scale=1' name='viewport'/>\n<title>Students Time</title>\n<meta content='text/html; charset=UTF-8' http-eq...",
+  "is_spa": false,
+  "extracted_text": "- Get link\n- X\n- Other Apps\nPosts\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps\n- Get link\n- X\n- Other Apps",
+  "publication_date": "2026-08-10",
+  "accessibility_tree": null,
+  "headers": {
+    "X-Robots-Tag": "all,noodp",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Expires": "Tue, 18 Aug 2026 09:25:54 GMT",
+    "Date": "Tue, 18 Aug 2026 09:25:54 GMT",
+    "Cache-Control": "private, max-age=0",
+    "Last-Modified": "Wed, 12 Aug 2026 11:19:17 GMT",
+    "ETag": "W/\"b5d41204020963d021f0d677521bc87a34add44f3ad3a98320f1b9efb0bdad45\"",
+    "Content-Encoding": "gzip",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Server": "GSE",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "redirect_chain": [],
+  "console_errors": [],
+  "render_diagnostics": [],
+  "render_engine": null,
+  "render_ms": null,
+  "mode_used": "raw",
+  "error": null,
+  "structured_data": {
+    "block_count": 12,
+    "processed_count": 12,
+    "total_bytes": 15753,
+    "truncated": false,
+    "blocks": [
+      {
+        "index": 1,
+        "size_bytes": 1308,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 2,
+        "size_bytes": 1316,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 3,
+        "size_bytes": 1317,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 4,
+        "size_bytes": 1309,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 5,
+        "size_bytes": 1325,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 6,
+        "size_bytes": 1310,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 7,
+        "size_bytes": 1304,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 8,
+        "size_bytes": 1303,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 9,
+        "size_bytes": 1311,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 10,
+        "size_bytes": 1329,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 11,
+        "size_bytes": 1312,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      },
+      {
+        "index": 12,
+        "size_bytes": 1309,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      }
+    ]
+  }
+}

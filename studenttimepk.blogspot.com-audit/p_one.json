@@ -1,0 +1,53 @@
+{
+  "url": "https://studenttimepk.blogspot.com/2026/08/ai-singularity-debate-heats-up-as.html",
+  "status_code": 200,
+  "content": "<!DOCTYPE html>\n<html dir='ltr' lang='en-GB' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>\n<head>\n<meta content='width=device-width, initial-scale=1' name='viewport'/>\n<title>AI Singularity Debate Heats Up as Google DeepMind Shifts Roles</title>\n<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>\n<!-- Chrome, Firefox OS and Opera -->\n<meta content=...",
+  "raw_content": "<!DOCTYPE html>\n<html dir='ltr' lang='en-GB' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.goo...",
+  "is_spa": false,
+  "extracted_text": "The AI world is abuzz again as industry leaders argue about whether we\u2019ve crossed a pivotal threshold in artificial intelligence. On August 6, 2026, Axios highlighted a bold move at Google DeepMind: Demis Hassabis is shifting from day-to-day leadership to a broader, strategic role as chief scientist and chair, signaling a new era in how big AI orgs manage rapid breakthroughs. While some technologists hail this as a necessary pivot, others warn that the pace of advancement may outstrip governance...",
+  "publication_date": "2026-08-10",
+  "accessibility_tree": null,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Expires": "Tue, 18 Aug 2026 10:11:41 GMT",
+    "Date": "Tue, 18 Aug 2026 10:11:41 GMT",
+    "Cache-Control": "private, max-age=0",
+    "Last-Modified": "Tue, 18 Aug 2026 10:07:11 GMT",
+    "ETag": "W/\"993ecdfec77602d1ae5314bbc7eefcac1933688641f4be4e1dce09ab7f9667f2\"",
+    "X-Robots-Tag": "all,noodp",
+    "Content-Encoding": "gzip",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Server": "GSE",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Transfer-Encoding": "chunked"
+  },
+  "redirect_chain": [],
+  "console_errors": [],
+  "render_diagnostics": [],
+  "render_engine": null,
+  "render_ms": null,
+  "mode_used": "raw",
+  "error": null,
+  "structured_data": {
+    "block_count": 1,
+    "processed_count": 1,
+    "total_bytes": 1324,
+    "truncated": false,
+    "blocks": [
+      {
+        "index": 1,
+        "size_bytes": 1324,
+        "valid": true,
+        "types": [
+          "BlogPosting",
+          "ImageObject",
+          "Organization",
+          "Person",
+          "WebPage"
+        ],
+        "types_truncated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+--- current.html
++++ candidate.html
+@@ -1,6 +1,6 @@
+ <figure style="margin:1.2em 0"><img src="https://images.pexels.com/photos/5905945/pexels-photo-5905945.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="From above of crop anonymous black schoolchild writing in workbook against talking African American teacher on netbook screen during class" loading="eager" fetchpriority="high" width="1200" height="800" decoding="async" style="width:100%;height:auto;border-radius:10px" /><figcaption style="font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em">Photo by <a href="https://www.pexels.com/@katerina-holmes" rel="noopener">Katerina Holmes</a> on <a href="https://www.pexels.com/photo/black-teacher-on-laptop-screen-during-lesson-with-crop-schoolboy-5905945/" rel="noopener">Pexels</a></figcaption></figure>
+-<h1>Free AI Content Generation Courses in 2026: Learn to Create Text, Images, and More</h1>
+-<p><strong>Secondary keywords:</strong> free generative AI course, AI content creation course, free AI certificate course</p>
++
++
+ <h2>Introduction</h2>
+ <p>AI content generation is no longer limited to developers. Students, creators, marketers, teachers, and small-business owners can learn how to use AI to draft text, create images, summarize research, and develop ideas. The challenge is choosing a course that is genuinely free and teaches more than a list of tool buttons.</p>
+ <p>This guide covers free and low-cost learning options from established providers. “Free course” does not always mean “free certificate,” so check the provider’s current terms before enrolling.</p>
+@@ -80,4 +80,5 @@
+ <li><a href="https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-business-chat/" rel="nofollow noopener" target="_blank">Microsoft Learn: Build foundational generative AI skills</a></li>
+ <li><a href="https://www.credly.com/org/ibm-skillsbuild/badge/getting-started-with-generative-ai" rel="nofollow noopener" target="_blank">IBM SkillsBuild: Getting Started with Generative AI credential</a></li>
+ </ul>
+-</tbody></table>+</tbody></table>
++<aside class="related-reading"><h2>Related reading</h2><ul><li><a href="https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html">Best Free AI Courses for Students (2026)</a></li><li><a href="https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html">Free AI Courses With Certificates in 2026: The Complete Guide</a></li></ul></aside>

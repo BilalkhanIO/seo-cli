@@ -1,0 +1,18 @@
+--- current.html
++++ candidate.html
+@@ -135,6 +135,15 @@
+ 
+ <p>Many drivers search specifically for the best cards for Uber drivers 2026 or credit cards for delivery drivers cash back. The conclusion is similar across platforms: focus on category alignment (gas, dining, phone) and whether you want business features. Uber drivers may benefit more from cards that offer higher dining or travel perks if they also travel frequently, while food delivery drivers should prioritize food/dining and flat-rate cash back to capture small, frequent purchases.</p>
+ 
++<section class="driver-card-comparison"><h2>Compare gas rewards, statements and dispute support</h2>
++<p>Do not choose a card on the fuel reward headline alone. Compare these three parts of the everyday driving workflow before applying.</p>
++<h3>1. Calculate rewards on your own fuel spending</h3>
++<p>Use your recent fuel spending and check the issuer's current eligible merchant categories, spending caps and annual fee. As a hypothetical example, $300 of eligible monthly fuel spending earns $6 at 2% or $4.50 at 1.5%: a difference of $1.50 before fees or interest. These are example rates, not live card offers.</p>
++<h3>2. Check whether statements fit your bookkeeping</h3>
++<p>Ask for a sample statement or export before applying. Check whether it shows merchant names, transaction dates and amounts, and whether CSV downloads work with your recordkeeping tool. Keep your supporting receipts; an easy statement is not a substitute for checking tax requirements.</p>
++<h3>3. Check how to report and track a dispute</h3>
++<p>Read the issuer's current instructions for reporting an unfamiliar transaction. Ask which contact channels are available, how you receive a case reference and where you can check progress. This guide does not claim that any issuer resolves disputes fastest.</p>
++<p>Compare the current interest rates, fees and disclosures alongside rewards. The <a href="https://mycreditunion.gov/manage-your-money/consumer-loans-credit-cards" target="_blank" rel="noopener">NCUA's consumer credit guide</a> explains why account terms and disclosures matter.</p></section>
+ <h2>FAQ: Quick answers</h2>
+ 
+ <h3>Should I get a business credit card for my rideshare income?</h3>

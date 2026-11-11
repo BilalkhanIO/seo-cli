@@ -1,0 +1,10 @@
+extends: substitution
+message: "Consider '%s' for clearer wording."
+level: suggestion
+ignorecase: true
+swap:
+  in order to: to
+  due to the fact that: because
+  at this point in time: now
+  utilize: use
+  it is important to note that: ''

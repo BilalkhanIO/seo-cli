@@ -1,0 +1,11 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Allow: /
+Disallow: /search
+Disallow: /category/
+Disallow: /tag/
+
+Sitemap: https://studenttimepk.blogspot.com/sitemap.xml
+Sitemap: https://studenttimepk.blogspot.com/sitemap-pages.xml

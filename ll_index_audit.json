@@ -1,0 +1,1639 @@
+{
+  "property": "https://learners-link.blogspot.com/",
+  "total": 56,
+  "results": [
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2025/08/episode-1-calm-before-storm.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/heloc-vs-personal-loan-for-home_072244760.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T20:13:05Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/08/best-cashback-credit-cards-for-students.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/heloc-vs-personal-loan-for-home_072244760.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/heloc-vs-personal-loan-for-home_072244760.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-cashback-credit-card-for-students.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T12:14:51Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/p/contact-us.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-cashback-credit-card-for-students.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-cashback-credit-card-for-students.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/are-premium-credit-cards-worth-paying.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-28T16:15:29Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/are-premium-credit-cards-worth-paying.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/are-premium-credit-cards-worth-paying.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T17:10:19Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/08/best-cashback-credit-cards-for-students.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-cashback-credit-cards-for-students.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T15:08:51Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/p/privacy-policy.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-cashback-credit-cards-for-students.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-cashback-credit-cards-for-students.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-31T01:14:40Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2025/02/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T17:00:39Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html?m=1",
+          "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/low-down-payment-mortgage-options-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-23T10:41:04Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/08/heloc-vs-personal-loan-for-home.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/low-down-payment-mortgage-options-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/low-down-payment-mortgage-options-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-30T02:59:07Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/fixed-rate-vs-adjustable-rate-mortgage.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T18:55:26Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/fixed-rate-vs-adjustable-rate-mortgage.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/fixed-rate-vs-adjustable-rate-mortgage.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/heloc-vs-personal-loan-for-home.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T10:26:13Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2025/07/Your%20First%20React%20App%20A%20Deep-Dive%20Tutorial%20for%20Absolute%20Beginners.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/heloc-vs-personal-loan-for-home.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/heloc-vs-personal-loan-for-home.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-no-annual-fee-balance-transfer.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-balance-transfer-credit-card-for_0417720169.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-28T00:48:50Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html?m=1"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-balance-transfer-credit-card-for_0417720169.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-balance-transfer-credit-card-for_0417720169.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-26T00:22:16Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/how-to-compare-mortgage-refinance.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T18:03:29Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/how-to-compare-mortgage-refinance.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/how-to-compare-mortgage-refinance.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-balance-transfer-credit-card-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-19T03:46:11Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-balance-transfer-credit-card-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-balance-transfer-credit-card-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-28T21:41:21Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/how-to-compare-mortgage-refinance-rates.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-30T01:53:34Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/how-to-compare-mortgage-refinance-rates.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/how-to-compare-mortgage-refinance-rates.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/0-apr-balance-transfer-cards-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-21T23:04:09Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/0-apr-balance-transfer-cards-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/0-apr-balance-transfer-cards-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-balance-transfer-credit-cards-0.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-high-yield-savings-account-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-accounting-software-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/best-secured-credit-cards-for-no-credit.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-30T23:21:49Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/how-to-qualify-for-no-appraisal.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-26T09:10:08Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "http://learners-link.blogspot.com/feeds/posts/default"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-27T23:06:11Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/p/privacy-policy.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-23T18:43:42Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-28T00:01:59Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/p/contact-us.html?m=1"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-28T00:15:28Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-no-minimum-high-yield-savings-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-26T05:06:41Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-no-minimum-high-yield-savings-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-no-minimum-high-yield-savings-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-30T01:51:57Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-22T09:03:44Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-17T02:18:42Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "https://learners-link.blogspot.com/p/about-us.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-25T23:23:54Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/",
+          "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-27T21:32:33Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "http://learners-link.blogspot.com/feeds/posts/default"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-26T04:17:55Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml",
+          "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-07-25T15:54:24Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml",
+          "https://learners-link.blogspot.com/p/privacy-policy.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-14T13:24:55Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-29T18:13:42Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html?m=1"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-30T02:21:20Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml",
+          "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-21T16:02:17Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-24T12:39:50Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
+        "user_canonical": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "PASS",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/08/episode-5-final-reckoning.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/08/episode-4-reckoning-unfolds.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/08/episode-3-fatal-betrayal.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/",
+          "https://learners-link.blogspot.com/2025/08/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/08/episode-2-spark-of-jealousy.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/",
+          "https://learners-link.blogspot.com/2025/08/episode-1-calm-before-storm.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/08/episode-1-calm-before-storm.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Crawled - currently not indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "page_fetch_state": "SUCCESSFUL",
+        "last_crawl_time": "2026-08-30T22:04:33Z",
+        "crawled_as": "MOBILE",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2025/08/episode-1-calm-before-storm.html?m=1",
+          "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html?m=1",
+          "https://learners-link.blogspot.com/2025/08/episode-5-final-reckoning.html",
+          "https://learners-link.blogspot.com/"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": "https://learners-link.blogspot.com/2025/08/episode-1-calm-before-storm.html",
+        "user_canonical": "https://learners-link.blogspot.com/2025/08/episode-1-calm-before-storm.html",
+        "match": true
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/07/React Quiz Test Your Components and Props Knowledge.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/07/From Static to Dynamic A Beginners Guide to React Components and Props.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/07/blog-post.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/07/Your First React App A Deep-Dive Tutorial for Absolute Beginners.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": null,
+        "referring_urls": []
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/02/100-days-of-mern-stack-complete-roadmap.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2025/02/",
+          "https://learners-link.blogspot.com/sitemap.xml"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    },
+    {
+      "url": "https://learners-link.blogspot.com/2025/02/welcome-to-mern-stack-journey.html",
+      "property": "https://learners-link.blogspot.com/",
+      "index_status": {
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "referring_urls": [
+          "https://learners-link.blogspot.com/2025/02/",
+          "https://learners-link.blogspot.com/",
+          "https://learners-link.blogspot.com/2025/08/episode-5-final-reckoning.html"
+        ]
+      },
+      "crawl_info": null,
+      "canonical": {
+        "google_canonical": null,
+        "user_canonical": null,
+        "match": null
+      },
+      "mobile_usability": {
+        "verdict": "VERDICT_UNSPECIFIED",
+        "issues": []
+      },
+      "rich_results": null,
+      "verdict": "NEUTRAL",
+      "error": null
+    }
+  ],
+  "summary": {
+    "pass": 37,
+    "fail": 0,
+    "neutral": 19,
+    "error": 0
+  },
+  "error": null
+}

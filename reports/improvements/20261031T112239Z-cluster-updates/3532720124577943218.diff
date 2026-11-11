@@ -1,0 +1,11 @@
+--- current-public.html
++++ candidate.html
+@@ -209,7 +209,7 @@
+ 
+   <li><a href="https://cs50.harvard.edu/ai" target="_blank">Harvard’s CS50 AI course</a></li>
+ 
+-  <li><a href="https://www.edx.org/professional-certificate/ibm-applied-ai" target="_blank">IBM Applied AI Professional Certificate (edX)</a></li>
++  <li><a href="https://www.ibm.com/training/artificial-intelligence" target="_blank">IBM: current artificial intelligence training options</a></li>
+ 
+   <li><strong>See also:</strong> What is Cloud Computing? &amp; Top 10 Free Tools for Digital Marketers</li>
+ 

@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-10-31T11:18:01.388729+00:00",
+  "folder": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection",
+  "posts": [
+    {
+      "id": "2825732847826113109",
+      "blog_id": "8491425780932094856",
+      "title": "Free AI Tools for Assignment Writing (2026)",
+      "url": "https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html",
+      "before_sha256": "ee4c2246603a66af4dd0586cbf4273c9ee239dd69099d2df4415ba8013aef8fb",
+      "after_sha256": "eead1454162cb2237b38e5c1f0ed455870453898b968451e4ec023c938fbd02c",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection/2825732847826113109.html",
+      "changes": [
+        {
+          "kind": "remove-conflicting-body-canonical",
+          "count": 1,
+          "reason": "Public theme already supplies the correct self canonical"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "2775990746297198231",
+      "blog_id": "8491425780932094856",
+      "title": "How to Start Learning AI as a Student (2026)",
+      "url": "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
+      "before_sha256": "6bea9cb9612fa9e3681e57bcc98cfe766ece152d3ae52a14a4fada67b6310cc6",
+      "after_sha256": "e0c0aeff7fd77b110dc80d4e4a87e8c46853987482755095252aff849dcad985",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection/2775990746297198231.html",
+      "changes": [
+        {
+          "kind": "remove-conflicting-body-canonical",
+          "count": 1,
+          "reason": "Public theme already supplies the correct self canonical"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "4519632372610580848",
+      "blog_id": "8491425780932094856",
+      "title": "How to Set Up a Web Development Environment (2026)",
+      "url": "https://studenttimepk.blogspot.com/2025/09/from-zero-to-hero-your-ultimate-guide.html",
+      "before_sha256": "58f875b35afa34b91f047b3d0f97aae3929a23715cc61ef014e8bc2d50b3f54b",
+      "after_sha256": "ccea83a7374f32bc51ef8a1181e953a381ba4d89ff25fd774ca3889e3452d33a",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection/4519632372610580848.html",
+      "changes": [
+        {
+          "kind": "verified-link-replacement",
+          "from": "/p/why-ubuntu-is-a-developers-best-friend.html",
+          "to": "https://studenttimepk.blogspot.com/2025/09/why-ubuntu-is-developers-best-friend.html",
+          "count": 1
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "3532720124577943218",
+      "blog_id": "8491425780932094856",
+      "title": "How AI Is Changing Everyday Life (2026)",
+      "url": "https://studenttimepk.blogspot.com/2025/08/how-artificial-intelligence-is-changing.html",
+      "before_sha256": "db249330225145a7b8d43f8e99659dab049975cbd578ce679c96b5839d0d2b5b",
+      "after_sha256": "c1b6e9b5b9a4313a9bd5294ee9f4184af37f26ec2b90eb5a0da97fd069d604e9",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection/3532720124577943218.html",
+      "changes": [
+        {
+          "kind": "verified-link-replacement",
+          "from": "https://www.edx.org/professional-certificate/ibm-applied-ai",
+          "to": "https://www.ibm.com/training/artificial-intelligence",
+          "count": 1
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "1548378205830166561",
+      "blog_id": "6645616362681304579",
+      "title": "Best Credit Card for Building Credit (2026)",
+      "url": "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+      "before_sha256": "2d29a9775a6f6d5658f5d08629e77a50558941beb017d06b9ad69e503559b9f3",
+      "after_sha256": "2635dafb3efc0f4b31dc39a20352844dc7db0057c23a407314d9a357e25a05f2",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection/1548378205830166561.html",
+      "changes": [
+        {
+          "kind": "verified-link-replacement",
+          "from": "https://consumer.ftc.gov/articles/understanding-your-credit",
+          "to": "https://www.usa.gov/credit-score",
+          "count": 1
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "7117524185472042366",
+      "blog_id": "6645616362681304579",
+      "title": "Best Cash-Back Credit Card for Groceries (2026)",
+      "url": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
+      "before_sha256": "3ab72e997e9600ddb8a5a1f5b846421b458d33c8c483c9e54d8e3140d6547638",
+      "after_sha256": "ee119b6ad1a37545119cf45e62d2dcba276a85c294db865927bfb9e99fcf0e50",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection/7117524185472042366.html",
+      "changes": [
+        {
+          "kind": "verified-link-replacement",
+          "from": "https://consumer.ftc.gov/articles/understanding-your-credit",
+          "to": "https://www.usa.gov/credit-score",
+          "count": 1
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "8287250562768223093",
+      "blog_id": "6645616362681304579",
+      "title": "How to Compare Rewards Credit Cards (Beginners)",
+      "url": "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
+      "before_sha256": "26431908bad27760789f3da402c8723b3d7e9f25be0fde14a70704e6344412a1",
+      "after_sha256": "d2db61bce9642d5a3b435f2e988168315ad60b8268752a84f8f881d172a6f5ee",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T111801Z-pending-reconnection/8287250562768223093.html",
+      "changes": [
+        {
+          "kind": "verified-link-replacement",
+          "from": "https://consumer.ftc.gov/articles/understanding-your-credit",
+          "to": "https://www.usa.gov/credit-score",
+          "count": 1
+        }
+      ],
+      "validation_errors": []
+    }
+  ],
+  "inventory_source": "public Blogger feed; apply must recheck ADMIN content and LIVE state",
+  "policy": "Pending only; hash conflict checks and backups required on apply"
+}

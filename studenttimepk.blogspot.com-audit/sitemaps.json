@@ -1,0 +1,83 @@
+{
+  "target": "https://studenttimepk.blogspot.com",
+  "robots_url": "https://studenttimepk.blogspot.com/robots.txt",
+  "declared": [
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap.xml",
+      "query_redacted": false
+    },
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap-pages.xml",
+      "query_redacted": false
+    }
+  ],
+  "found": [
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap.xml",
+      "query_redacted": false,
+      "source": "robots.txt",
+      "status_code": 200,
+      "kind": "urlset",
+      "valid": true,
+      "error": null
+    },
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap-pages.xml",
+      "query_redacted": false,
+      "source": "robots.txt",
+      "status_code": 200,
+      "kind": "urlset",
+      "valid": true,
+      "error": null
+    }
+  ],
+  "checked": [
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap.xml",
+      "query_redacted": false,
+      "source": "robots.txt",
+      "status_code": 200,
+      "kind": "urlset",
+      "valid": true,
+      "error": null
+    },
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap-pages.xml",
+      "query_redacted": false,
+      "source": "robots.txt",
+      "status_code": 200,
+      "kind": "urlset",
+      "valid": true,
+      "error": null
+    },
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap_index.xml",
+      "query_redacted": false,
+      "source": "common_path",
+      "status_code": 404,
+      "kind": null,
+      "valid": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://studenttimepk.blogspot.com/sitemap-index.xml",
+      "query_redacted": false,
+      "source": "common_path",
+      "status_code": 404,
+      "kind": null,
+      "valid": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://studenttimepk.blogspot.com/wp-sitemap.xml",
+      "query_redacted": false,
+      "source": "common_path",
+      "status_code": 404,
+      "kind": null,
+      "valid": false,
+      "error": "HTTP 404"
+    }
+  ],
+  "warnings": [],
+  "error": null
+}

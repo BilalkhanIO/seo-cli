@@ -1,0 +1,60 @@
+[
+  {
+    "id": "4519632372610580848",
+    "url": "https://studenttimepk.blogspot.com/2025/09/from-zero-to-hero-your-ultimate-guide.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "add-visually-reviewed-image-alt",
+        "text": "Ubuntu logo connected to web development tools including MySQL, PHP, React, Node.js, Nginx and Apache."
+      }
+    ]
+  },
+  {
+    "id": "2431583651064374373",
+    "url": "https://studenttimepk.blogspot.com/2025/08/The Science Behind Sleep Why We Sleep and How to Sleep Better.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "add-visually-reviewed-image-alt",
+        "text": "The Science Behind Sleep: Why We Sleep and How to Sleep Better."
+      }
+    ]
+  },
+  {
+    "id": "3947469148025719962",
+    "url": "https://studenttimepk.blogspot.com/2025/08/todays-top-trending-topics.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "unlink-dead-internal",
+        "from": "https://www.allrecipes.com/gallery/farm-to-table-recipes/",
+        "anchor": "Allrecipes Farm-to-Table"
+      }
+    ]
+  },
+  {
+    "id": "7767262973809293840",
+    "url": "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "replace-link",
+        "from": "https://consumer.ftc.gov/articles/using-personal-loans-wisely",
+        "to": "https://www.fdic.gov/consumer-resource-center/loans"
+      }
+    ]
+  },
+  {
+    "id": "1716958127867937811",
+    "url": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "replace-link",
+        "from": "https://consumer.ftc.gov/articles/how-get-out-debt",
+        "to": "https://mycreditunion.gov/manage-your-money/consumer-loans-credit-cards"
+      }
+    ]
+  }
+]

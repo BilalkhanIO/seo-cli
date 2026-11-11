@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-31T11:35:39.849035+00:00",
+  "folder": "/home/kwikcoders/seo/reports/improvements/20261031T113539Z-query-improvements",
+  "posts": [
+    {
+      "id": "1570702002654150355",
+      "blog_id": "8491425780932094856",
+      "title": "What Is My IP Address? A Beginner's Guide (2026)",
+      "url": "https://studenttimepk.blogspot.com/2026/07/what-is-my-ip-address-complete.html",
+      "before_sha256": "3550dcd8c3bb7b820b87f66323f6160003cf3dbb7dfccfbf95afbe55c3f01895",
+      "after_sha256": "79378dbe99c38952ea764ef4f1d26866af571810540b4342dc034e5d4288f03e",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113539Z-query-improvements/1570702002654150355.html",
+      "changes": [
+        {
+          "kind": "connect-orphan-wifi"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "15441177859777022",
+      "blog_id": "6645616362681304579",
+      "title": "Best Checking Account for Freelancers (2026)",
+      "url": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
+      "before_sha256": "e8b3770bec1a1a78e74599eeff5caddd0c5984bd4c52e3631eb744f0e950c3f6",
+      "after_sha256": "da4748ae76f06d3e5b74f1a4e1385b074c87799196556fd8b7514f2ff97ca1aa",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113539Z-query-improvements/15441177859777022.html",
+      "changes": [
+        {
+          "kind": "connect-orphan-tax-guide"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "9216133687508478363",
+      "blog_id": "6645616362681304579",
+      "title": "Best Credit Cards for Rideshare Drivers (2026)",
+      "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+      "before_sha256": "27103457a9efcb11052dbcfee9ec56836262d0c63b5ccd92d795455223e601dd",
+      "after_sha256": "f5e9d5cc3618018f540d6549adb297bf70a048fb00847178ac28b5649d2fa23a",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113539Z-query-improvements/9216133687508478363.html",
+      "changes": [
+        {
+          "kind": "answer-measured-gas-statements-disputes-query"
+        }
+      ],
+      "validation_errors": []
+    }
+  ],
+  "policy": "Existing LIVE pages; retain titles and URLs. Rideshare section answers actual GSC query: 17 impressions, position 10.65 in 2026-10-01 to 2026-10-28. No live product offers or performance promises."
+}

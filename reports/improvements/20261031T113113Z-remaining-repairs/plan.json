@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-10-31T11:31:13.227132+00:00",
+  "folder": "/home/kwikcoders/seo/reports/improvements/20261031T113113Z-remaining-repairs",
+  "posts": [
+    {
+      "id": "4519632372610580848",
+      "blog_id": "8491425780932094856",
+      "title": "How to Set Up a Web Development Environment (2026)",
+      "url": "https://studenttimepk.blogspot.com/2025/09/from-zero-to-hero-your-ultimate-guide.html",
+      "before_sha256": "ccea83a7374f32bc51ef8a1181e953a381ba4d89ff25fd774ca3889e3452d33a",
+      "after_sha256": "d0bf55e0a92e3b1e61a604909ff811da7d96b4c0d79b071fc80a0097d14d71cb",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113113Z-remaining-repairs/4519632372610580848.html",
+      "changes": [
+        {
+          "kind": "add-visually-reviewed-image-alt",
+          "text": "Ubuntu logo connected to web development tools including MySQL, PHP, React, Node.js, Nginx and Apache."
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "2431583651064374373",
+      "blog_id": "8491425780932094856",
+      "title": "How Sleep Affects Studying (and How to Sleep Better)",
+      "url": "https://studenttimepk.blogspot.com/2025/08/The Science Behind Sleep Why We Sleep and How to Sleep Better.html",
+      "before_sha256": "0192f0c7939c74b9ea9b8a23b43b4fa57febea668c825f944d03b7fe0b08279d",
+      "after_sha256": "714959932e448a3169f040cb0fdb06d2ef543ad532572f22c1d14adc779ec06f",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113113Z-remaining-repairs/2431583651064374373.html",
+      "changes": [
+        {
+          "kind": "add-visually-reviewed-image-alt",
+          "text": "The Science Behind Sleep: Why We Sleep and How to Sleep Better."
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "3947469148025719962",
+      "blog_id": "8491425780932094856",
+      "title": "Trending Technology Topics to Watch in 2026",
+      "url": "https://studenttimepk.blogspot.com/2025/08/todays-top-trending-topics.html",
+      "before_sha256": "cbd4d7a839413de0e9f9ac24489868abc1eb2dc2ecdc152358b8319caa98b821",
+      "after_sha256": "b444669adab9418f7fbe868e929f237c9cfbbc7f27b83c246f07d6660de2f009",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113113Z-remaining-repairs/3947469148025719962.html",
+      "changes": [
+        {
+          "kind": "unlink-dead-internal",
+          "from": "https://www.allrecipes.com/gallery/farm-to-table-recipes/",
+          "anchor": "Allrecipes Farm-to-Table"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "7767262973809293840",
+      "blog_id": "6645616362681304579",
+      "title": "Unsecured Personal Loan Comparison (2026 Guide)",
+      "url": "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
+      "before_sha256": "2a71f38523702ade9dbba4a3bbe5a6da738e87059b9807058d0b49ce123e64bc",
+      "after_sha256": "1544d9dc114cd868574e3f7b4ef3e0300e2a5945095f8cd64a9ad0169c11d1ba",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113113Z-remaining-repairs/7767262973809293840.html",
+      "changes": [
+        {
+          "kind": "replace-link",
+          "from": "https://consumer.ftc.gov/articles/using-personal-loans-wisely",
+          "to": "https://www.fdic.gov/consumer-resource-center/loans"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "1716958127867937811",
+      "blog_id": "6645616362681304579",
+      "title": "Best 0% APR Balance Transfer Cards (2026)",
+      "url": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+      "before_sha256": "1725acce29a613678559c07167d0a957b3e486b54842e9aeff5167fbeb8adb6e",
+      "after_sha256": "a2eff0bb9db30dcf00177a7966431b62088c0ecf7205b5b0c9c59806501c4ec2",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T113113Z-remaining-repairs/1716958127867937811.html",
+      "changes": [
+        {
+          "kind": "replace-link",
+          "from": "https://consumer.ftc.gov/articles/how-get-out-debt",
+          "to": "https://mycreditunion.gov/manage-your-money/consumer-loans-credit-cards"
+        }
+      ],
+      "validation_errors": []
+    }
+  ],
+  "policy": "Inspected existing images; verified official replacement sources; content-only updates with backups and publication checks"
+}

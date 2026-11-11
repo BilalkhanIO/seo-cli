@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-10-31T11:40:07.380532+00:00",
+  "folder": "/home/kwikcoders/seo/reports/improvements/20261031T114007Z-editorial-followup",
+  "posts": [
+    {
+      "id": "5692890983621708082",
+      "blog_id": "8491425780932094856",
+      "title": "Microsoft AI Skills Free Course (Certificate 2026)",
+      "url": "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
+      "before_sha256": "8a3962346b3896ae252afb3c80d7c464cfc593a853dd7d3f65d8e64ce35e15bb",
+      "after_sha256": "3419d6aaa2dc14a846d6580790f7feaeb0b2697c9423c002821167f76e886045",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T114007Z-editorial-followup/5692890983621708082.html",
+      "changes": [
+        {
+          "kind": "correct-training-vs-credential-claims"
+        },
+        {
+          "kind": "remove-unsupported-bootcamp-pricing-and-duplicate-faq"
+        },
+        {
+          "kind": "add-current-learning-path-and-practice-exercise"
+        }
+      ],
+      "sources": [
+        "https://learn.microsoft.com/en-us/training/support/faq",
+        "https://learn.microsoft.com/en-us/training/paths/ai-fluency/"
+      ],
+      "validation_errors": [],
+      "proposed_title": "Microsoft AI Skills: Free Training and Credentials (2026)"
+    },
+    {
+      "id": "7117684772533707556",
+      "blog_id": "6645616362681304579",
+      "title": "Business Checking With Free ACH for a New LLC (2026)",
+      "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+      "before_sha256": "db4843bdfccfeaca2e1a10f596cbdefd22d09b6f09ee6fb0353bc2934083f03b",
+      "after_sha256": "c9f948838222ef653621334908602a91d872934e129cd5795a6a7e58b9e05d7c",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T114007Z-editorial-followup/7117684772533707556.html",
+      "changes": [
+        {
+          "kind": "clarify-llc-document-and-ach-comparison-checklist",
+          "page_impressions": 8,
+          "page_position": 9.75
+        },
+        {
+          "kind": "remove-unverified-provider-fee-and-instant-opening-promises"
+        }
+      ],
+      "sources": [
+        "https://www.sba.gov/business-guide/launch-your-business/open-business-bank-account"
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "9092293168699587350",
+      "blog_id": "6645616362681304579",
+      "title": "Best Invoicing App With Expense Tracking (2026)",
+      "url": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+      "before_sha256": "c26c1d0fc072b14554dae4bb0c55e2d10a9ea0e5169ea858dac1f321b8a67741",
+      "after_sha256": "c9172a2d4977e40964271e92aa763aa1508169e47988603caa522746d51639b3",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261031T114007Z-editorial-followup/9092293168699587350.html",
+      "changes": [
+        {
+          "kind": "answer-measured-receipt-attachment-query",
+          "query_impressions": 2,
+          "query_position": 10
+        },
+        {
+          "kind": "correct-wave-paid-receipt-scanning-claim"
+        },
+        {
+          "kind": "remove-draft-assistant-text-and-incomplete-sentence"
+        }
+      ],
+      "sources": [
+        "https://www.zoho.com/in/invoice/help/expense/expenses.html",
+        "https://www.zoho.com/en-sg/invoice/help/invoice/new-invoice.html",
+        "https://support.waveapps.com/hc/en-us/articles/15601519996436-Receipts-and-Pro-Plan-subscription-fees"
+      ],
+      "validation_errors": []
+    }
+  ],
+  "policy": "Researched targeted revisions to existing live URLs; preserve original publication dates and verify hashes and state."
+}

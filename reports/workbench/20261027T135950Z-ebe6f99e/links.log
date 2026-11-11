@@ -1,0 +1,3 @@
+Lychee exit=2; report=/home/kwikcoders/seo/reports/lychee_latest.json
+Treat 404/410 as broken; 403/429/timeouts need manual verification.
+

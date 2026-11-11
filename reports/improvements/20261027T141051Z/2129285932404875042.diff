@@ -1,0 +1,11 @@
+--- current.html
++++ candidate.html
+@@ -38,7 +38,7 @@
+   <li>Money held as <strong>e-money or in money market funds</strong> (common with some fintech "interest" products) is safeguarded differently and may not carry the same €100,000 deposit guarantee. Always check whether your balance is a true bank deposit.</li>
+ </ul>
+ 
+-<p>The European Banking Authority maintains an overview of national schemes on its <a href="https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/depositor-protection" target="_blank" rel="noopener">depositor protection page</a>.</p>
++<p>The European Banking Authority maintains an overview of national schemes on its <a href="https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/depositor-protection/deposit-guarantee-schemes-data" target="_blank" rel="noopener">depositor protection page</a>.</p>
+ 
+ <h2>Instant Access vs Fixed-Term: Which Should You Pick?</h2>
+ 

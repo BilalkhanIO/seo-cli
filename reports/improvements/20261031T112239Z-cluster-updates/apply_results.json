@@ -1,0 +1,199 @@
+[
+  {
+    "id": "2825732847826113109",
+    "url": "https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "remove-conflicting-body-canonical",
+        "count": 1,
+        "reason": "Public theme already supplies the correct self canonical"
+      }
+    ]
+  },
+  {
+    "id": "2775990746297198231",
+    "url": "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "remove-conflicting-body-canonical",
+        "count": 1,
+        "reason": "Public theme already supplies the correct self canonical"
+      }
+    ]
+  },
+  {
+    "id": "4519632372610580848",
+    "url": "https://studenttimepk.blogspot.com/2025/09/from-zero-to-hero-your-ultimate-guide.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "verified-link-replacement",
+        "from": "/p/why-ubuntu-is-a-developers-best-friend.html",
+        "to": "https://studenttimepk.blogspot.com/2025/09/why-ubuntu-is-developers-best-friend.html",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "3532720124577943218",
+    "url": "https://studenttimepk.blogspot.com/2025/08/how-artificial-intelligence-is-changing.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "verified-link-replacement",
+        "from": "https://www.edx.org/professional-certificate/ibm-applied-ai",
+        "to": "https://www.ibm.com/training/artificial-intelligence",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "1548378205830166561",
+    "url": "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "verified-link-replacement",
+        "from": "https://consumer.ftc.gov/articles/understanding-your-credit",
+        "to": "https://www.usa.gov/credit-score",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "7117524185472042366",
+    "url": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "verified-link-replacement",
+        "from": "https://consumer.ftc.gov/articles/understanding-your-credit",
+        "to": "https://www.usa.gov/credit-score",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "8287250562768223093",
+    "url": "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "verified-link-replacement",
+        "from": "https://consumer.ftc.gov/articles/understanding-your-credit",
+        "to": "https://www.usa.gov/credit-score",
+        "count": 1
+      },
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "Credit card comparison",
+        "targets": [
+          "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3302389778376728673",
+    "url": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "AI courses and certificates",
+        "targets": [
+          "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
+          "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+          "https://studenttimepk.blogspot.com/2026/07/universal-ai-pathway-free-intro-course.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4599033131305523301",
+    "url": "https://studenttimepk.blogspot.com/2026/07/universal-ai-pathway-free-intro-course.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "AI courses and certificates",
+        "targets": [
+          "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2292482914520978025",
+    "url": "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "AI study tools",
+        "targets": [
+          "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5487921585768844277",
+    "url": "https://studenttimepk.blogspot.com/2025/12/From React to Rails The Ultimate Roadmap for Frontend Developers.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "React to Rails and Ruby",
+        "targets": [
+          "https://studenttimepk.blogspot.com/2025/12/Lesson 1 Ruby Basics for React Developers.html",
+          "https://studenttimepk.blogspot.com/2025/12/lesson-2-collections-enumerables-logic.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9184116439542306970",
+    "url": "https://studenttimepk.blogspot.com/2025/12/lesson-2-collections-enumerables-logic.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "React to Rails and Ruby",
+        "targets": [
+          "https://studenttimepk.blogspot.com/2025/12/From React to Rails The Ultimate Roadmap for Frontend Developers.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5321579619218609454",
+    "url": "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "Credit card comparison",
+        "targets": [
+          "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15441177859777022",
+    "url": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
+    "status": "verified",
+    "changes": [
+      {
+        "kind": "reviewed-topic-cluster-links",
+        "cluster": "Freelancer business banking",
+        "targets": [
+          "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html"
+        ]
+      }
+    ]
+  }
+]

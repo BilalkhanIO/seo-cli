@@ -1,0 +1,345 @@
+[
+ {
+  "date": "2026-09-19",
+  "data": {
+   "Students Time": {
+    "gsc_impr": 0,
+    "gsc_clicks": 0,
+    "top_queries": [],
+    "ga_sessions": 219,
+    "ga_engaged": 21,
+    "ga_avg_dur": 7,
+    "ad_impr": "37",
+    "ad_clicks": "1",
+    "ad_earn": "0.01",
+    "ad_rpm": "0.28"
+   },
+   "Learner's Link": {
+    "gsc_impr": 16,
+    "gsc_clicks": 0,
+    "top_queries": [
+     [
+      "how to change banks for direct deposit",
+      1,
+      72
+     ],
+     [
+      "how to change direct deposit to another bank",
+      1,
+      69
+     ],
+     [
+      "how to change your direct deposit to another bank",
+      1,
+      65
+     ]
+    ],
+    "ga_sessions": 21,
+    "ga_engaged": 3,
+    "ga_avg_dur": 59
+   }
+  }
+ },
+ {
+  "date": "2026-09-21",
+  "data": {
+   "Students Time": {
+    "home_coverage": "Redirect error",
+    "home_lastcrawl": "2026-09-21",
+    "sm_submitted": "76",
+    "sm_indexed": "0",
+    "gsc_impr": 0,
+    "gsc_clicks": 0,
+    "top_queries": [],
+    "ga_sessions": 268,
+    "ga_engaged": 26,
+    "ga_avg_dur": 6,
+    "ad_impr": "62",
+    "ad_clicks": "1",
+    "ad_earn": "0.01",
+    "ad_rpm": "0.24"
+   },
+   "Learner's Link": {
+    "home_coverage": "Submitted and indexed",
+    "home_lastcrawl": "2026-09-20",
+    "sm_submitted": "30",
+    "sm_indexed": "0",
+    "gsc_impr": 16,
+    "gsc_clicks": 0,
+    "top_queries": [
+     [
+      "how to change banks for direct deposit",
+      1,
+      72
+     ],
+     [
+      "how to change direct deposit to another bank",
+      1,
+      69
+     ],
+     [
+      "how to change your direct deposit to another bank",
+      1,
+      65
+     ]
+    ],
+    "ga_sessions": 24,
+    "ga_engaged": 3,
+    "ga_avg_dur": 52
+   }
+  }
+ },
+ {
+  "date": "2026-10-22",
+  "data": {
+   "Students Time": {
+    "home_coverage": "Redirect error",
+    "home_lastcrawl": "2026-10-13",
+    "sm_submitted": "79",
+    "sm_indexed": "0",
+    "gsc_impr": 37,
+    "gsc_clicks": 0,
+    "top_queries": [
+     [
+      "ai skills for non-technical professionals",
+      1,
+      80
+     ],
+     [
+      "digital garage by google",
+      1,
+      91
+     ],
+     [
+      "free ai content generation courses 2026",
+      1,
+      63
+     ],
+     [
+      "google digital garage learn digital skills with free training",
+      2,
+      91.5
+     ],
+     [
+      "guide to study abroad",
+      1,
+      99
+     ]
+    ],
+    "ga_sessions": 212,
+    "ga_engaged": 23,
+    "ga_avg_dur": 8,
+    "ad_impr": "108",
+    "ad_clicks": "4",
+    "ad_earn": "0.15",
+    "ad_rpm": "1.42"
+   },
+   "Learner's Link": {
+    "home_coverage": "Crawled - currently not indexed",
+    "home_lastcrawl": "2026-10-10",
+    "gsc_impr": 191,
+    "gsc_clicks": 2,
+    "top_queries": [
+     [
+      "best beginner cash back credit card",
+      23,
+      40.8
+     ],
+     [
+      "best credit card for business with no revenue",
+      5,
+      26.8
+     ],
+     [
+      "best credit cards for ride\u2011share drivers needing gas rewards, easy statements, and fast dispute help?",
+      17,
+      10.6
+     ],
+     [
+      "best credit union for freelancers",
+      3,
+      4.3
+     ],
+     [
+      "best euro savings account",
+      2,
+      44.5
+     ]
+    ],
+    "ga_sessions": 9,
+    "ga_engaged": 6,
+    "ga_avg_dur": 28
+   }
+  }
+ },
+ {
+  "date": "2026-10-22",
+  "data": {
+   "Students Time": {
+    "home_coverage": "Redirect error",
+    "home_lastcrawl": "2026-10-13",
+    "sm_submitted": "79",
+    "sm_indexed": "0",
+    "gsc_impr": 37,
+    "gsc_clicks": 0,
+    "top_queries": [
+     [
+      "ai skills for non-technical professionals",
+      1,
+      80
+     ],
+     [
+      "digital garage by google",
+      1,
+      91
+     ],
+     [
+      "free ai content generation courses 2026",
+      1,
+      63
+     ],
+     [
+      "google digital garage learn digital skills with free training",
+      2,
+      91.5
+     ],
+     [
+      "guide to study abroad",
+      1,
+      99
+     ]
+    ],
+    "ga_sessions": 212,
+    "ga_engaged": 23,
+    "ga_avg_dur": 8,
+    "ad_impr": "108",
+    "ad_clicks": "4",
+    "ad_earn": "0.15",
+    "ad_rpm": "1.42"
+   },
+   "Learner's Link": {
+    "home_coverage": "Crawled - currently not indexed",
+    "home_lastcrawl": "2026-10-10",
+    "sm_submitted": "32",
+    "sm_indexed": "0",
+    "gsc_impr": 191,
+    "gsc_clicks": 2,
+    "top_queries": [
+     [
+      "best beginner cash back credit card",
+      23,
+      40.8
+     ],
+     [
+      "best credit card for business with no revenue",
+      5,
+      26.8
+     ],
+     [
+      "best credit cards for ride\u2011share drivers needing gas rewards, easy statements, and fast dispute help?",
+      17,
+      10.6
+     ],
+     [
+      "best credit union for freelancers",
+      3,
+      4.3
+     ],
+     [
+      "best euro savings account",
+      2,
+      44.5
+     ]
+    ],
+    "ga_sessions": 9,
+    "ga_engaged": 6,
+    "ga_avg_dur": 28
+   }
+  }
+ },
+ {
+  "date": "2026-10-27",
+  "data": {
+   "Students Time": {
+    "home_coverage": "Redirect error",
+    "home_lastcrawl": "2026-10-13",
+    "sm_submitted": "81",
+    "sm_indexed": "0",
+    "gsc_impr": 47,
+    "gsc_clicks": 0,
+    "top_queries": [
+     [
+      "ai skills for non-technical professionals",
+      1,
+      80
+     ],
+     [
+      "assignment writing ai free",
+      1,
+      94
+     ],
+     [
+      "digital garage by google",
+      1,
+      91
+     ],
+     [
+      "free ai content generation courses 2026",
+      1,
+      63
+     ],
+     [
+      "google digital garage learn digital skills with free training",
+      2,
+      91.5
+     ]
+    ],
+    "ga_sessions": 202,
+    "ga_engaged": 24,
+    "ga_avg_dur": 10,
+    "ad_impr": "100",
+    "ad_clicks": "4",
+    "ad_earn": "0.15",
+    "ad_rpm": "1.52"
+   },
+   "Learner's Link": {
+    "home_coverage": "Crawled - currently not indexed",
+    "home_lastcrawl": "2026-10-10",
+    "sm_submitted": "33",
+    "sm_indexed": "0",
+    "gsc_impr": 164,
+    "gsc_clicks": 2,
+    "top_queries": [
+     [
+      "best beginner cash back credit card",
+      15,
+      41.7
+     ],
+     [
+      "best credit card for business with no revenue",
+      5,
+      26.8
+     ],
+     [
+      "best credit cards for ride\u2011share drivers needing gas rewards, easy statements, and fast dispute help?",
+      17,
+      10.6
+     ],
+     [
+      "best credit union for freelancers",
+      3,
+      4.3
+     ],
+     [
+      "best euro savings account",
+      2,
+      44.5
+     ]
+    ],
+    "ga_sessions": 6,
+    "ga_engaged": 4,
+    "ga_avg_dur": 29
+   }
+  }
+ }
+]

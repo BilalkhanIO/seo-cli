@@ -1,0 +1,426 @@
+# Keyword research: self employed taxes
+_geo=us · 396 keywords · 11 clusters_
+
+## 📈 Google Trends demand
+- Interest (0-100 avg, 12mo): **36.9** · trend: **steady**
+- **Top related (by demand):** how to do self employed taxes (100); how to pay taxes self employed (78); how to do taxes for self employed (66); irs (65); 1099 (55); filing taxes self employed (46); self employed quarterly taxes (43); self employment tax (42)
+- **🔥 Rising/breakout:** freetaxusa (+50)
+- **Top countries:** Wyoming (100), Maine (80), Vermont (74), Oregon (58), South Dakota (54), New Hampshire (50)
+
+## self employed (292)
+- are self employed taxes higher — _Informational_
+- best self employed tax — _Commercial_
+- best self employed tax app — _Commercial_
+- best self employed tax calculator — _Commercial_
+- best self employed tax deductions — _Commercial_
+- best self employed tax filing — _Commercial_
+- best self employed tax software — _Commercial_
+- best self employed tax software canada — _Commercial_
+- best self employed tax software free — _Commercial_
+- best self employed tax software reddit — _Commercial_
+- best self employed tax software uk — _Commercial_
+- can self employed file taxes — _Informational_
+- do self employed tax return — _Informational_
+- do self employed taxes — _Informational_
+- do self employed taxes online — _Informational_
+- free self employed tax advice — _Informational_
+- free self employed tax app — _Informational_
+- free self employed tax calculator — _Informational_
+- free self employed tax calculator uk — _Informational_
+- free self employed tax filing — _Informational_
+- free self employed tax filing canada — _Informational_
+- free self employed tax filing online — _Informational_
+- free self employed tax return — _Informational_
+- free self employed tax software — _Informational_
+- free self employed taxes — _Informational_
+- how do self employed taxes work — _Informational_
+- how is self employed tax calculator — _Informational_
+- how self employed file taxes — _Informational_
+- how self employed pay taxes — _Informational_
+- how to do self employed taxes — _Informational_  **[Trends 100]**
+- how to do self employed taxes uk — _Informational_
+- how to self employed taxes — _Informational_
+- is self employed tax — _Informational_
+- is self employed tax changing — _Informational_
+- is self employed tax going digital — _Informational_
+- self employed estimated tax calculator — _Informational_
+- self employed estimated tax payments — _Informational_
+- self employed income expenses spreadsheet — _Informational_
+- self employed july tax payment — _Informational_
+- self employed kiwisaver tax deductible — _Informational_
+- self employed no tax on tips — _Informational_
+- self employed online tax calculator — _Informational_
+- self employed online tax filing — _Informational_
+- self employed online tax return — _Informational_
+- self employed online tax return deadline — _Informational_
+- self employed quarterly taxes — _Informational_  **[Trends 43]**
+- self employed tax 2026 27 — _Informational_
+- self employed tax account — _Informational_
+- self employed tax accountant near me — _Transactional_
+- self employed tax advisor near me — _Transactional_
+- self employed tax allowance — _Informational_
+- self employed tax allowance 24 25 — _Informational_
+- self employed tax allowance 25 26 — _Informational_
+- self employed tax amount — _Informational_
+- self employed tax and dividend calculator — _Informational_
+- self employed tax and national insurance — _Informational_
+- self employed tax and national insurance calculator — _Informational_
+- self employed tax and ni — _Informational_
+- self employed tax and ni calculator — _Informational_
+- self employed tax assessment — _Informational_
+- self employed tax bands — _Informational_
+- self employed tax benefits — _Informational_
+- self employed tax bill january — _Informational_
+- self employed tax bills — _Informational_
+- self employed tax brackets 2025 — _Informational_
+- self employed tax brackets 2026 — _Informational_
+- self employed tax brackets uk — _Informational_
+- self employed tax calculator jamaica — _Informational_
+- self employed tax calculator keeper — _Informational_
+- self employed tax calculator kenya — _Informational_
+- self employed tax calculator new zealand — _Informational_
+- self employed tax calculator uk — _Informational_
+- self employed tax changes 2026 — _Informational_
+- self employed tax code — _Informational_
+- self employed tax credit — _Informational_
+- self employed tax dates — _Informational_
+- self employed tax deadline 2026 — _Informational_
+- self employed tax deductions — _Informational_
+- self employed tax digital — _Informational_
+- self employed tax estimator — _Informational_
+- self employed tax estimator 2025 — _Informational_
+- self employed tax every 3 months — _Informational_
+- self employed tax exemption — _Informational_
+- self employed tax expenses — _Informational_
+- self employed tax experts — _Informational_
+- self employed tax filing deadline — _Informational_
+- self employed tax for — _Informational_
+- self employed tax for 2026 — _Informational_
+- self employed tax form 1040 — _Informational_
+- self employed tax form 1099 — _Informational_
+- self employed tax form called — _Informational_
+- self employed tax form canada — _Informational_
+- self employed tax form online — _Informational_
+- self employed tax free allowance — _Informational_
+- self employed tax free childcare — _Informational_
+- self employed tax gateway — _Informational_
+- self employed tax gibraltar — _Informational_
+- self employed tax going digital — _Informational_
+- self employed tax google sheets template — _Informational_
+- self employed tax gov — _Informational_
+- self employed tax gov login — _Informational_
+- self employed tax gov uk — _Informational_
+- self employed tax guide — _Informational_
+- self employed tax guide uk — _Informational_
+- self employed tax help — _Informational_
+- self employed tax help near me — _Transactional_
+- self employed tax helpline — _Informational_
+- self employed tax hmrc — _Informational_
+- self employed tax hong kong — _Informational_
+- self employed tax how does it work — _Informational_
+- self employed tax how much do i pay — _Informational_
+- self employed tax how to pay — _Informational_
+- self employed tax in philippines — _Informational_
+- self employed tax income — _Informational_
+- self employed tax income calculator — _Informational_
+- self employed tax ireland — _Informational_
+- self employed tax ireland calculator — _Informational_
+- self employed tax january — _Informational_
+- self employed tax jersey — _Informational_
+- self employed tax jobs — _Informational_
+- self employed tax july — _Informational_
+- self employed tax kenya — _Informational_
+- self employed tax last date — _Informational_
+- self employed tax latvia — _Informational_
+- self employed tax levels — _Informational_
+- self employed tax limit — _Informational_
+- self employed tax limit 2025 — _Informational_
+- self employed tax limit uk — _Informational_
+- self employed tax login — _Informational_
+- self employed tax login uk — _Informational_
+- self employed tax loopholes — _Informational_
+- self employed tax malaysia — _Informational_
+- self employed tax malta — _Informational_
+- self employed tax malta 2025 — _Informational_
+- self employed tax meaning — _Informational_
+- self employed tax mileage allowance — _Informational_
+- self employed tax minimum — _Informational_
+- self employed tax monthly — _Informational_
+- self employed tax monthly payments — _Informational_
+- self employed tax new rules — _Informational_
+- self employed tax new zealand — _Informational_
+- self employed tax news — _Informational_
+- self employed tax next year — _Informational_
+- self employed tax ni calculator — _Informational_
+- self employed tax number — _Informational_
+- self employed tax nz — _Informational_
+- self employed tax office number — _Informational_
+- self employed tax on 20k — _Informational_
+- self employed tax on 30k — _Informational_
+- self employed tax on 40k — _Informational_
+- self employed tax on 50k — _Informational_
+- self employed tax on 60k — _Informational_
+- self employed tax overview — _Informational_
+- self employed tax payment — _Informational_
+- self employed tax payment dates — _Informational_
+- self employed tax payment on account — _Informational_
+- self employed tax percentage uk — _Informational_
+- self employed tax period — _Informational_
+- self employed tax person near me — _Transactional_
+- self employed tax philippines — _Informational_
+- self employed tax phone number — _Informational_
+- self employed tax preparer — _Informational_
+- self employed tax preparer near me — _Transactional_
+- self employed tax questions — _Informational_
+- self employed tax record keeping — _Informational_
+- self employed tax relief — _Informational_
+- self employed tax return — _Informational_
+- self employed tax return calculator — _Informational_
+- self employed tax return changes — _Informational_
+- self employed tax return date — _Informational_
+- self employed tax return deadline — _Informational_
+- self employed tax return example — _Informational_
+- self employed tax return login — _Informational_
+- self employed tax return near me — _Transactional_
+- self employed tax returns 2026 — _Informational_
+- self employed tax rules 2026 — _Informational_
+- self employed tax scotland — _Informational_
+- self employed tax scotland calculator — _Informational_
+- self employed tax second job — _Informational_
+- self employed tax services near me — _Transactional_
+- self employed tax sign in — _Informational_
+- self employed tax slab — _Informational_
+- self employed tax slab in india — _Informational_
+- self employed tax social security — _Informational_
+- self employed tax software — _Informational_
+- self employed tax spain calculator — _Informational_
+- self employed tax specialist near me — _Transactional_
+- self employed tax spreadsheet template — _Informational_
+- self employed tax this year — _Informational_
+- self employed tax threshold — _Informational_
+- self employed tax threshold 2025 — _Informational_
+- self employed tax threshold 25 26 — _Informational_
+- self employed tax threshold uk — _Informational_
+- self employed tax uk 2025 — _Informational_
+- self employed tax uk 2026 — _Informational_
+- self employed tax uk digital deadline — _Informational_
+- self employed tax uk gov — _Informational_
+- self employed tax universal credit — _Informational_
+- self employed tax utr number — _Informational_
+- self employed tax vat — _Informational_
+- self employed tax vehicle deduction — _Informational_
+- self employed tax vouchers — _Informational_
+- self employed tax vs limited company — _Commercial_
+- self employed tax vs limited company calculator — _Commercial_
+- self employed tax vs llc — _Commercial_
+- self employed tax vs paye — _Commercial_
+- self employed tax what can i claim — _Informational_
+- self employed tax when — _Informational_
+- self employed tax when is it due — _Informational_
+- self employed tax withholding calculator — _Informational_
+- self employed tax worksheet — _Informational_
+- self employed tax write off categories — _Informational_
+- self employed tax write off cheat sheet — _Informational_
+- self employed tax write offs — _Informational_
+- self employed tax write offs canada — _Informational_
+- self employed tax year — _Informational_
+- self employed tax year 2026 — _Informational_
+- self employed tax year 24-25 — _Informational_
+- self employed tax year dates — _Informational_
+- self employed tax year dates 24 25 — _Informational_
+- self employed tax year end — _Informational_
+- self employed tax year overview — _Informational_
+- self employed tax year start — _Informational_
+- self employed tax year start and end — _Informational_
+- self employed tax year uk — _Informational_
+- self employed taxes — _Informational_
+- self employed taxes 2026 — _Informational_
+- self employed taxes app — _Informational_
+- self employed taxes bc — _Informational_
+- self employed taxes belgium — _Informational_
+- self employed taxes brackets — _Informational_
+- self employed taxes calculator — _Informational_  **[Trends 37]**
+- self employed taxes california — _Informational_
+- self employed taxes canada — _Informational_
+- self employed taxes canada calculator — _Informational_
+- self employed taxes canada deadline — _Informational_
+- self employed taxes checklist — _Informational_
+- self employed taxes czech republic — _Informational_
+- self employed taxes deadline — _Informational_
+- self employed taxes deadline canada — _Informational_
+- self employed taxes due — _Informational_
+- self employed taxes due 2025 — _Informational_
+- self employed taxes due 2026 — _Informational_
+- self employed taxes due canada — _Informational_
+- self employed taxes due date — _Informational_
+- self employed taxes federal — _Informational_
+- self employed taxes filing — _Informational_
+- self employed taxes for 2025 — _Informational_
+- self employed taxes for dummies — _Informational_
+- self employed taxes form — _Informational_
+- self employed taxes germany — _Informational_
+- self employed taxes how to — _Informational_
+- self employed taxes how to do — _Informational_
+- self employed taxes how to file — _Informational_
+- self employed taxes in california — _Informational_
+- self employed taxes in canada — _Informational_
+- self employed taxes in spain — _Informational_
+- self employed taxes in texas — _Informational_
+- self employed taxes in uk — _Informational_
+- self employed taxes jamaica — _Informational_
+- self employed taxes japan — _Informational_
+- self employed taxes name — _Informational_
+- self employed taxes near me — _Transactional_
+- self employed taxes netherlands — _Informational_
+- self employed taxes nyc — _Informational_
+- self employed taxes on 100k — _Informational_
+- self employed taxes online — _Informational_
+- self employed taxes ontario — _Informational_
+- self employed taxes percentage — _Informational_
+- self employed taxes quarterly — _Informational_
+- self employed taxes quebec — _Informational_
+- self employed taxes rate — _Informational_
+- self employed taxes reddit — _Informational_
+- self employed taxes tips — _Informational_
+- self employed taxes to pay — _Informational_
+- self employed taxes uk — _Informational_
+- self employed taxes uk calculator — _Informational_
+- self employed taxes us — _Informational_
+- self employed taxes usa — _Informational_
+- self employed taxes vs payroll — _Commercial_
+- self employed taxes vs w2 — _Commercial_
+- self employed taxes when to pay — _Informational_
+- self employed zero income — _Informational_
+- what is self employed tax allowance — _Informational_
+- what is self employed tax code — _Informational_
+- what is self employed tax form — _Informational_
+- what is self employed tax free allowance — _Informational_
+- what is self employed tax rate — _Informational_
+- what is self employed tax threshold — _Informational_
+- what is self employed taxes — _Informational_
+- what's the self employed tax threshold — _Informational_
+- why are self employed taxes higher — _Informational_
+
+## self employment (56)
+- are self employment taxes — _Informational_
+- are self employment taxes deductible — _Informational_
+- are self employment taxes higher than w2 — _Informational_
+- can self employment tax be deducted — _Informational_
+- do self employment taxes count toward social security — _Informational_
+- do self employment taxes pay into social security — _Informational_
+- for self employment taxes — _Informational_
+- is self employment tax 15 — _Informational_
+- is self employment tax federal or state — _Informational_
+- is self employment tax lower — _Informational_
+- is self employment tax on gross or net — _Informational_
+- is self employment tax on schedule c — _Informational_
+- is self employment taxes deductible — _Informational_
+- is self employment taxes higher — _Informational_
+- self employment income 2026 — _Informational_
+- self employment tax — _Informational_  **[Trends 42]**
+- self employment tax 2026 calculator — _Informational_
+- self employment tax and deduction worksheet — _Informational_
+- self employment tax and social security — _Informational_
+- self employment tax explained — _Informational_
+- self employment tax form 2025 — _Informational_
+- self employment tax formula — _Informational_
+- self employment tax joint return — _Informational_
+- self employment tax k 1 — _Informational_
+- self employment tax kansas — _Informational_
+- self employment tax kentucky — _Informational_
+- self employment tax kids — _Informational_
+- self employment tax massachusetts — _Informational_
+- self employment tax michigan — _Informational_
+- self employment tax online pay — _Informational_
+- self employment tax professional near me — _Transactional_
+- self employment tax qbi — _Informational_
+- self employment tax quarterly calculator — _Informational_
+- self employment tax quarterly dates — _Informational_
+- self employment tax quarterly due dates — _Informational_
+- self employment tax quarterly due dates 2025 — _Informational_
+- self employment tax quarterly or yearly — _Informational_
+- self employment tax quarterly payments — _Informational_
+- self employment tax texas — _Informational_
+- self employment tax total — _Informational_
+- self employment tax turbotax — _Informational_
+- self employment tax vs s corp — _Commercial_
+- self employment tax vs w2 — _Commercial_
+- self employment tax with llc — _Informational_
+- self employment tax with s corp — _Informational_
+- self employment taxes llc — _Informational_
+- what are self employment taxes for 2025 — _Informational_
+- what are self employment taxes for 2026 — _Informational_
+- what are self employment taxes in california — _Informational_
+- what do self employment taxes pay for — _Informational_
+- what self employment taxes are deductible — _Informational_
+- what's self employment tax rate — _Informational_
+- what's self employment taxes — _Informational_
+- why are self employment taxes so high — _Informational_
+- why self employment tax 92.35 — _Informational_
+- why self employment tax so high — _Informational_
+
+## misc (long-tail) (24)
+- 1099 — _Informational_  **[Trends 55]**
+- annual business revenue for startup credit card — _Informational_  **[GSC 1i, pos 100]**
+- applying for a business credit card with no revenue — _Informational_  **[GSC 1i, pos 14]**
+- best business bank accounts for llc with no fees — _Commercial_  **[GSC 1i, pos 97]**
+- can you get a business credit card with no revenue — _Informational_  **[GSC 4i, pos 61.2]**
+- deadline for self employed taxes — _Informational_
+- do you have to pay taxes if you're self employed — _Informational_
+- filing taxes self employed — _Informational_  **[Trends 46]**
+- freelance business bank account requirements — _Informational_  **[GSC 3i, pos 94]**
+- freetaxusa — _Informational_
+- how much can you make self employed without paying taxes — _Informational_
+- how much tax will i pay self-employed — _Informational_
+- how to change banks for direct deposit — _Informational_  **[GSC 1i, pos 72]**
+- how to do taxes for self employed — _Informational_  **[Trends 66]**
+- how to pay self employed taxes quarterly — _Informational_
+- how to pay taxes self employed — _Informational_  **[Trends 78]**
+- irs — _Informational_  **[Trends 65]**
+- irs self employment tax online payment — _Informational_
+- tips for self employed taxes — _Informational_
+- what taxes do you pay for self employment — _Informational_
+- when filing self employment taxes — _Informational_
+- which self employed tax calculator — _Informational_
+- will self employed tax go up — _Informational_
+- zero balance current account for freelancers — _Informational_  **[GSC 2i, pos 79]**
+
+## when self (6)
+- when are self employed taxes due — _Informational_
+- when are self employed taxes due 2025 — _Informational_
+- when are self employed taxes due 2026 — _Informational_
+- when are self employment taxes due quarterly — _Informational_
+- when self employed tax return due — _Informational_
+- when self employed taxes due — _Informational_
+
+## file self (4)
+- file self employed taxes for free — _Informational_  **[Trends 12]**
+- file self employment taxes online free — _Informational_
+- how to file self employed taxes canada — _Informational_
+- how to file self employed taxes for free — _Informational_
+
+## does self (3)
+- does self employment tax go to social security — _Informational_
+- does self employment tax include social security — _Informational_
+- does self employment tax pay into social security — _Informational_
+
+## business credit (3)
+- business credit card no revenue — _Informational_  **[GSC 5i, pos 27.2]**
+- business credit card with no revenue — _Informational_  **[GSC 6i, pos 22.7]**
+- business credit cards for startups with no revenue — _Informational_  **[GSC 2i, pos 55]**
+
+## change direct (2)
+- how to change direct deposit to another bank — _Informational_  **[GSC 1i, pos 69]**
+- how to change your direct deposit to another bank — _Informational_  **[GSC 1i, pos 65]**
+
+## credit card (2)
+- best credit card for business with no revenue — _Commercial_  **[GSC 9i, pos 15.3]**
+- best credit card for llcs with new accounts — _Commercial_  **[GSC 1i, pos 47]**
+
+## form self (2)
+- form for self employed taxes — _Informational_
+- what form for self employed taxes — _Informational_
+
+## business checking (2)
+- best business checking account for llc no fees — _Commercial_  **[GSC 1i, pos 40]**
+- business checking free ach — _Informational_  **[GSC 1i, pos 78]**

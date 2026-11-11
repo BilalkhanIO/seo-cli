@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-31",
+  "textstat_version": "0.7.13",
+  "vale_version": "3.25.1",
+  "files": [
+    {
+      "file": "reports/improvements/20261031T114007Z-editorial-followup/5692890983621708082.html",
+      "words": 1032,
+      "flesch_reading_ease": 33.0,
+      "flesch_kincaid_grade": 11.6,
+      "long_sentences_over_30_words": [
+        "Whether you are a university student aiming to future-proof your resume, a working professional seeking career advancement, or a complete beginner looking to understand how machine learning works, developing foundational AI literacy is essential.",
+        "In this comprehensive guide, we will break down everything you need to know about the Microsoft AI learning paths, what you can study, how learning achievements differ from credentials, and actionable strategies to leverage these credentials for academic and career success.",
+        "Their curated learning tracks on the Microsoft Learn platform are designed to cater to diverse audiences—from absolute novices with zero coding experience to seasoned developers looking to master Azure AI services.",
+        "You will explore the history of AI, differentiate between Artificial Narrow Intelligence (ANI) and Artificial General Intelligence (AGI), and examine how AI impacts daily life through automation, recommendation engines, and predictive analytics."
+      ],
+      "long_paragraphs_over_80_words": [
+        "Artificial intelligence is no longer just a futuristic concept; it is the core driver of modern technological innovation in 2026. Whether you are a university student aiming to future-proof your resume, a working professional seeking career advancement, or a complete beginner looking to understand how machine learning works, developing foundational AI literacy is essential. The Microsoft AI Skills Free Course available via Microsoft Learn represents one of the most comprehensive, accessible, and reputable starting points for anyone entering the world of tech."
+      ],
+      "repeated_sentences": [],
+      "vale": {}
+    },
+    {
+      "file": "reports/improvements/20261031T114007Z-editorial-followup/9092293168699587350.html",
+      "words": 1864,
+      "flesch_reading_ease": 48.6,
+      "flesch_kincaid_grade": 9.6,
+      "long_sentences_over_30_words": [
+        "If you're searching for the best invoicing app for freelancers with expense tracking free (or a budget that matches your required features), this guide walks through the top budget-friendly options, how they compare, and exactly how to choose and set one up so you can invoice clients and manage receipts without blowing your budget."
+      ],
+      "long_paragraphs_over_80_words": [
+        "Finding the best invoicing app for freelancers with expense tracking free (or a budget that matches your required features) is achievable. Wave, Invoice Ninja, Zoho Invoice, and ZipBooks each offer low-cost routes to professional invoicing plus receipt and expense management. Choose the one that matches your workflow—prioritizing mobile receipt capture, integrated payments, and reliable reporting—and set it up with consistent categories and a quick monthly export routine. That way you’ll spend less time hunting receipts and more time doing billable work."
+      ],
+      "repeated_sentences": [],
+      "vale": {}
+    },
+    {
+      "file": "reports/improvements/20261031T114007Z-editorial-followup/7117684772533707556.html",
+      "words": 1864,
+      "flesch_reading_ease": 49.8,
+      "flesch_kincaid_grade": 9.6,
+      "long_sentences_over_30_words": [
+        "If you're searching for the best business checking account for new LLC no monthly fee free ACH, this guide compares the top options, explains what to look for, and offers practical tips so your single-member or multi-member LLC gets a low-cost, easy-to-manage account with free ACH transfers.",
+        "Why they stand out: Large banks sometimes waive monthly fees if you maintain a low minimum balance or sign up for qualifying services; ACH is often included but watch the fine print.",
+        "Retail pop-up or local service business that handles cash: A regional bank or credit union with free business checking and branch access is better for depositing cash and building local lending relationships."
+      ],
+      "long_paragraphs_over_80_words": [],
+      "repeated_sentences": [],
+      "vale": {}
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+--- current.html
++++ candidate.html
+@@ -1,5 +1,5 @@
+ <figure style="margin:1.2em 0"><img src="https://images.pexels.com/photos/4963010/pexels-photo-4963010.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="A man writing on a laptop outdoors, seated on a stone surface and focused on work." loading="eager" fetchpriority="high" width="1200" height="800" decoding="async" style="width:100%;height:auto;border-radius:10px" /><figcaption style="font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em">Photo by <a href="https://www.pexels.com/@ketut-subiyanto" rel="noopener">Ketut Subiyanto</a> on <a href="https://www.pexels.com/photo/man-working-on-laptop-4963010/" rel="noopener">Pexels</a></figcaption></figure>
+-<h1>AI Skills for Non-Technical Professionals: A Practical 2026 Roadmap</h1>
++
+ <h2>Introduction</h2>
+ <p>You do not need to become a software engineer to benefit from artificial intelligence. For most people in marketing, education, operations, sales, administration, finance, and customer service, the valuable skill is knowing how to use AI safely to improve everyday work.</p>
+ <p>The best AI skills for non-technical professionals are practical: writing clear instructions, checking outputs, protecting confidential information, automating repeatable tasks, and explaining results to other people. This roadmap shows what to learn first and how to turn those skills into visible work samples.</p>
+@@ -91,4 +91,5 @@
+ <ul>
+ <li><a href="https://grow.google/ai-essentials/" rel="nofollow noopener" target="_blank">Google AI Essentials</a></li>
+ <li><a href="https://grow.google/ai" rel="nofollow noopener" target="_blank">Grow with Google: AI skills</a></li>
+-</ul>+</ul>
++<aside class="related-reading"><h2>Related reading</h2><ul><li><a href="https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html">AI Skills for Non-Tech Careers (2026 Guide)</a></li><li><a href="https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html">Microsoft AI Skills Free Course (Certificate 2026)</a></li></ul></aside>

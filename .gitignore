@@ -1,0 +1,15 @@
+pexels_key.txt
+ahrefs_api_key.txt
+devto_api_key.txt
+bing_key.txt
+psi_key.txt
+client_secret.json
+blogger_token.json
+.auth_state.json
+.tools/
+.venv-content/
+__pycache__/
+research/*.sqlite
+research/*.sqlite-*
+research/*.lock
+backups/
