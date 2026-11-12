@@ -1,5 +1,7 @@
 # Manual SEO Tasks — Students Time
 
+> This file contains older post-specific instructions. Check the live [`action queue`](reports/action_queue_latest.md) and [`current technical playbook`](reports/seo_research_technical_playbook_2026-11-12.md) before acting. A saved URL Inspection result is not a Live Test; repeated Request indexing submissions do not increase queue priority.
+
 ## Search Description
 
 Paste this into Blogger → Post settings → Search description for the main pillar:

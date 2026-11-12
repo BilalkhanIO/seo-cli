@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-11-11T08:06:26.611745+00:00",
+  "gsc_evidence_date": "2026-11-11",
+  "folder": "/home/kwikcoders/seo/reports/improvements/20261111T-weekly-students-time-meta",
+  "posts": [
+    {
+      "id": "8810903547183312626",
+      "blog_id": "8491425780932094856",
+      "title": "Meta Social Media Marketing Course: Is It Free in 2026?",
+      "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+      "before_sha256": "575505f1a14171eec5c2ca2a959aec49673f3e9ad2b6b81294bcf5b949a0e9cf",
+      "after_sha256": "1af987fb273c18669057ae5746d02a35399a05927b445ef9e9afe1bfa2f8f076",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T-weekly-students-time-meta/8810903547183312626.html",
+      "changes": [
+        {
+          "kind": "research_based_refresh",
+          "sources": [
+            "https://www.coursera.org/professional-certificates/facebook-social-media-marketing",
+            "https://www.coursera.support/s/article/learner-000001306?language=en_US"
+          ],
+          "gsc_signal": "13 impressions, 0 clicks, average position 42.6 in 2026-10-12 through 2026-11-08"
+        },
+        {
+          "kind": "reviewed-editorial-revision",
+          "source_file": "reports/improvements/20261111T-weekly-students-time-meta/8810903547183312626.html"
+        }
+      ],
+      "validation_errors": []
+    }
+  ],
+  "unresolved_links": [],
+  "policy": "Existing LIVE posts only; content-only updates with hash conflict checks and backups"
+}

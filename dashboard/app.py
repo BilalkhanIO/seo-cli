@@ -8,14 +8,20 @@ import json
 import os
 import re
 import subprocess
+import sys
+from pathlib import Path
+from collections import Counter
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 import urllib.parse
 import urllib.request
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / ".tools/competitor-deps"))
 from flask import Flask, jsonify, request, send_from_directory
 
-BASE = "/home/kwikcoders/seo"
-VP = "/home/kwikcoders/.local/share/claude-seo/.venv/bin/python"
-SEO_BIN = "/home/kwikcoders/.claude/plugins/cache/agricidaniel-claude-seo/claude-seo/2.2.4/bin/claude-seo"
+BASE = str(Path(__file__).resolve().parent.parent)
+VP = os.environ.get("SEO_PYTHON", sys.executable)
+SEO_BIN = os.environ.get("SEO_CLI", "claude-seo")
 CONF = os.path.expanduser("~/.config/claude-seo")
 BING = "https://ssl.bing.com/webmaster/api.svc/json"
 
@@ -25,7 +31,7 @@ SITES = {
     "studenttimepk": {
         "name": "Students Time", "blog_id": "8491425780932094856",
         "url": "https://studenttimepk.blogspot.com/", "domain": "studenttimepk.blogspot.com",
-        "gsc": "sc-domain:studenttimepk.blogspot.com", "bing": "https://studenttimepk.blogspot.com",
+        "gsc": "https://studenttimepk.blogspot.com/", "bing": "https://studenttimepk.blogspot.com",
         "pillars": [
             ("Free AI Courses w/ Certificates", "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html"),
             ("GPT-5.6 for Developers", "https://studenttimepk.blogspot.com/2026/07/gpt-56-goes-public-what-developers.html"),
@@ -57,24 +63,22 @@ def site_cfg():
 
 
 def creds():
-    from google.oauth2.credentials import Credentials
-    from google.auth.transport.requests import Request
-    tok = json.load(open(os.path.join(CONF, "oauth-token.json")))
-    c = Credentials(token=tok["access_token"], refresh_token=tok.get("refresh_token"),
-                    token_uri=tok["token_uri"], client_id=tok["client_id"],
-                    client_secret=tok["client_secret"], scopes=tok.get("scopes"))
-    if not c.valid:
-        c.refresh(Request())
-    return c
+    if BASE not in sys.path:
+        sys.path.insert(0, BASE)
+    from weekly_report import creds as shared_creds
+    return shared_creds()
 
 
 def run_seo(args, timeout=120):
     env = dict(os.environ, PYTHONWARNINGS="ignore")
-    out = subprocess.run([SEO_BIN, "run"] + args, capture_output=True, text=True, env=env, timeout=timeout)
+    try:
+        out = subprocess.run([SEO_BIN, "run"] + args, capture_output=True, text=True, env=env, timeout=timeout)
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        return {"error": "SEO CLI unavailable: " + type(exc).__name__}
     try:
         return json.loads(out.stdout)
     except Exception:
-        return {}
+        return {"error": "SEO CLI returned invalid or unavailable data"}
 
 
 def read(p):
@@ -94,62 +98,57 @@ def sites():
                               for k, v in SITES.items()]})
 
 
+def saved_growth(site):
+    path = Path(BASE) / "reports/growth_latest.json"
+    try:
+        report = json.loads(path.read_text())
+        data = report.get("sites", {}).get(site["name"])
+        if data is None:
+            raise ValueError("No site evidence")
+        return data, {"window":report.get("current_window"),
+            "source_modified_at":datetime.fromtimestamp(path.stat().st_mtime,timezone.utc).isoformat(), "cached":True}
+    except (OSError, ValueError):
+        return {}, {"error":"Saved site measurements unavailable; refresh the workbench", "cached":True}
+
+
 @app.route("/api/overview")
 def overview():
-    s = site_cfg()
-    tools = {
-        "Search Console": bool(s["gsc"]),
-        "Bing": bool(s["bing"]),
-        "PageSpeed": os.path.exists(os.path.join(BASE, "psi_key.txt")),
-        "AdSense": os.path.exists(os.path.join(CONF, "oauth-token.json")),
-        "Trends": True, "Rank Checker": os.path.exists(os.path.join(BASE, "cse_cx.txt")),
-    }
-    clicks = impressions = 0
-    stage = 0  # 0 submitted, 1 discovered, 2 indexed, 3 ranking
-    if s["gsc"]:
-        d = run_seo(["gsc_query.py", "query", "-p", s["gsc"], "--days", "28",
-                     "--dimensions", "query", "--limit", "1", "--json"], timeout=60)
-        t = d.get("totals", {})
-        clicks, impressions = t.get("clicks", 0), t.get("impressions", 0)
-        stage = 3 if impressions > 0 else 1  # submitted+discovered baseline
-    pillars = len(s["pillars"])
-    return jsonify({
-        "site": {"key": request.args.get("site", "studenttimepk"), "name": s["name"], "domain": s["domain"]},
-        "tools": tools,
-        "signal": {"stage": stage, "clicks": clicks, "impressions": impressions},
-        "counts": {"pillars": pillars, "has_queue": s["has_queue"]},
-    })
+    site = site_cfg(); data, evidence = saved_growth(site)
+    current = data.get("current", {}) if not data.get("gsc_error") else {}
+    tools = {"Search Console":bool(site["gsc"]), "Bing":bool(site["bing"]),
+        "PageSpeed":bool(read("psi_key.txt")), "AdSense":True, "Trends":True,
+        "Rank Checker":bool(read("cse_cx.txt") and read("cse_key.txt"))}
+    return jsonify({"site":{"name":site["name"], "domain":site["domain"]}, "tools":tools,
+        "signal":{"stage":None, "clicks":current.get("clicks"), "impressions":current.get("impressions")},
+        "counts":{"pillars":len(site["pillars"]), "has_queue":site["has_queue"]},
+        "evidence":evidence, "error":data.get("gsc_error") or evidence.get("error")})
 
 
 @app.route("/api/gsc")
 def gsc():
-    s = site_cfg()
-    if not s["gsc"]:
-        return jsonify({"connected": False})
-    d = run_seo(["gsc_query.py", "query", "-p", s["gsc"], "--days", "28",
-                 "--dimensions", "query", "--limit", "50", "--json"], timeout=60)
-    rows = d.get("rows", [])
-    def kw(r):
-        return r.get("keys", [""])[0] if isinstance(r.get("keys"), list) else r.get("query", "")
-    top = [{"kw": kw(r), "clicks": r.get("clicks", 0), "impr": r.get("impressions", 0),
-            "pos": round(r.get("position", 0), 1)} for r in rows[:10]]
-    strike = sorted([{"kw": kw(r), "pos": round(r.get("position", 0), 1), "impr": r.get("impressions", 0)}
-                     for r in rows if 8 <= r.get("position", 99) <= 20], key=lambda x: -x["impr"])[:10]
-    return jsonify({"connected": True, "totals": d.get("totals", {}),
-                    "row_count": d.get("row_count", 0), "top": top, "striking": strike})
+    site = site_cfg(); data, evidence = saved_growth(site)
+    if not site["gsc"] or data.get("gsc_error") or not data.get("current"):
+        return jsonify({"connected":False, "error":data.get("gsc_error") or evidence.get("error") or "Measurements unavailable", "evidence":evidence})
+    rows = data.get("queries", [])
+    grouped = {}
+    for row in rows:
+        query = row.get("keys", [""])[0]
+        item = grouped.setdefault(query,{"kw":query,"clicks":0,"impr":0,"weight":0})
+        impressions = row.get("impressions",0)
+        item["clicks"] += row.get("clicks",0); item["impr"] += impressions
+        item["weight"] += row.get("position",0)*impressions
+    visible = [{**item, "pos":round(item["weight"]/item["impr"],1) if item["impr"] else None} for item in grouped.values()]
+    visible.sort(key=lambda x:-x["impr"])
+    return jsonify({"connected":True, "totals":data["current"], "row_count":len(visible),
+        "top":visible[:10], "striking":[r for r in visible if r["pos"] is not None and 8<=r["pos"]<=20][:10], "evidence":evidence})
 
 
 @app.route("/api/index")
 def index_status():
-    s = site_cfg()
-    pages = s["pillars"] or [("Homepage", s["url"])]
-    site_url = s["gsc"] if (s["gsc"] and s["gsc"].startswith("http")) else s["url"]
-    out = []
-    for name, url in pages[:8]:
-        r = run_seo(["gsc_inspect.py", url, "-s", site_url, "--json"], timeout=45)
-        out.append({"name": name, "url": url,
-                    "coverage": (r.get("index_status") or {}).get("coverage_state", "unknown")})
-    return jsonify({"pages": out})
+    data,evidence = saved_growth(site_cfg())
+    return jsonify({"pages":[{"name":r["url"],"url":r["url"], "coverage":r.get("coverageState") or r.get("error") or "Unavailable",
+        "last_crawl":r.get("lastCrawlTime")} for r in data.get("indexing", [])],
+        "evidence":evidence, "note":"Stored Google records; live-test and current index inclusion remain separate."})
 
 
 @app.route("/api/bing")
@@ -177,7 +176,8 @@ def adsense():
         acct = accts[0]["name"]
         rep = svc.accounts().reports().generate(
             account=acct, dateRange="LAST_30_DAYS",
-            metrics=["ESTIMATED_EARNINGS", "PAGE_VIEWS", "CLICKS", "IMPRESSIONS"]).execute()
+            metrics=["ESTIMATED_EARNINGS", "PAGE_VIEWS", "CLICKS", "IMPRESSIONS"],
+            filters=["DOMAIN_NAME==" + site_cfg()["domain"]]).execute()
         headers = [h.get("name") for h in rep.get("headers", [])]
         cells = [c.get("value") for c in rep.get("totals", {}).get("cells", [])]
         cur = next((h.get("currencyCode") for h in rep.get("headers", []) if h.get("currencyCode")), "")
@@ -194,9 +194,9 @@ def adsense():
 def rankcheck():
     s = site_cfg()
     q = request.args.get("q", "")
-    cx, key = read("cse_cx.txt"), (read("cse_key.txt") or read("psi_key.txt"))
-    if not cx:
-        return jsonify({"ok": False, "msg": "Add a Custom Search Engine ID first."})
+    cx, key = read("cse_cx.txt"), read("cse_key.txt")
+    if not cx or not key:
+        return jsonify({"ok": False, "msg": "Rank source unavailable. Configure an eligible existing Custom Search account or import SERP results; the comparison report shows pending coverage."})
     if not q:
         return jsonify({"ok": False, "msg": "Enter a keyword."})
     try:
@@ -207,11 +207,11 @@ def rankcheck():
         pos = next((i for i, it in enumerate(items, 1) if s["domain"] in it.get("link", "")), None)
         return jsonify({"ok": True, "q": q, "position": pos,
                         "top": [{"pos": i, "title": it.get("title"), "link": it.get("link")}
-                                for i, it in enumerate(items[:5], 1)]})
+                                for i, it in enumerate(items[:10], 1)]})
     except Exception as e:
         m = str(e)
         if "403" in m:
-            return jsonify({"ok": False, "msg": "Allow 'Custom Search API' on your API key (propagating)."})
+            return jsonify({"ok": False, "msg": "Custom Search access unavailable. Verify account eligibility, API restrictions and quota."})
         return jsonify({"ok": False, "error": m[:160]})
 
 
@@ -245,6 +245,34 @@ def action(name):
     env = dict(os.environ, PYTHONWARNINGS="ignore")
     out = subprocess.run([VP, os.path.join(BASE, script)], capture_output=True, text=True, env=env, timeout=180)
     return jsonify({"output": out.stdout or out.stderr})
+
+
+@app.route("/api/workbench")
+def workbench():
+    site = site_cfg()
+    def artifact(filename):
+        path = Path(BASE) / filename
+        try:
+            value = json.loads(path.read_text())
+            return value, datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat(), None
+        except (OSError, ValueError):
+            return {}, None, "Report unavailable"
+    comparison, stamp, error = artifact("reports/article_competitor_latest.json")
+    rows = [r for r in comparison.get("articles", []) if urllib.parse.urlparse(r.get("url", "")).hostname == site["domain"]]
+    queue, queue_stamp, queue_error = artifact("reports/action_queue_latest.json")
+    actions = [r for r in queue.get("queue", []) if urllib.parse.urlparse(r.get("url", "")).hostname == site["domain"]]
+    context, _, _ = artifact("research/project_context.json")
+    key = {"studenttimepk":"st", "learners-link":"ll"}.get(request.args.get("site", "studenttimepk"))
+    goals = context.get("sites", {}).get(key, {}).get("goals", [])
+    today = datetime.now(ZoneInfo("Asia/Karachi")).date().isoformat()
+    goals = [g for g in goals if g.get("status") == "active" and (not g.get("due_date") or g["due_date"] >= today)]
+    return jsonify({"site":site["name"], "goals":goals,
+        "competitors":{"published_articles":len(rows), "coverage":dict(Counter(r.get("status", "unavailable") for r in rows)),
+            "created_at":comparison.get("created_at"), "source_modified_at":stamp,
+            "inventory_modified_at":comparison.get("inventory_modified_at"),
+            "inventory_refresh_error":comparison.get("inventory_refresh_error"), "error":error},
+        "queue":{"run_id":queue.get("run_id"), "source_modified_at":queue_stamp,
+            "stages":queue.get("stages", []), "actions":actions, "error":queue_error}})
 
 
 @app.route("/api/queue")

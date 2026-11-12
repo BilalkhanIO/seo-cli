@@ -13,3 +13,8 @@ research/*.sqlite
 research/*.sqlite-*
 research/*.lock
 backups/
+
+serpapi_key.txt
+
+.venv/
+research/competitor_cache/

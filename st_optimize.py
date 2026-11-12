@@ -2352,12 +2352,6 @@ def build_html(cfg, body):
     main = re.sub(r'<script type="application/ld\+json">.*?</script>', '', main, flags=re.S)
     return eeat(cfg) + takeaways(cfg) + img + table(cfg) + main + faq(cfg) + schema(cfg) + related
 
-def ping(c, url):
-    req = urllib.request.Request("https://indexing.googleapis.com/v3/urlNotifications:publish",
-        data=json.dumps({"url": url, "type": "URL_UPDATED"}).encode(),
-        headers={"Authorization": f"Bearer {c.token}", "Content-Type": "application/json"})
-    return urllib.request.urlopen(req, timeout=30).getcode()
-
 def main():
     c = creds()
     b = build("blogger", "v3", credentials=c, cache_discovery=False)
@@ -2371,8 +2365,7 @@ def main():
         print(f"  errors: {errs or 'NONE ✅'} | warns: {warns or 'none'}")
         if APPLY and not errs:
             b.posts().patch(blogId=BLOG_ID, postId=cfg["id"], body={"title": cfg["title"], "content": html}).execute()
-            try: print(f"  ✅ PATCHED + ping {ping(c, cfg['url'])}")
-            except Exception as e: print(f"  ✅ PATCHED (ping deferred {str(e)[:30]})")
+            print("  PATCHED. Google discovery uses sitemap/internal links; inspect stored status after recrawl.")
     if not APPLY: print("\n(dry run — add --apply)")
 
 if __name__ == "__main__":

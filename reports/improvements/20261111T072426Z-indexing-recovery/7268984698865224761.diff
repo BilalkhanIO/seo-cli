@@ -1,0 +1,7 @@
+--- current.html
++++ reviewed.html
+@@ -1,3 +1,4 @@
++<figure style="margin:1.2em 0"><img src="https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="Person working on a laptop at a desk with headphones and a camera." loading="eager" fetchpriority="high" width="1200" height="800" decoding="async" style="width:100%;height:auto;border-radius:10px" /><figcaption style="font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em">Photo by <a href="https://www.pexels.com/@thefullonmonet" rel="noopener">Beyzanur K.</a> on <a href="https://www.pexels.com/photo/woman-using-a-laptop-17608506/" rel="noopener">Pexels</a></figcaption></figure>
+ <p>A freelance proposal wins work when the client can see, in the first minute, that you understood their problem and know what result you will deliver. To write a freelance proposal that wins work, open with the client's problem in their own terms, describe the result and deliverables in plain language, state the scope, price, and timeline clearly, and end with one clear next step. This is general information, not legal or financial advice, and local contract and tax rules differ.</p>
+ <p><b>Key takeaways:</b></p>
+ <ul>

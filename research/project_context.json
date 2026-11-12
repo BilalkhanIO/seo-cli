@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-11T17:41:23.004682+05:00",
+  "sites": {
+    "st": {
+      "name": "Students Time",
+      "url": "https://studenttimepk.blogspot.com/",
+      "audience": {
+        "value": "Not recorded",
+        "confidence": "unconfirmed"
+      },
+      "goals": [
+        {
+          "id": "adsense-week-2026-11-11",
+          "description": "Reach $5 AdSense revenue during Nov 11–17, 2026",
+          "target": {
+            "value": 5.0,
+            "currency": "USD"
+          },
+          "due_date": "2026-11-17",
+          "status": "active",
+          "provenance": "user",
+          "recorded_at": "2026-11-11"
+        }
+      ],
+      "competitors": [],
+      "key_pages": [
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+          "role": "growth-candidate",
+          "topic": "Meta social media marketing course and certificate access",
+          "evidence": "GSC page-only: 13 impressions, 0 clicks, average position 42.6 in 2026-08-11 to 2026-11-08; stored inspection last crawled 2026-10-27 and says crawled currently not indexed.",
+          "recorded_at": "2026-11-11"
+        }
+      ],
+      "research_log": [
+        {
+          "date": "2026-11-11",
+          "summary": "Refreshed query-only, query+page and page-only GSC views; updated Meta certificate article and its date/duration metadata; fresh stored inspection remains crawled-not-indexed.",
+          "source": "reports/gsc_opportunities_latest.json"
+        }
+      ]
+    },
+    "ll": {
+      "name": "Learner's Link",
+      "url": "https://learners-link.blogspot.com/",
+      "audience": {
+        "value": "Not recorded",
+        "confidence": "unconfirmed"
+      },
+      "goals": [],
+      "competitors": [],
+      "key_pages": [
+        {
+          "url": "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html",
+          "role": "growth-candidate",
+          "topic": "Beginner cash back credit card comparison",
+          "evidence": "GSC page-only: 23 impressions, 0 clicks, average position 40.8 in 2026-08-11 to 2026-11-08.",
+          "recorded_at": "2026-11-11"
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+          "role": "growth-candidate",
+          "topic": "Credit cards for rideshare drivers",
+          "evidence": "GSC page-only: 17 impressions, 0 clicks, average position 10.6 in 2026-08-11 to 2026-11-08.",
+          "recorded_at": "2026-11-11"
+        }
+      ],
+      "research_log": [
+        {
+          "date": "2026-11-11",
+          "summary": "Refreshed query-only, query+page and page-only GSC views; reviewed latest cash-back and rideshare credit-card page opportunities.",
+          "source": "reports/gsc_opportunities_latest.json"
+        }
+      ]
+    }
+  }
+}

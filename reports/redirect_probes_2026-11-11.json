@@ -1,0 +1,148 @@
+[
+  {
+    "url": "https://studenttimepk.blogspot.com/",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/",
+    "chain": [],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/?m=1",
+    "chain": [
+      {
+        "status": 302,
+        "url": "https://studenttimepk.blogspot.com/",
+        "location": "https://studenttimepk.blogspot.com/?m=1"
+      }
+    ],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/?m=1",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/?m=1",
+    "chain": [],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/?m=1",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/?m=1",
+    "chain": [],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/?m=0",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/?m=0",
+    "chain": [],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/?m=0",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/?m=0",
+    "chain": [],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://learners-link.blogspot.com/",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://learners-link.blogspot.com/",
+    "chain": [],
+    "xrobots": "all"
+  },
+  {
+    "url": "https://learners-link.blogspot.com/",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://learners-link.blogspot.com/?m=1",
+    "chain": [
+      {
+        "status": 302,
+        "url": "https://learners-link.blogspot.com/",
+        "location": "https://learners-link.blogspot.com/?m=1"
+      }
+    ],
+    "xrobots": "all"
+  },
+  {
+    "url": "https://learners-link.blogspot.com/?m=1",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://learners-link.blogspot.com/?m=1",
+    "chain": [],
+    "xrobots": "all"
+  },
+  {
+    "url": "https://learners-link.blogspot.com/?m=1",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://learners-link.blogspot.com/?m=1",
+    "chain": [],
+    "xrobots": "all"
+  },
+  {
+    "url": "https://learners-link.blogspot.com/?m=0",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://learners-link.blogspot.com/?m=0",
+    "chain": [],
+    "xrobots": "all"
+  },
+  {
+    "url": "https://learners-link.blogspot.com/?m=0",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://learners-link.blogspot.com/?m=0",
+    "chain": [],
+    "xrobots": "all"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+    "chain": [],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html?m=1",
+    "chain": [
+      {
+        "status": 302,
+        "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+        "location": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html?m=1"
+      }
+    ],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html?m=1",
+    "agent": "desktop",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html?m=1",
+    "chain": [],
+    "xrobots": "all,noodp"
+  },
+  {
+    "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html?m=1",
+    "agent": "googlebot-mobile",
+    "status": 200,
+    "final": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html?m=1",
+    "chain": [],
+    "xrobots": "all,noodp"
+  }
+]

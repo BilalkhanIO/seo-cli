@@ -3,7 +3,7 @@
 Applies the on-page gate (playbook §4 / validate.ts / slide-13 checklist):
 E-E-A-T box + Key Takeaways (w/ internal links) + Pexels image + comparison table +
 FAQ + JSON-LD (BlogPosting + FAQPage) + external authority links. Idempotent per block.
-Self-validates before pushing; pings Google Indexing API after.
+Self-validates before applying. Use sitemap discovery and Search Console inspection after publication.
 Usage: python seo_optimize.py [--apply] [page_key ...]"""
 import json, os, re, sys, urllib.request
 sys.path.insert(0, "/home/kwikcoders/seo")
@@ -1081,13 +1081,6 @@ def build(cfg, body):
             + main + faq_html(cfg) + schema_html(cfg) + related)
 
 
-def gindex_ping(c, url):
-    req = urllib.request.Request("https://indexing.googleapis.com/v3/urlNotifications:publish",
-        data=json.dumps({"url": url, "type": "URL_UPDATED"}).encode(),
-        headers={"Authorization": f"Bearer {c.token}", "Content-Type": "application/json"})
-    return urllib.request.urlopen(req, timeout=30).getcode()
-
-
 def main():
     c = creds()
     b = build_svc = __import__("googleapiclient.discovery", fromlist=["build"]).build(
@@ -1106,11 +1099,7 @@ def main():
         if APPLY and not errs:
             b.posts().patch(blogId=BLOG_ID, postId=cfg["id"],
                             body={"title": cfg["title"], "content": new_html}).execute()
-            try:
-                code = gindex_ping(c, cfg["url"])
-                print(f"  ✅ PATCHED + Google ping {code}")
-            except Exception as e:
-                print(f"  ✅ PATCHED (Google ping deferred: {str(e)[:40]})")
+            print("  PATCHED. Google discovery uses sitemap/internal links; inspect stored status after recrawl.")
         elif APPLY and errs:
             print("  ❌ not applied (gate errors)")
     if not APPLY:

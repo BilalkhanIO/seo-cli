@@ -1,0 +1,7 @@
+--- current.html
++++ reviewed.html
+@@ -1,3 +1,4 @@
++<figure style="margin:1.2em 0"><img src="https://images.pexels.com/photos/5965889/pexels-photo-5965889.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="Person highlighting a printed text beside a tablet." loading="eager" fetchpriority="high" width="1200" height="800" decoding="async" style="width:100%;height:auto;border-radius:10px" /><figcaption style="font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em">Photo by <a href="https://www.pexels.com/@charlotte-may" rel="noopener">Charlotte May</a> on <a href="https://www.pexels.com/photo/black-person-in-earphones-highlighting-words-in-text-on-paper-5965889/" rel="noopener">Pexels</a></figcaption></figure>
+ <p>Rereading notes feels productive, but it mostly shows you words you already recognise. To revise without rereading notes, cover your notes and test yourself from memory, write down what you can recall, check only the gaps, and repeat the same material again a few days later — so revision becomes practice at remembering, not another pass over the page.</p>
+ <p><b>Key takeaways:</b></p>
+ <ul>

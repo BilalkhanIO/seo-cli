@@ -56,5 +56,4 @@ Broken-link swap · guest posts · HARO/journalist queries (free) · quality pai
 
 ### The reusable flow (like the video's `/blog` skill)
 `seo_optimize.py` = per-page config → E-E-A-T + Key-Takeaways + Pexels image + table + FAQ + schema +
-internal/external links → **gate self-check** → Blogger patch → re-crawl (sitemap/Bing; Google Indexing API
-once re-authed with the `indexing` scope). Keyword clusters baked into each page's headings/FAQ.
+internal/external links → **gate self-check** → Blogger patch → re-crawl (sitemap/Bing; Google URL Inspection live test and recrawl request when available). Keyword clusters baked into each page's headings/FAQ.

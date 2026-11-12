@@ -1,4 +1,4 @@
-# Writing review — 2026-10-31
+# Writing review — 2026-11-12
 
 Local Textstat + Vale checks. Readability is an estimate, not a Google ranking score, originality check or fact check. Tables, scripts and draft metadata are excluded; list items are treated as separate segments.
 

@@ -6,12 +6,15 @@ Usage:
 Outputs a clustered, prioritized keyword file to keyword_research/<seed>.md
 """
 import json, os, re, sys, time, urllib.request, urllib.parse
+import argparse
 from collections import defaultdict
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 QUESTION_PREFIXES = ["how", "what", "why", "when", "which", "can", "is", "are", "best", "free", "top"]
-MODIFIERS = ["for", "without", "vs", "near me", "online", "with", "2026"]
+MODIFIERS = ["for", "without", "vs", "near me", "online", "with", str(datetime.now().year)]
 STOP = set("a an the for to of in on and or with your you how what why is are can best free top vs".split())
 
 BLOG_SITE = {"st": "https://studenttimepk.blogspot.com/", "ll": "https://learners-link.blogspot.com/"}
@@ -44,33 +47,60 @@ def harvest(seed, geo="us", recursive=False):
 
 
 def gsc_queries(blog):
-    """Pull real queries the blog already gets impressions for (the best source)."""
+    """Pull recent, complete GSC query/page evidence without losing page mappings."""
     site = BLOG_SITE.get(blog)
     if not site:
-        return {}
+        return {}, None
     try:
-        from google.oauth2.credentials import Credentials
-        from google.auth.transport.requests import Request
+        from weekly_report import creds
         from googleapiclient.discovery import build
-        t = json.load(open(os.path.expanduser("~/.config/claude-seo/oauth-token.json")))
-        c = Credentials(token=t["access_token"], refresh_token=t.get("refresh_token"),
-                        token_uri=t["token_uri"], client_id=t["client_id"],
-                        client_secret=t["client_secret"], scopes=t.get("scopes"))
-        c.refresh(Request())
+        c = creds()
         sc = build("searchconsole", "v1", credentials=c, cache_discovery=False)
-        rows = sc.searchanalytics().query(siteUrl=site, body={
-            "startDate": "2026-06-21", "endDate": "2026-09-19",
-            "dimensions": ["query"], "rowLimit": 200}).execute().get("rows", [])
-        return {r["keys"][0].lower(): (int(r["impressions"]), round(r["position"], 1)) for r in rows}
+        end = datetime.now(ZoneInfo("Asia/Karachi")).date() - timedelta(days=3)
+        start = end - timedelta(days=89)
+        rows, offset, page_size = [], 0, 25_000
+        while True:
+            batch = sc.searchanalytics().query(siteUrl=site, body={
+                "startDate": str(start), "endDate": str(end),
+                "dimensions": ["query", "page"], "dataState": "final",
+                "rowLimit": page_size, "startRow": offset,
+            }).execute().get("rows", [])
+            rows.extend(batch)
+            if len(batch) < page_size:
+                break
+            offset += len(batch)
+        grouped = defaultdict(lambda: {"impressions": 0, "clicks": 0, "weighted_position": 0, "pages": set()})
+        for row in rows:
+            if len(row.get("keys", [])) < 2:
+                continue
+            query, page = row["keys"][0].strip().lower(), row["keys"][1]
+            parsed = urllib.parse.urlsplit(page)
+            page = urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, parsed.path,
+                urllib.parse.urlencode([(k, v) for k, v in urllib.parse.parse_qsl(parsed.query) if k != "m"]), ""))
+            if not query:
+                continue
+            item = grouped[query]
+            impressions = int(row.get("impressions", 0))
+            item["impressions"] += impressions
+            item["clicks"] += int(row.get("clicks", 0))
+            item["weighted_position"] += float(row.get("position", 0)) * impressions
+            item["pages"].add(page)
+        result = {
+            query: {"impressions": item["impressions"], "clicks": item["clicks"],
+                    "position": round(item["weighted_position"] / item["impressions"], 1) if item["impressions"] else None,
+                    "pages": sorted(item["pages"])}
+            for query, item in grouped.items()
+        }
+        return result, f"{start} to {end} (90 complete days)"
     except Exception as e:
         print("  (GSC skipped:", str(e)[:50], ")")
-        return {}
+        return {}, None
 
 
 def trends_signal(seed, geo="US"):
-    """Google Trends: relative interest, trend direction, top/rising related, top countries.
+    """Google Trends: relative interest, trend direction, related queries and regions.
     Returns a dict; degrades gracefully on rate-limit/errors."""
-    out = {"top": [], "rising": [], "countries": [], "avg": None, "direction": None}
+    out = {"top": [], "rising": [], "regions": [], "avg": None, "direction": None}
     try:
         from pytrends.request import TrendReq
         py = TrendReq(hl="en-US", tz=0)
@@ -95,12 +125,12 @@ def trends_signal(seed, geo="US"):
                 out["rising"] = [(r["query"], r["value"]) for _, r in rel["rising"].head(10).iterrows()]
         except Exception:
             pass
-        # regional interest (which countries want it — key for US/UK/CA targeting)
+        # Geographic interest can resolve to states/regions when geo is a country.
         try:
             reg = py.interest_by_region(resolution="COUNTRY", inc_low_vol=False)
             if reg is not None and not reg.empty:
                 top = reg[seed].sort_values(ascending=False).head(6)
-                out["countries"] = [(c, int(v)) for c, v in top.items() if v > 0]
+                out["regions"] = [(c, int(v)) for c, v in top.items() if v > 0]
         except Exception:
             pass
     except Exception as e:
@@ -129,6 +159,44 @@ def cluster(keywords):
     return merged
 
 
+def related_to_seed(query, seed):
+    """Keep only topical GSC queries; do not mix unrelated site queries into a seed report."""
+    def tokens(value):
+        out = []
+        for token in re.findall(r"[a-z0-9]+", value.lower()):
+            if token.endswith("ies") and len(token) > 4:
+                token = token[:-3] + "y"
+            elif token.endswith("s") and len(token) > 4:
+                token = token[:-1]
+            out.append(token)
+        return set(out)
+    core = tokens(seed) - STOP - {"course", "class", "training", "free", "top", "best", "guide",
+                                  "online", "beginner", "beginners", "certificate", "certification", "credential"}
+    query_tokens = tokens(query)
+    shared = core & query_tokens
+    topic_signals = {"course", "class", "training", "certificate", "certification", "credential",
+                     "coursera", "blueprint", "exam", "price", "cost", "free", "learn", "marketing",
+                     "advertising", "social", "media"}
+    return len(shared) >= 2 or bool(shared and query_tokens & topic_signals)
+
+
+def focused_clusters(keywords, seed):
+    """Group a seed's suggestions by core phrase and closely related course terms."""
+    core = {w for w in re.findall(r"[a-z0-9]+", seed.lower()) if w not in STOP}
+    groups = defaultdict(list)
+    for keyword in keywords:
+        words = set(re.findall(r"[a-z0-9]+", keyword.lower()))
+        overlap = len(core & words)
+        if overlap >= min(2, len(core)):
+            key = f"Core topic: {seed}"
+        elif overlap:
+            key = "Related course and credential variants"
+        else:
+            key = "Related long-tail"
+        groups[key].append(keyword)
+    return groups
+
+
 def intent(kw):
     if re.search(r"\b(buy|price|cheap|near me|sign up|download|discount)\b", kw): return "Transactional"
     if re.search(r"\b(best|top|review|vs|comparison|cheapest)\b", kw): return "Commercial"
@@ -137,21 +205,21 @@ def intent(kw):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    if not args:
-        print('Usage: python keyword_research.py "seed keyword" [--geo us] [--blog st|ll] [--recursive]')
-        return
-    seed = args[0]
-    geo = next((a.split("=")[1] for a in sys.argv if a.startswith("--geo=")), "us")
-    blog = next((a.split("=")[1] for a in sys.argv if a.startswith("--blog=")), None)
-    recursive = "--recursive" in sys.argv
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("seed", help="Topic or keyword to research")
+    parser.add_argument("--geo", default="us", help="Two-letter autocomplete/Trends region")
+    parser.add_argument("--blog", choices=("st", "ll"), help="Merge this site's GSC evidence and project context")
+    parser.add_argument("--recursive", action="store_true")
+    args = parser.parse_args()
+    seed, geo, blog, recursive = args.seed, args.geo, args.blog, args.recursive
 
     print(f"Harvesting autocomplete for '{seed}' (geo={geo})...")
     kws = harvest(seed, geo, recursive)
     print(f"  {len(kws)} unique phrases from autocomplete")
-    gsc = gsc_queries(blog) if blog else {}
+    gsc_all, gsc_window = gsc_queries(blog) if blog else ({}, None)
+    gsc = {query: metrics for query, metrics in gsc_all.items() if related_to_seed(query, seed)}
     if gsc:
-        print(f"  + {len(gsc)} real GSC queries merged")
+        print(f"  + {len(gsc)} seed-related GSC queries merged ({len(gsc_all)} total visible site queries checked)")
         kws.update(gsc.keys())
     print("Pulling Google Trends (demand + rising + geo)...")
     tr = trends_signal(seed, geo)
@@ -162,14 +230,20 @@ def main():
         print("  (Trends limited:", tr["error"], ")")
     else:
         print(f"  Trends: {len(tr.get('top', []))} top + {len(tr.get('rising', []))} rising related")
-    clusters = cluster(kws)
+    clusters = focused_clusters(kws, seed)
 
     os.makedirs("/home/kwikcoders/seo/keyword_research", exist_ok=True)
     safe = re.sub(r"[^a-z0-9]+", "-", seed.lower()).strip("-")
     path = f"/home/kwikcoders/seo/keyword_research/{safe}.md"
-    lines = [f"# Keyword research: {seed}", f"_geo={geo} · {len(kws)} keywords · {len(clusters)} clusters_", ""]
+    lines = [f"# Keyword research: {seed}", f"_geo={geo} · {len(kws)} phrases · {len(clusters)} clusters_", "",
+             "Autocomplete phrases are suggestions, not search-volume measurements. GSC impressions are observed visibility for this property; Trends values are relative indices.", ""]
+    if blog:
+        from project_context import render_site_context
+        lines.extend(["## Project context", "", render_site_context(blog), ""])
+    if gsc_window:
+        lines.extend([f"Search Console evidence: {gsc_window}. {len(gsc)} seed-related visible queries retained from {len(gsc_all)} visible site queries; excluded phrases do not match this seed. Impressions are observations, not search-volume estimates.", ""])
     # Google Trends section (demand signal)
-    if not tr.get("error"):
+    if not tr.get("error") and (tr.get("avg") is not None or tr.get("top") or tr.get("rising") or tr.get("regions")):
         lines.append("## 📈 Google Trends demand")
         if tr.get("avg") is not None:
             lines.append(f"- Interest (0-100 avg, 12mo): **{tr['avg']}** · trend: **{tr.get('direction','?')}**")
@@ -177,8 +251,8 @@ def main():
             lines.append("- **Top related (by demand):** " + "; ".join(f"{q} ({v})" for q, v in tr["top"][:8]))
         if tr.get("rising"):
             lines.append("- **🔥 Rising/breakout:** " + "; ".join(f"{q} (+{v})" for q, v in tr["rising"][:8]))
-        if tr.get("countries"):
-            lines.append("- **Top countries:** " + ", ".join(f"{c} ({v})" for c, v in tr["countries"]))
+        if tr.get("regions"):
+            lines.append("- **Relative regional interest (0–100):** " + ", ".join(f"{c} ({v})" for c, v in tr["regions"]))
         lines.append("")
     # sort clusters by size
     for cname, members in sorted(clusters.items(), key=lambda x: -len(x[1])):
@@ -186,7 +260,7 @@ def main():
         for kw in sorted(set(members)):
             tag = intent(kw)
             g = gsc.get(kw)
-            gnote = f"  **[GSC {g[0]}i, pos {g[1]}]**" if g else ""
+            gnote = f"  **[GSC {g['impressions']}i, pos {g['position']}, {len(g['pages'])} page(s)]**" if g else ""
             tnote = f"  **[Trends {trend_demand[kw]}]**" if kw in trend_demand else ""
             lines.append(f"- {kw} — _{tag}_{gnote}{tnote}")
         lines.append("")
@@ -196,17 +270,21 @@ def main():
     for cname, members in sorted(clusters.items(), key=lambda x: -len(x[1]))[:8]:
         sample = sorted(set(members))[:3]
         print(f"  [{cname}] ({len(members)}): {', '.join(sample)}")
-    gsc_kw = [k for k in kws if k in gsc]
+    gsc_kw = sorted((k for k in kws if k in gsc),
+                    key=lambda k: (-gsc[k]["impressions"], gsc[k]["position"] or 999, k))
     if gsc_kw:
-        print(f"\n  PRIORITY (already ranking — GSC): {', '.join(sorted(gsc_kw, key=lambda k: -gsc[k][0])[:5])}")
-    if not tr.get("error"):
-        print(f"\n  📈 TRENDS: interest {tr.get('avg','?')}/100 ({tr.get('direction','?')})")
+        print(f"\n  OBSERVED GSC QUERY SIGNALS: {', '.join(gsc_kw[:5])}")
+    if not tr.get("error") and (tr.get("avg") is not None or tr.get("top") or tr.get("rising") or tr.get("regions")):
+        if tr.get("avg") is not None:
+            print(f"\n  📈 TRENDS: relative interest {tr['avg']}/100 ({tr.get('direction') or 'direction unavailable'})")
+        else:
+            print("\n  📈 TRENDS: no overall interest or related-query signal was available")
         if tr.get("top"):
             print("     top demand: " + ", ".join(f"{q} ({v})" for q, v in tr["top"][:4]))
         if tr.get("rising"):
             print("     🔥 rising: " + ", ".join(f"{q}" for q, v in tr["rising"][:4]))
-        if tr.get("countries"):
-            print("     top geo: " + ", ".join(f"{c}" for c, v in tr["countries"][:5]))
+        if tr.get("regions"):
+            print("     relative top regions: " + ", ".join(f"{c}" for c, v in tr["regions"][:5]))
     print(f"\n[saved {len(kws)} keywords to {path}]")
 
 

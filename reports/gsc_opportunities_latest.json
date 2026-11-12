@@ -1,0 +1,1974 @@
+{
+  "created_at": "2026-11-12T18:25:10.155777+05:00",
+  "current_window": [
+    "2026-08-12",
+    "2026-11-09"
+  ],
+  "previous_window": [
+    "2026-05-14",
+    "2026-08-11"
+  ],
+  "note": "Observed Search Console queries only; anonymized queries may be omitted. No search-volume estimates are inferred.",
+  "sites": [
+    {
+      "name": "Students Time",
+      "site": "https://studenttimepk.blogspot.com/",
+      "property": "properties/406899493",
+      "current_query_only_count": 14,
+      "current_query_page_query_count": 14,
+      "current_query_page_count": 6,
+      "previous_query_only_count": 0,
+      "previous_query_page_query_count": 0,
+      "previous_query_page_count": 0,
+      "current_page_count": 23,
+      "previous_page_count": 0,
+      "current_queries": [
+        {
+          "query": "google digital garage learn digital skills with free training",
+          "intent": "Informational",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 91.5,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2025/07/free-course-review-1-google-digital.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 91.5
+            }
+          ]
+        },
+        {
+          "query": "meta social media marketing professional certificate free",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 39.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 39.0
+            }
+          ]
+        },
+        {
+          "query": "meta courses free",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 54.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 54.0
+            }
+          ]
+        },
+        {
+          "query": "meta marketing certification free",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 55.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 55.0
+            }
+          ]
+        },
+        {
+          "query": "meta certification free",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 56.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 56.0
+            }
+          ]
+        },
+        {
+          "query": "meta digital marketing certificate free",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 59.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 59.0
+            }
+          ]
+        },
+        {
+          "query": "meta social media marketing course download free",
+          "intent": "Transactional",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 59.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 59.0
+            }
+          ]
+        },
+        {
+          "query": "free ai content generation courses 2026",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 63.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 63.0
+            }
+          ]
+        },
+        {
+          "query": "machine learning courses free 2026",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 65.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 65.0
+            }
+          ]
+        },
+        {
+          "query": "meta free digital marketing course",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 71.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 71.0
+            }
+          ]
+        },
+        {
+          "query": "ai skills for non-technical professionals",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 80.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 80.0
+            }
+          ]
+        },
+        {
+          "query": "digital garage by google",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 91.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2025/07/free-course-review-1-google-digital.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 91.0
+            }
+          ]
+        },
+        {
+          "query": "assignment writing ai free",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 94.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 94.0
+            }
+          ]
+        },
+        {
+          "query": "guide to study abroad",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 99.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 99.0
+            }
+          ]
+        }
+      ],
+      "overlap_candidates": [],
+      "page_clusters": [
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+          "impressions": 13,
+          "clicks": 0,
+          "position": 42.61538461538461,
+          "visible_query_page_impressions": 7,
+          "visible_query_rows": 7,
+          "query_detail_gap": 6,
+          "queries": [
+            [
+              "meta certification free",
+              1
+            ],
+            [
+              "meta courses free",
+              1
+            ],
+            [
+              "meta digital marketing certificate free",
+              1
+            ],
+            [
+              "meta free digital marketing course",
+              1
+            ],
+            [
+              "meta marketing certification free",
+              1
+            ],
+            [
+              "meta social media marketing course download free",
+              1
+            ],
+            [
+              "meta social media marketing professional certificate free",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 49.5,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 8,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 5.833333333333333,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 6,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 29.8,
+          "visible_query_page_impressions": 2,
+          "visible_query_rows": 2,
+          "query_detail_gap": 3,
+          "queries": [
+            [
+              "free ai content generation courses 2026",
+              1
+            ],
+            [
+              "machine learning courses free 2026",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/07/free-course-review-1-google-digital.html",
+          "impressions": 4,
+          "clicks": 0,
+          "position": 83.75,
+          "visible_query_page_impressions": 3,
+          "visible_query_rows": 2,
+          "query_detail_gap": 1,
+          "queries": [
+            [
+              "google digital garage learn digital skills with free training",
+              2
+            ],
+            [
+              "digital garage by google",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 37.666666666666664,
+          "visible_query_page_impressions": 1,
+          "visible_query_rows": 1,
+          "query_detail_gap": 2,
+          "queries": [
+            [
+              "guide to study abroad",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/02/seo-geo-targeting-for-blogger-2026.html",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 7.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 3,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 34.0,
+          "visible_query_page_impressions": 1,
+          "visible_query_rows": 1,
+          "query_detail_gap": 2,
+          "queries": [
+            [
+              "assignment writing ai free",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 7.5,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 2,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 8.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 2,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/10/the-new-ai-titans-top-10-models.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 6.5,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 2,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 9.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 2,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/06/5-free-ai-study-tools-every-student.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 8.5,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 2,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/p/contact-us.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 3.5,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 2,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/07/scholarship-of-day-1-hec-commonwealth.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 26.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 8.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 80.0,
+          "visible_query_page_impressions": 1,
+          "visible_query_rows": 1,
+          "query_detail_gap": 0,
+          "queries": [
+            [
+              "ai skills for non-technical professionals",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2025/10/top-10-ai-tools-for-students.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 2.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/02/prompt-engineering-for-beginners-how-to.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 10.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 8.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/07/google-antigravity-20-ai-agents-for.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 11.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/2026/07/gpt-live-expands-voice-ai-for.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 10.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://studenttimepk.blogspot.com/p/privacy-policy.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 2.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        }
+      ]
+    },
+    {
+      "name": "Learner's Link",
+      "site": "https://learners-link.blogspot.com/",
+      "property": "properties/545155339",
+      "current_query_only_count": 44,
+      "current_query_page_query_count": 44,
+      "current_query_page_count": 14,
+      "previous_query_only_count": 13,
+      "previous_query_page_query_count": 13,
+      "previous_query_page_count": 5,
+      "current_page_count": 22,
+      "previous_page_count": 17,
+      "current_queries": [
+        {
+          "query": "best beginner cash back credit card",
+          "intent": "Commercial",
+          "impressions": 23,
+          "clicks": 0,
+          "position": 40.82608695652174,
+          "previous_impressions": 0,
+          "impression_change": 23,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html",
+              "impressions": 23,
+              "clicks": 0,
+              "position": 40.82608695652174
+            }
+          ]
+        },
+        {
+          "query": "best credit cards for ride‑share drivers needing gas rewards, easy statements, and fast dispute help?",
+          "intent": "Commercial",
+          "impressions": 17,
+          "clicks": 0,
+          "position": 10.647058823529411,
+          "previous_impressions": 0,
+          "impression_change": 17,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+              "impressions": 17,
+              "clicks": 0,
+              "position": 10.647058823529411
+            }
+          ]
+        },
+        {
+          "query": "freelance business bank account requirements",
+          "intent": "Informational",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 82.0,
+          "previous_impressions": 3,
+          "impression_change": 3,
+          "previous_position": 94.0,
+          "position_change": -12.0,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+              "impressions": 6,
+              "clicks": 0,
+              "position": 82.0
+            }
+          ]
+        },
+        {
+          "query": "best robo investing fintech for beginners who want easy setup",
+          "intent": "Commercial",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 4.2,
+          "previous_impressions": 0,
+          "impression_change": 5,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+              "impressions": 5,
+              "clicks": 0,
+              "position": 4.2
+            }
+          ]
+        },
+        {
+          "query": "best robo-advisor for clear, newbie-friendly investing?",
+          "intent": "Commercial",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 8.6,
+          "previous_impressions": 0,
+          "impression_change": 5,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+              "impressions": 5,
+              "clicks": 0,
+              "position": 8.6
+            }
+          ]
+        },
+        {
+          "query": "best credit card for business with no revenue",
+          "intent": "Commercial",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 26.8,
+          "previous_impressions": 9,
+          "impression_change": -4,
+          "previous_position": 15.333333333333334,
+          "position_change": 11.466666666666667,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
+              "impressions": 5,
+              "clicks": 0,
+              "position": 26.8
+            }
+          ]
+        },
+        {
+          "query": "best euro savings account interest rates",
+          "intent": "Commercial",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 57.4,
+          "previous_impressions": 0,
+          "impression_change": 5,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+              "impressions": 5,
+              "clicks": 0,
+              "position": 57.4
+            }
+          ]
+        },
+        {
+          "query": "high interest euro savings account",
+          "intent": "Unclassified",
+          "impressions": 4,
+          "clicks": 0,
+          "position": 44.25,
+          "previous_impressions": 0,
+          "impression_change": 4,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+              "impressions": 4,
+              "clicks": 0,
+              "position": 44.25
+            }
+          ]
+        },
+        {
+          "query": "savings accounts in europe",
+          "intent": "Unclassified",
+          "impressions": 4,
+          "clicks": 0,
+          "position": 55.0,
+          "previous_impressions": 0,
+          "impression_change": 4,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+              "impressions": 4,
+              "clicks": 0,
+              "position": 55.0
+            }
+          ]
+        },
+        {
+          "query": "best credit union for freelancers",
+          "intent": "Commercial",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 4.333333333333334,
+          "previous_impressions": 0,
+          "impression_change": 3,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+              "impressions": 3,
+              "clicks": 0,
+              "position": 4.333333333333334
+            }
+          ]
+        },
+        {
+          "query": "what types of credit cards help people with irregular income qualify without regular direct deposit?",
+          "intent": "Informational",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 5.333333333333333,
+          "previous_impressions": 0,
+          "impression_change": 3,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+              "impressions": 3,
+              "clicks": 0,
+              "position": 5.333333333333333
+            }
+          ]
+        },
+        {
+          "query": "robo advisor vs diy investing",
+          "intent": "Commercial",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 37.666666666666664,
+          "previous_impressions": 0,
+          "impression_change": 3,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+              "impressions": 3,
+              "clicks": 0,
+              "position": 37.666666666666664
+            }
+          ]
+        },
+        {
+          "query": "checking account features that matter most for a small local business doing lots of ach payments",
+          "intent": "Unclassified",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 1.0,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 1.0
+            }
+          ]
+        },
+        {
+          "query": "which online business checking accounts offer free incoming ach transfers?",
+          "intent": "Informational",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 8.0,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 8.0
+            }
+          ]
+        },
+        {
+          "query": "what invoicing app lets me attach expense receipts directly to a client invoice?",
+          "intent": "Informational",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 10.0,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 10.0
+            }
+          ]
+        },
+        {
+          "query": "which robo advisor is easiest to use and best suited for beginner investors among charles schwab, e*trade, merrill, and vanguard?",
+          "intent": "Commercial",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 11.0,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 11.0
+            }
+          ]
+        },
+        {
+          "query": "business checking free ach",
+          "intent": "Unclassified",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 22.0,
+          "previous_impressions": 1,
+          "impression_change": 1,
+          "previous_position": 78.0,
+          "position_change": -56.0,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 22.0
+            }
+          ]
+        },
+        {
+          "query": "best euro savings account",
+          "intent": "Commercial",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 44.5,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 44.5
+            }
+          ]
+        },
+        {
+          "query": "best high yield savings accounts with no minimum balance",
+          "intent": "Commercial",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 58.0,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 58.0
+            }
+          ]
+        },
+        {
+          "query": "euro savings accounts",
+          "intent": "Unclassified",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 66.5,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 66.5
+            }
+          ]
+        },
+        {
+          "query": "high yield savings account no minimum deposit",
+          "intent": "Unclassified",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 71.0,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 71.0
+            }
+          ]
+        },
+        {
+          "query": "euro savings account interest rates",
+          "intent": "Unclassified",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 94.0,
+          "previous_impressions": 0,
+          "impression_change": 2,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+              "impressions": 2,
+              "clicks": 0,
+              "position": 94.0
+            }
+          ]
+        },
+        {
+          "query": "what factors should you consider when selecting a credit card for cash back on groceries?",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 1.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 1.0
+            }
+          ]
+        },
+        {
+          "query": "what type of credit card is best for someone with irregular income?",
+          "intent": "Commercial",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 1.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 1.0
+            }
+          ]
+        },
+        {
+          "query": "roboadvisor guide (review or blog or comparison or creator or forum or coupon or \"best\") -site:amazon.com -site:walmart.com -site:target.com -site:ebay.com -site:etsy.com -site:iherb.com -site:pinterest.com -site:youtube.com -site:facebook.com -site:tiktok.com -site:instagram.com -site:reddit.com",
+          "intent": "Commercial",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 3.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 3.0
+            }
+          ]
+        },
+        {
+          "query": "top roboadvisor (review or blog or comparison or creator or forum or coupon or \"best\") -site:amazon.com -site:walmart.com -site:target.com -site:ebay.com -site:etsy.com -site:iherb.com -site:pinterest.com -site:youtube.com -site:facebook.com -site:tiktok.com -site:instagram.com -site:reddit.com",
+          "intent": "Commercial",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 4.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 4.0
+            }
+          ]
+        },
+        {
+          "query": "best rewards cards for freelancers in 2026",
+          "intent": "Commercial",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 6.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 6.0
+            }
+          ]
+        },
+        {
+          "query": "where can i apply for a grocery-friendly credit card?",
+          "intent": "Transactional",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 8.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 8.0
+            }
+          ]
+        },
+        {
+          "query": "credit card for freelancers",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 9.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 9.0
+            }
+          ]
+        },
+        {
+          "query": "do any beginner cards include 0% introductory periods worth comparing?",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 9.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 9.0
+            }
+          ]
+        },
+        {
+          "query": "no minimum deposit savings account",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 12.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 12.0
+            }
+          ]
+        },
+        {
+          "query": "site:blogspot.com (intitle:yield basis or inurl:yield basis)",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 18.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 18.0
+            }
+          ]
+        },
+        {
+          "query": "credit cards that does not focus on revenue?",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 26.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 26.0
+            }
+          ]
+        },
+        {
+          "query": "freelancer cred",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 57.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 57.0
+            }
+          ]
+        },
+        {
+          "query": "robo vs diy investing",
+          "intent": "Commercial",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 64.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 64.0
+            }
+          ]
+        },
+        {
+          "query": "how to change your direct deposit to another bank",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 65.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 65.0
+            }
+          ]
+        },
+        {
+          "query": "high-yield savings account no minimum",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 67.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 67.0
+            }
+          ]
+        },
+        {
+          "query": "high yield savings account no minimum",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 68.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 68.0
+            }
+          ]
+        },
+        {
+          "query": "high yield savings account no minimum balance",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 69.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 69.0
+            }
+          ]
+        },
+        {
+          "query": "high yield savings account with no minimum",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 69.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 69.0
+            }
+          ]
+        },
+        {
+          "query": "how to change direct deposit to another bank",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 69.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 69.0
+            }
+          ]
+        },
+        {
+          "query": "savings account for gamers 2026",
+          "intent": "Unclassified",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 69.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 69.0
+            }
+          ]
+        },
+        {
+          "query": "how to change banks for direct deposit",
+          "intent": "Informational",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 72.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 72.0
+            }
+          ]
+        },
+        {
+          "query": "robo investing vs doing it yourself",
+          "intent": "Commercial",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 82.0,
+          "previous_impressions": 0,
+          "impression_change": 1,
+          "previous_position": null,
+          "position_change": null,
+          "pages": [
+            {
+              "url": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+              "impressions": 1,
+              "clicks": 0,
+              "position": 82.0
+            }
+          ]
+        },
+        {
+          "query": "annual business revenue for startup credit card",
+          "intent": "Unclassified",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 1,
+          "impression_change": -1,
+          "previous_position": 100.0,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "applying for a business credit card with no revenue",
+          "intent": "Unclassified",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 1,
+          "impression_change": -1,
+          "previous_position": 14.0,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "best business bank accounts for llc with no fees",
+          "intent": "Commercial",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 1,
+          "impression_change": -1,
+          "previous_position": 97.0,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "best business checking account for llc no fees",
+          "intent": "Commercial",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 1,
+          "impression_change": -1,
+          "previous_position": 40.0,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "best credit card for llcs with new accounts",
+          "intent": "Commercial",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 1,
+          "impression_change": -1,
+          "previous_position": 47.0,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "business credit card no revenue",
+          "intent": "Unclassified",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 5,
+          "impression_change": -5,
+          "previous_position": 27.2,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "business credit card with no revenue",
+          "intent": "Unclassified",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 6,
+          "impression_change": -6,
+          "previous_position": 22.666666666666668,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "business credit cards for startups with no revenue",
+          "intent": "Unclassified",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 2,
+          "impression_change": -2,
+          "previous_position": 55.0,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "can you get a business credit card with no revenue",
+          "intent": "Informational",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 4,
+          "impression_change": -4,
+          "previous_position": 61.25,
+          "position_change": null,
+          "pages": []
+        },
+        {
+          "query": "zero balance current account for freelancers",
+          "intent": "Unclassified",
+          "impressions": 0,
+          "clicks": 0,
+          "position": null,
+          "previous_impressions": 2,
+          "impression_change": -2,
+          "previous_position": 79.0,
+          "position_change": null,
+          "pages": []
+        }
+      ],
+      "overlap_candidates": [],
+      "page_clusters": [
+        {
+          "page": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+          "impressions": 37,
+          "clicks": 0,
+          "position": 36.54054054054054,
+          "visible_query_page_impressions": 20,
+          "visible_query_rows": 7,
+          "query_detail_gap": 17,
+          "queries": [
+            [
+              "best euro savings account interest rates",
+              5
+            ],
+            [
+              "high interest euro savings account",
+              4
+            ],
+            [
+              "savings accounts in europe",
+              4
+            ],
+            [
+              "best euro savings account",
+              2
+            ],
+            [
+              "euro savings account interest rates",
+              2
+            ],
+            [
+              "euro savings accounts",
+              2
+            ],
+            [
+              "savings account for gamers 2026",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+          "impressions": 24,
+          "clicks": 0,
+          "position": 6.833333333333333,
+          "visible_query_page_impressions": 14,
+          "visible_query_rows": 5,
+          "query_detail_gap": 10,
+          "queries": [
+            [
+              "best robo investing fintech for beginners who want easy setup",
+              5
+            ],
+            [
+              "best robo-advisor for clear, newbie-friendly investing?",
+              5
+            ],
+            [
+              "which robo advisor is easiest to use and best suited for beginner investors among charles schwab, e*trade, merrill, and vanguard?",
+              2
+            ],
+            [
+              "roboadvisor guide (review or blog or comparison or creator or forum or coupon or \"best\") -site:amazon.com -site:walmart.com -site:target.com -site:ebay.com -site:etsy.com -site:iherb.com -site:pinterest.com -site:youtube.com -site:facebook.com -site:tiktok.com -site:instagram.com -site:reddit.com",
+              1
+            ],
+            [
+              "top roboadvisor (review or blog or comparison or creator or forum or coupon or \"best\") -site:amazon.com -site:walmart.com -site:target.com -site:ebay.com -site:etsy.com -site:iherb.com -site:pinterest.com -site:youtube.com -site:facebook.com -site:tiktok.com -site:instagram.com -site:reddit.com",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html",
+          "impressions": 23,
+          "clicks": 0,
+          "position": 40.82608695652174,
+          "visible_query_page_impressions": 23,
+          "visible_query_rows": 1,
+          "query_detail_gap": 0,
+          "queries": [
+            [
+              "best beginner cash back credit card",
+              23
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+          "impressions": 21,
+          "clicks": 0,
+          "position": 10.142857142857142,
+          "visible_query_page_impressions": 17,
+          "visible_query_rows": 1,
+          "query_detail_gap": 4,
+          "queries": [
+            [
+              "best credit cards for ride‑share drivers needing gas rewards, easy statements, and fast dispute help?",
+              17
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+          "impressions": 16,
+          "clicks": 0,
+          "position": 38.0625,
+          "visible_query_page_impressions": 10,
+          "visible_query_rows": 8,
+          "query_detail_gap": 6,
+          "queries": [
+            [
+              "best high yield savings accounts with no minimum balance",
+              2
+            ],
+            [
+              "high yield savings account no minimum deposit",
+              2
+            ],
+            [
+              "high yield savings account no minimum",
+              1
+            ],
+            [
+              "high yield savings account no minimum balance",
+              1
+            ],
+            [
+              "high yield savings account with no minimum",
+              1
+            ],
+            [
+              "high-yield savings account no minimum",
+              1
+            ],
+            [
+              "no minimum deposit savings account",
+              1
+            ],
+            [
+              "site:blogspot.com (intitle:yield basis or inurl:yield basis)",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+          "impressions": 12,
+          "clicks": 0,
+          "position": 44.083333333333336,
+          "visible_query_page_impressions": 9,
+          "visible_query_rows": 2,
+          "query_detail_gap": 3,
+          "queries": [
+            [
+              "freelance business bank account requirements",
+              6
+            ],
+            [
+              "best credit union for freelancers",
+              3
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+          "impressions": 12,
+          "clicks": 0,
+          "position": 6.666666666666667,
+          "visible_query_page_impressions": 1,
+          "visible_query_rows": 1,
+          "query_detail_gap": 11,
+          "queries": [
+            [
+              "do any beginner cards include 0% introductory periods worth comparing?",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+          "impressions": 10,
+          "clicks": 0,
+          "position": 9.0,
+          "visible_query_page_impressions": 6,
+          "visible_query_rows": 3,
+          "query_detail_gap": 4,
+          "queries": [
+            [
+              "business checking free ach",
+              2
+            ],
+            [
+              "checking account features that matter most for a small local business doing lots of ach payments",
+              2
+            ],
+            [
+              "which online business checking accounts offer free incoming ach transfers?",
+              2
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+          "impressions": 8,
+          "clicks": 1,
+          "position": 4.875,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 8,
+          "queries": []
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
+          "impressions": 8,
+          "clicks": 0,
+          "position": 20.875,
+          "visible_query_page_impressions": 6,
+          "visible_query_rows": 2,
+          "query_detail_gap": 2,
+          "queries": [
+            [
+              "best credit card for business with no revenue",
+              5
+            ],
+            [
+              "credit cards that does not focus on revenue?",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+          "impressions": 7,
+          "clicks": 0,
+          "position": 12.714285714285714,
+          "visible_query_page_impressions": 7,
+          "visible_query_rows": 5,
+          "query_detail_gap": 0,
+          "queries": [
+            [
+              "what types of credit cards help people with irregular income qualify without regular direct deposit?",
+              3
+            ],
+            [
+              "best rewards cards for freelancers in 2026",
+              1
+            ],
+            [
+              "credit card for freelancers",
+              1
+            ],
+            [
+              "freelancer cred",
+              1
+            ],
+            [
+              "what type of credit card is best for someone with irregular income?",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+          "impressions": 6,
+          "clicks": 0,
+          "position": 44.0,
+          "visible_query_page_impressions": 5,
+          "visible_query_rows": 3,
+          "query_detail_gap": 1,
+          "queries": [
+            [
+              "robo advisor vs diy investing",
+              3
+            ],
+            [
+              "robo investing vs doing it yourself",
+              1
+            ],
+            [
+              "robo vs diy investing",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+          "impressions": 5,
+          "clicks": 1,
+          "position": 43.2,
+          "visible_query_page_impressions": 3,
+          "visible_query_rows": 3,
+          "query_detail_gap": 2,
+          "queries": [
+            [
+              "how to change banks for direct deposit",
+              1
+            ],
+            [
+              "how to change direct deposit to another bank",
+              1
+            ],
+            [
+              "how to change your direct deposit to another bank",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 17.6,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 5,
+          "queries": []
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
+          "impressions": 5,
+          "clicks": 0,
+          "position": 6.4,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 5,
+          "queries": []
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
+          "impressions": 4,
+          "clicks": 0,
+          "position": 9.25,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 4,
+          "queries": []
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 9.333333333333334,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 3,
+          "queries": []
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 6.333333333333333,
+          "visible_query_page_impressions": 2,
+          "visible_query_rows": 2,
+          "query_detail_gap": 1,
+          "queries": [
+            [
+              "what factors should you consider when selecting a credit card for cash back on groceries?",
+              1
+            ],
+            [
+              "where can i apply for a grocery-friendly credit card?",
+              1
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 10.0,
+          "visible_query_page_impressions": 2,
+          "visible_query_rows": 1,
+          "query_detail_gap": 0,
+          "queries": [
+            [
+              "what invoicing app lets me attach expense receipts directly to a client invoice?",
+              2
+            ]
+          ]
+        },
+        {
+          "page": "https://learners-link.blogspot.com/p/about-us.html",
+          "impressions": 2,
+          "clicks": 0,
+          "position": 8.5,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 2,
+          "queries": []
+        },
+        {
+          "page": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 63.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        },
+        {
+          "page": "https://learners-link.blogspot.com/p/contact-us.html",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 1.0,
+          "visible_query_page_impressions": 0,
+          "visible_query_rows": 0,
+          "query_detail_gap": 1,
+          "queries": []
+        }
+      ]
+    }
+  ]
+}

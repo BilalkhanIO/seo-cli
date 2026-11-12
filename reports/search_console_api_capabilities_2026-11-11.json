@@ -1,0 +1,12 @@
+{
+  "available_resources": [
+    "searchanalytics",
+    "sitemaps",
+    "sites",
+    "urlInspection",
+    "urlTestingTools"
+  ],
+  "url_inspection_methods": [
+    "inspect"
+  ]
+}

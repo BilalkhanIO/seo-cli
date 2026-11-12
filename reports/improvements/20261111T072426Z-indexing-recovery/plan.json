@@ -1,0 +1,265 @@
+{
+  "created_at": "2026-11-11T07:24:26.286028+00:00",
+  "folder": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery",
+  "policy": "Existing LIVE posts only; no URL changes, deletions, merges or publication-date resets. Fix confirmed gaps; indexing is not guaranteed.",
+  "posts": [
+    {
+      "id": "2699113232533829378",
+      "blog_id": "8491425780932094856",
+      "title": "How to Read a Textbook Faster for Exams 2026",
+      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
+      "before_sha256": "d20bb8851018cd4cfc256d3f073711c9eee0bab4fc3ee3906456785565771b2a",
+      "after_sha256": "9a9c5a9901d5fd31f3a69a7b7984850735654687b3ecc826e9384ba6f2c5cd08",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/2699113232533829378.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "student taking notes"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "6631475294269522001",
+      "blog_id": "8491425780932094856",
+      "title": "How to Revise Without Rereading Notes 2026",
+      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-revise-without-rereading-notes.html",
+      "before_sha256": "ba07d718a1723785f637d5028ceeff5bb60ac07b7933e8a40524981ac799f214",
+      "after_sha256": "c94a72abaf4307f62308015a3907ea76157506370ce2d8d0ab894c7dc92dbaf8",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/6631475294269522001.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "student taking notes"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "1869975942248664886",
+      "blog_id": "8491425780932094856",
+      "title": "How to Make a Study Schedule That Works 2026",
+      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+      "before_sha256": "7a2d18b58a778def348c49a9321356f34b3e28dde9104ebf71d81d840bec777f",
+      "after_sha256": "f090edc461071b7f2dec34ff565e26c9483b07049a4d9d378cb4071139def43e",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/1869975942248664886.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "student taking notes"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "5474083842757800792",
+      "blog_id": "8491425780932094856",
+      "title": "How to Take Notes That Help You Remember Exams 2026",
+      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+      "before_sha256": "04c672bfe9d8d4842024278989e76d538ae9920a69947844ae229324afe68efb",
+      "after_sha256": "439bd57640f05612d05feffc7e1cee9f260ee94130ce327a4bc3cbdae118b357",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/5474083842757800792.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "student taking notes"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "8892510251342739186",
+      "blog_id": "8491425780932094856",
+      "title": "How to Check If a Free AI Course Certificate Is Real 2026",
+      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
+      "before_sha256": "ed3b3f250e28c09a4615495acb4d1780a0269b41a0900d4d2faf2bc8e4efad78",
+      "after_sha256": "abd9beefb6bb850b73ed77617ce71b56895f658530ff4ad0faa52089342c2c96",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/8892510251342739186.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "freelancer laptop desk"
+        },
+        {
+          "kind": "add-original-verification-worksheet-and-primary-sources"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "4793757617058466971",
+      "blog_id": "8491425780932094856",
+      "title": "AI Skills for Non-Technical Professionals: A Practical 2026 Roadmap",
+      "url": "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
+      "before_sha256": "ba08fdb0db051179294d867b10d7870b5dd21e109a87352ded1fe13f5661ba75",
+      "after_sha256": "5f593569aa334ab6ce5b251b3a5b2b1118be8ec85ec380f98cc893e408ec22d9",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/4793757617058466971.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "freelancer laptop desk"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "3302389778376728673",
+      "blog_id": "8491425780932094856",
+      "title": "Free AI Courses With Certificates in 2026: The Complete Guide",
+      "url": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+      "before_sha256": "2221e736037e1c41344e63ca4a0ce36d4c24227618e9829862d88eef4416f21d",
+      "after_sha256": "fa3f22ccdf398e2dacd3c8926c2378b31ccc8250b661fdeb9915cb414ee0a372",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/3302389778376728673.html",
+      "changes": [
+        {
+          "kind": "add-contextual-cluster-navigation",
+          "reason": "Connect current study, credential and invoice workflow guides from established hubs"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "6298451892672263651",
+      "blog_id": "8491425780932094856",
+      "title": "Time Management for Students: 10 Proven Tips (2026)",
+      "url": "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html",
+      "before_sha256": "9bf512b29dc79c2d7221c3e1c1e9be16d65ea68f3ea2df4fe287eef7bf954356",
+      "after_sha256": "12dd6d6d80d35e16c4245f0ba56f8ab3672d1c0e4acf2ee068e00114012480b7",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/6298451892672263651.html",
+      "changes": [
+        {
+          "kind": "add-contextual-cluster-navigation",
+          "reason": "Connect current study, credential and invoice workflow guides from established hubs"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "3334480415619858946",
+      "blog_id": "6645616362681304579",
+      "title": "How to Follow Up on an Unpaid Freelance Invoice",
+      "url": "https://learners-link.blogspot.com/2026/11/how-to-follow-up-on-unpaid-freelance.html",
+      "before_sha256": "fdd69ee71a3e5a79fe4260e9387bcd70e75a143f8f06cadc8936b4f90aac7e57",
+      "after_sha256": "a928bf724c6bcd0f99a64cf89f84bb69873182b1b9cfde3847bd4db734dce37d",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/3334480415619858946.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "freelancer laptop desk"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "7268984698865224761",
+      "blog_id": "6645616362681304579",
+      "title": "How to Write a Freelance Proposal That Wins Work",
+      "url": "https://learners-link.blogspot.com/2026/11/how-to-write-freelance-proposal-that.html",
+      "before_sha256": "d175c73dba9d161c4559f42fa86f54828f590acc294d826de8308c874f83b1ef",
+      "after_sha256": "46e0533a20126a2d79b02cbb340b0f4f2fe9b657ddd07f2acbfd2bd1265d7e65",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/7268984698865224761.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "freelancer laptop desk"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "1063217581755873633",
+      "blog_id": "6645616362681304579",
+      "title": "How to Price Freelance Work Without Undercharging",
+      "url": "https://learners-link.blogspot.com/2026/11/how-to-price-freelance-work-without.html",
+      "before_sha256": "2c47fabb1b8eb94770794a79a320e446312087ae04ed23241a4f649d8e2eca3d",
+      "after_sha256": "40e6b25782054a495c5e03a01436c7a8ea00d8d6d93160170807762b6af12263",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/1063217581755873633.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "freelancer laptop desk"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "2418463084813008614",
+      "blog_id": "6645616362681304579",
+      "title": "Freelance Contract Checklist: What to Include First",
+      "url": "https://learners-link.blogspot.com/2026/11/freelance-contract-checklist-what-to.html",
+      "before_sha256": "e31452471be4cb716b7f16b4b7b0db932c27ea7f829e1f0ef2bf0cde7fc37943",
+      "after_sha256": "dcbfb2410e267f4684a161ed2f814386713ea8655113023168378b6f7287221a",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/2418463084813008614.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "freelancer laptop desk"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "5597175970723473961",
+      "blog_id": "6645616362681304579",
+      "title": "Invoicing Apps That Attach Receipts to an Invoice Explained",
+      "url": "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+      "before_sha256": "09c2583160cfd870691f71f65f0b3309e1c0533dc5c16bb63b2e585eba03411e",
+      "after_sha256": "f30538514ccfdca2a29bdc1d671dc5becfeff6bf3492ea5309da555483fa43d8",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/5597175970723473961.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "paper invoice desk"
+        },
+        {
+          "kind": "add-provider-backed-example-and-recipient-test-checklist"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "1698561867760931941",
+      "blog_id": "6645616362681304579",
+      "title": "How to Choose Business Checking as a Freelancer 2026",
+      "url": "https://learners-link.blogspot.com/2026/11/how-to-choose-business-checking-as.html",
+      "before_sha256": "fe3d5f9bfde4e0c7ed5013d502d87dea0f70a084f329dab4a18247f8c8831efd",
+      "after_sha256": "7c56a68e32f851d27261e950f5320bf606d710e44cfea4666be6536f71b45f67",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/1698561867760931941.html",
+      "changes": [
+        {
+          "kind": "restore-missing-hero-image",
+          "visual_review": true,
+          "photo_query": "freelancer laptop desk"
+        }
+      ],
+      "validation_errors": []
+    },
+    {
+      "id": "6997599327595311216",
+      "blog_id": "6645616362681304579",
+      "title": "Best Invoicing Software for Freelancers (2026)",
+      "url": "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
+      "before_sha256": "e87ad7da20fbf35f69786c24112e525bbb11d3f54278eb587db78c8b8e201481",
+      "after_sha256": "a6afb708e6d8682f6ec2b194cca064860fee7dd76fc66a72b6229182f2577a40",
+      "candidate": "/home/kwikcoders/seo/reports/improvements/20261111T072426Z-indexing-recovery/6997599327595311216.html",
+      "changes": [
+        {
+          "kind": "add-contextual-cluster-navigation",
+          "reason": "Connect current study, credential and invoice workflow guides from established hubs"
+        }
+      ],
+      "validation_errors": []
+    }
+  ]
+}

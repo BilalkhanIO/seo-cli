@@ -1,5 +1,7 @@
 # SEO Playbook — studenttimepk.blogspot.com
-_Last updated by Claude — working reference. Do the "YOUR TO-DO" items when you can._
+> **Historical notes only.** This playbook contains dated plans and assumptions that may no longer be true (including impressions, indexing, API availability and old post plans). Do not execute its old checklist without rechecking current evidence. Use [`SEO-WORKBENCH.md`](SEO-WORKBENCH.md) for current commands and [`docs/seo-technical-reference.md`](docs/seo-technical-reference.md) for source-linked technical guidance and Google API capabilities.
+
+_The sections below are preserved as historical context; verify them before acting._
 
 ## Target market (IMPORTANT)
 **Audience = tier-1 English markets: US · UK · Canada · EU** (high AdSense CPM ~$8–15 vs ~$0.50 for PK).

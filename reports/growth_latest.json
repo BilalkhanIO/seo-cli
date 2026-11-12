@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-12",
   "current_window": [
-    "2026-10-01",
-    "2026-10-28"
+    "2026-10-13",
+    "2026-11-09"
   ],
   "previous_window": [
-    "2026-09-03",
-    "2026-09-30"
+    "2026-09-15",
+    "2026-10-12"
   ],
   "sites": {
     "Students Time": {
       "current": {
         "clicks": 0,
-        "impressions": 51,
+        "impressions": 38,
         "ctr": 0,
-        "position": 36.294117647058826
+        "position": 41.86842105263158
       },
       "current_pages": [
         {
@@ -37,30 +37,12 @@
         },
         {
           "keys": [
-            "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html?m=1"
+            "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html?m=1"
           ],
           "clicks": 0,
           "impressions": 1,
           "ctr": 0,
-          "position": 8
-        },
-        {
-          "keys": [
-            "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html?m=1"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 7.5
-        },
-        {
-          "keys": [
-            "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 37.666666666666664
+          "position": 10
         },
         {
           "keys": [
@@ -70,15 +52,6 @@
           "impressions": 2,
           "ctr": 0,
           "position": 8
-        },
-        {
-          "keys": [
-            "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 80
         },
         {
           "keys": [
@@ -118,19 +91,10 @@
         },
         {
           "keys": [
-            "https://studenttimepk.blogspot.com/2026/02/seo-geo-targeting-for-blogger-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 7
-        },
-        {
-          "keys": [
             "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html"
           ],
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0,
           "position": 9
         },
@@ -148,9 +112,9 @@
             "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html"
           ],
           "clicks": 0,
-          "impressions": 13,
+          "impressions": 12,
           "ctr": 0,
-          "position": 42.61538461538461
+          "position": 45.5
         },
         {
           "keys": [
@@ -166,9 +130,9 @@
             "https://studenttimepk.blogspot.com/2026/06/5-free-ai-study-tools-every-student.html"
           ],
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0,
-          "position": 8.5
+          "position": 7
         },
         {
           "keys": [
@@ -184,9 +148,116 @@
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html"
           ],
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 5,
           "ctr": 0,
-          "position": 5.833333333333333
+          "position": 6
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/p/contact-us.html?m=1"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 4
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/p/privacy-policy.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 2
+        }
+      ],
+      "previous": {
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 20
+      },
+      "previous_pages": [
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html?m=1"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html?m=1"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 5
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 37.666666666666664
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 80
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2026/02/seo-geo-targeting-for-blogger-2026.html"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 7
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2026/06/5-free-ai-study-tools-every-student.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "keys": [
+            "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 5
         },
         {
           "keys": [
@@ -211,35 +282,19 @@
             "https://studenttimepk.blogspot.com/p/contact-us.html?m=1"
           ],
           "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 3.5
-        },
-        {
-          "keys": [
-            "https://studenttimepk.blogspot.com/p/privacy-policy.html"
-          ],
-          "clicks": 0,
           "impressions": 1,
           "ctr": 0,
-          "position": 2
+          "position": 3
         }
       ],
-      "previous": {
-        "clicks": 0,
-        "impressions": 0,
-        "ctr": 0,
-        "position": 0
-      },
-      "previous_pages": [],
       "priority_pages": [
         {
           "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
-          "impressions": 13,
+          "impressions": 12,
           "clicks": 0,
-          "position": 42.61538461538461,
-          "previous_impressions": 0,
-          "score": 26,
+          "position": 45.5,
+          "previous_impressions": 1,
+          "score": 24,
           "action": "Improve intent and contextual links"
         },
         {
@@ -261,15 +316,6 @@
           "action": "Improve intent and contextual links"
         },
         {
-          "url": "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html",
-          "impressions": 3,
-          "clicks": 0,
-          "position": 37.666666666666664,
-          "previous_impressions": 0,
-          "score": 6,
-          "action": "Improve intent and contextual links"
-        },
-        {
           "url": "https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html",
           "impressions": 2,
           "clicks": 0,
@@ -277,19 +323,18 @@
           "previous_impressions": 0,
           "score": 6,
           "action": "Near page one; review missing answers and title"
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html",
+          "impressions": 3,
+          "clicks": 0,
+          "position": 34,
+          "previous_impressions": 0,
+          "score": 6,
+          "action": "Improve intent and contextual links"
         }
       ],
       "queries": [
-        {
-          "keys": [
-            "ai skills for non-technical professionals",
-            "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 80
-        },
         {
           "keys": [
             "assignment writing ai free",
@@ -329,16 +374,6 @@
           "impressions": 2,
           "ctr": 0,
           "position": 91.5
-        },
-        {
-          "keys": [
-            "guide to study abroad",
-            "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 99
         },
         {
           "keys": [
@@ -425,12 +460,158 @@
       "referrals": [],
       "audit": [
         {
-          "url": "https://studenttimepk.blogspot.com/2026/10/free-ai-content-generation-courses-in.html",
-          "title": "Free AI Content Generation Courses in 2026: Learn to Create Text, Images, and More",
+          "url": "https://studenttimepk.blogspot.com/2026/11/how-to-write-university-essay-2026.html",
+          "title": "How to Write a University Essay 2026",
           "issues": [
-            "unverified response 403: https://www.pexels.com/@katerina-holmes",
-            "unverified response 403: https://www.pexels.com/photo/black-teacher-on-laptop-screen-during-lesson-with-crop-schoolboy-5905945/"
+            "missing/empty image alt",
+            "no incoming links from published article bodies"
           ],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://images.pexels.com/photos/9158509/pexels-photo-9158509.jpeg?auto=compress&w=1260&h=750&dpr=1",
+            "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/index.html",
+            "https://studenttimepk.blogspot.com/2025/08/beyond-highlighting-ultimate-guide-to.html",
+            "https://studenttimepk.blogspot.com/2026/02/prompt-engineering-for-beginners-how-to.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-revise-without-rereading-notes.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+            "https://writingcenter.unc.edu/tips-and-tools/argument/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/9158509/pexels-photo-9158509.jpeg?auto=compress&w=1260&h=750&dpr=1"
+          ],
+          "incoming_article_links": 0
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/11/how-to-stay-focused-while-studying-2026.html",
+          "title": "How to Stay Focused While Studying 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://images.pexels.com/photos/771317/pexels-photo-771317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://learningcenter.unc.edu/tips-and-tools/studying-101-study-smarter-not-harder/",
+            "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-revise-without-rereading-notes.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+            "https://www.learningscientists.org/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/771317/pexels-photo-771317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          ],
+          "incoming_article_links": 2
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
+          "title": "How to Read a Textbook Faster for Exams 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+            "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-revise-without-rereading-notes.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-stay-focused-while-studying-2026.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+            "https://www.learningscientists.org/",
+            "https://www.pexels.com/@charlotte-may/",
+            "https://www.pexels.com/photo/black-person-in-earphones-highlighting-words-in-text-on-paper-5965889/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/5965889/pexels-photo-5965889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 5
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/11/how-to-revise-without-rereading-notes.html",
+          "title": "How to Revise Without Rereading Notes 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://studenttimepk.blogspot.com/2025/10/mastering-ai-agent-orchestration-rise.html",
+            "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+            "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+            "https://www.learningscientists.org/",
+            "https://www.pexels.com/@charlotte-may/",
+            "https://www.pexels.com/photo/black-person-in-earphones-highlighting-words-in-text-on-paper-5965889/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/5965889/pexels-photo-5965889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 6
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+          "title": "How to Make a Study Schedule That Works 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+            "https://studenttimepk.blogspot.com/2025/10/mastering-ai-agent-orchestration-rise.html",
+            "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+            "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+            "https://www.pexels.com/@charlotte-may/",
+            "https://www.pexels.com/photo/black-person-in-earphones-highlighting-words-in-text-on-paper-5965889/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/5965889/pexels-photo-5965889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 5
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+          "title": "How to Take Notes That Help You Remember Exams 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://lsc.cornell.edu/how-to-study/taking-notes/",
+            "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+            "https://studenttimepk.blogspot.com/2025/10/mastering-ai-agent-orchestration-rise.html",
+            "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+            "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-stay-focused-while-studying-2026.html",
+            "https://www.pexels.com/@charlotte-may/",
+            "https://www.pexels.com/photo/black-person-in-earphones-highlighting-words-in-text-on-paper-5965889/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/5965889/pexels-photo-5965889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 9
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
+          "title": "How to Check If a Free AI Course Certificate Is Real 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://learn.microsoft.com/en-us/training/support/faq",
+            "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+            "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
+            "https://studenttimepk.blogspot.com/2026/10/free-ai-content-generation-courses-in.html",
+            "https://www.pexels.com/@thefullonmonet/",
+            "https://www.pexels.com/photo/woman-using-a-laptop-17608506/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 4
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/10/free-ai-content-generation-courses-in.html",
+          "title": "Free AI Content Generation Courses in 2026",
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -440,44 +621,38 @@
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
             "https://studenttimepk.blogspot.com/search/label/AI%20Courses",
             "https://studenttimepk.blogspot.com/search/label/Content%20Creation",
-            "https://www.cloudskillsboost.google/course_templates/536FREE",
             "https://www.credly.com/org/ibm-skillsbuild/badge/getting-started-with-generative-ai",
-            "https://www.pexels.com/@katerina-holmes",
-            "https://www.pexels.com/photo/black-teacher-on-laptop-screen-during-lesson-with-crop-schoolboy-5905945/"
+            "https://www.pexels.com/@katerina-holmes/",
+            "https://www.pexels.com/photo/black-teacher-on-laptop-screen-during-lesson-with-crop-schoolboy-5905945/",
+            "https://www.skills.google/course_templates/536FREE"
           ],
           "images": [
             "https://images.pexels.com/photos/5905945/pexels-photo-5905945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           ],
-          "incoming_article_links": 2
+          "incoming_article_links": 3
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
-          "title": "AI Skills for Non-Technical Professionals: A Practical 2026 Roadmap",
-          "issues": [
-            "unverified response 403: https://www.pexels.com/@ketut-subiyanto",
-            "unverified response 403: https://www.pexels.com/photo/man-working-on-laptop-4963010/"
-          ],
+          "title": "AI Skills for Non-Technical Professionals (2026)",
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://grow.google/ai",
-            "https://grow.google/ai-essentials/",
-            "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html",
-            "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
-            "https://www.pexels.com/@ketut-subiyanto",
-            "https://www.pexels.com/photo/man-working-on-laptop-4963010/"
+            "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+            "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
+            "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
+            "https://www.pexels.com/@thefullonmonet/",
+            "https://www.pexels.com/photo/woman-using-a-laptop-17608506/"
           ],
           "images": [
-            "https://images.pexels.com/photos/4963010/pexels-photo-4963010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            "https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           ],
-          "incoming_article_links": 1
+          "incoming_article_links": 6
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/08/ai-singularity-debate-heats-up-as.html",
           "title": "What Is the AI Singularity? Explained (2026)",
-          "issues": [
-            "unverified response 403: https://www.axios.com/newsletters/axios-am-e6e15a72-3b81-4056-9657-5c07f9825685"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -505,16 +680,13 @@
         {
           "url": "https://studenttimepk.blogspot.com/2026/08/openai-astra-next-gen-ai-model-and-what.html",
           "title": "OpenAI Astra: What Developers Should Know (2026)",
-          "issues": [
-            "unverified response 403: https://openai.com/",
-            "unverified response 403: https://openai.com/news/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
+            "https://developers.openai.com/api/docs",
             "https://openai.com/",
             "https://openai.com/news/",
-            "https://platform.openai.com/docs/",
             "https://studenttimepk.blogspot.com/2025/10/mastering-ai-agent-orchestration-rise.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-news-roundup-2026-claude-fable-5.html",
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
@@ -535,8 +707,8 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
+            "https://developers.openai.com/api/docs/guides/prompt-engineering",
             "https://grow.google/",
-            "https://platform.openai.com/docs/guides/prompt-engineering",
             "https://studenttimepk.blogspot.com/2025/08/top-online-courses-to-learn-in-2025.html",
             "https://studenttimepk.blogspot.com/2026/01/prompt-engineering-explained-complete.html",
             "https://studenttimepk.blogspot.com/2026/02/seo-geo-targeting-for-blogger-2026.html",
@@ -545,7 +717,7 @@
             "https://studenttimepk.blogspot.com/2026/07/universal-ai-pathway-free-intro-course.html"
           ],
           "images": [
-            "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=70&w=800&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop"
           ],
@@ -558,7 +730,7 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+            "https://owasp.org/projects/top-10-for-large-language-model-applications",
             "https://studenttimepk.blogspot.com/2025/10/mastering-ai-agent-orchestration-rise.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-news-roundup-2026-claude-fable-5.html",
@@ -581,7 +753,7 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://platform.openai.com/docs/",
+            "https://developers.openai.com/api/docs",
             "https://studenttimepk.blogspot.com/2025/10/mastering-ai-agent-orchestration-rise.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-certification-trends-2026-boost-your.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
@@ -599,16 +771,14 @@
         {
           "url": "https://studenttimepk.blogspot.com/2026/07/gpt-live-expands-voice-ai-for.html",
           "title": "Voice AI for Developers: A 2026 Guide",
-          "issues": [
-            "unverified response 403: https://openai.com/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
             "https://cloud.google.com/speech-to-text",
+            "https://developers.openai.com/api/docs",
             "https://en.wikipedia.org/wiki/Artificial_intelligence",
             "https://openai.com/",
-            "https://platform.openai.com/docs/",
             "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-news-roundup-2026-claude-fable-5.html",
             "https://studenttimepk.blogspot.com/2026/08/ai-in-dev-why-fixing-vulnerabilities-is.html",
@@ -647,9 +817,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2026/07/generative-ai-for-software-development.html",
           "title": "Generative AI for Software Development (2026)",
-          "issues": [
-            "unverified response None: https://github.com/features/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -662,8 +830,8 @@
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
             "https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/",
             "https://www.coursera.org/professional-certificates/generative-ai-for-software-development",
-            "https://www.deeplearning.ai/courses/",
-            "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+            "https://www.deeplearning.ai/courses",
+            "https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python"
           ],
           "images": [
             "https://images.pexels.com/photos/34804015/pexels-photo-34804015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
@@ -677,7 +845,7 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://blog.google/products/search/",
+            "https://blog.google/products-and-platforms/products/search/",
             "https://developers.google.com/search",
             "https://studenttimepk.blogspot.com/2025/08/how-artificial-intelligence-is-changing.html",
             "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
@@ -687,18 +855,16 @@
             "https://studenttimepk.blogspot.com/2026/08/openai-astra-next-gen-ai-model-and-what.html"
           ],
           "images": [
-            "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+            "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-            "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+            "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
           ],
           "incoming_article_links": 2
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
           "title": "Best AI Coding Tools for Developers (2026)",
-          "issues": [
-            "unverified response 403: https://www.pexels.com/@katerina-holmes"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -714,7 +880,7 @@
             "https://studenttimepk.blogspot.com/2026/08/eu-ai-act-updates-what-developers-must.html",
             "https://studenttimepk.blogspot.com/2026/08/openai-astra-next-gen-ai-model-and-what.html",
             "https://survey.stackoverflow.co/",
-            "https://www.pexels.com/@katerina-holmes",
+            "https://www.pexels.com/@katerina-holmes/",
             "https://www.pexels.com/photo/crop-black-female-teacher-teaching-kids-remotely-on-laptop-5905964/"
           ],
           "images": [
@@ -775,10 +941,8 @@
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
-          "title": "Free AI Courses With Certificates in 2026: The Complete Guide",
-          "issues": [
-            "unverified response 403: https://help.openai.com/en/articles/20001270-openai-academy-courses"
-          ],
+          "title": "Free AI Courses With Certificates in 2026",
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -797,20 +961,19 @@
             "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
             "https://studenttimepk.blogspot.com/2026/07/universal-ai-pathway-free-intro-course.html",
             "https://studenttimepk.blogspot.com/2026/10/free-ai-content-generation-courses-in.html",
-            "https://www.cloudskillsboost.google/course_templates/536FREE",
-            "https://www.credly.com/org/ibm-skillsbuild/badge/getting-started-with-generative-ai"
+            "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
+            "https://www.credly.com/org/ibm-skillsbuild/badge/getting-started-with-generative-ai",
+            "https://www.skills.google/course_templates/536FREE"
           ],
           "images": [
             "https://images.pexels.com/photos/3990446/pexels-photo-3990446.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 19
+          "incoming_article_links": 25
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/07/ai-news-roundup-2026-claude-fable-5.html",
           "title": "AI News 2026: What Developers Should Track",
-          "issues": [
-            "unverified response 403: https://openai.com"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -862,10 +1025,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2026/07/make-america-ai-ready-free-7day-ai.html",
           "title": "7-Day AI Literacy Course (Free, for Beginners)",
-          "issues": [
-            "unverified response 403: https://axios.com/2026/03/24/labor-department-ai-literacy-course",
-            "unverified response 403: https://beta.dol.gov/ai-ready"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -913,9 +1073,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2026/07/what-is-my-ip-address-complete.html",
           "title": "What Is My IP Address? A Beginner's Guide (2026)",
-          "issues": [
-            "unverified response 403: https://www.cloudflare.com/learning/dns/glossary/what-is-my-ip-address/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -963,8 +1121,8 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://en.wikipedia.org/wiki/Meta_Platforms",
             "https://studenttimepk.blogspot.com/2025/07/free-course-of-day-4-harvards-cs50.html",
+            "https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html",
             "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
             "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
             "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
@@ -976,7 +1134,7 @@
             "https://www.facebook.com/business/learn"
           ],
           "images": [
-            "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=1200&q=80"
+            "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=70"
           ],
           "incoming_article_links": 8
         },
@@ -991,12 +1149,14 @@
             "https://learn.microsoft.com/en-us/training/paths/ai-fluency/",
             "https://learn.microsoft.com/en-us/training/support/faq",
             "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+            "https://studenttimepk.blogspot.com/2026/02/prompt-engineering-for-beginners-how-to.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-certification-trends-2026-boost-your.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-news-july-2026-databricks-valuation.html",
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
             "https://studenttimepk.blogspot.com/2026/07/generative-ai-for-software-development.html",
             "https://studenttimepk.blogspot.com/2026/07/make-america-ai-ready-free-7day-ai.html",
             "https://studenttimepk.blogspot.com/2026/07/universal-ai-pathway-free-intro-course.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
             "https://www.microsoft.com/en-us/ai"
           ],
           "images": [
@@ -1007,14 +1167,12 @@
         {
           "url": "https://studenttimepk.blogspot.com/2026/03/how-students-can-use-chatgpt-for.html",
           "title": "How to Use ChatGPT for Studying (2026 Guide)",
-          "issues": [
-            "unverified response 403: https://openai.com/chatgpt/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
+            "https://chatgpt.com/",
             "https://en.wikipedia.org/wiki/Artificial_intelligence_in_education",
-            "https://openai.com/chatgpt/",
             "https://scholar.google.com/",
             "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html",
             "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
@@ -1046,7 +1204,7 @@
           "images": [
             "https://images.pexels.com/photos/9158994/pexels-photo-9158994.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 17
+          "incoming_article_links": 20
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html",
@@ -1055,7 +1213,7 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://owl.purdue.edu/owl/purdue_owl.html",
+            "https://owl.purdue.edu/owl/",
             "https://studenttimepk.blogspot.com/",
             "https://studenttimepk.blogspot.com/2025/10/the-5-best-free-ai-tools-every.html",
             "https://studenttimepk.blogspot.com/2025/10/top-10-ai-tools-for-students.html",
@@ -1079,11 +1237,11 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://ai.google/learn-ai-skills",
+            "https://ai.google/learn-ai-skills/",
             "https://cognitiveclass.ai/courses",
-            "https://cs50.harvard.edu/ai",
+            "https://cs50.harvard.edu/ai/",
             "https://grow.google/",
-            "https://learn.microsoft.com/training/paths/ai-fluency/",
+            "https://learn.microsoft.com/en-us/training/paths/ai-fluency/",
             "https://learnprompting.org",
             "https://studenttimepk.blogspot.com/",
             "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html",
@@ -1095,12 +1253,12 @@
             "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
             "https://studenttimepk.blogspot.com/2026/07/make-america-ai-ready-free-7day-ai.html",
             "https://studenttimepk.blogspot.com/2026/07/universal-ai-pathway-free-intro-course.html",
-            "https://www.deeplearning.ai/courses/"
+            "https://www.deeplearning.ai/courses"
           ],
           "images": [
             "https://images.pexels.com/photos/7869051/pexels-photo-7869051.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 18
+          "incoming_article_links": 19
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/02/seo-geo-targeting-for-blogger-2026.html",
@@ -1111,7 +1269,7 @@
           "links": [
             "https://developers.google.com/search",
             "https://developers.google.com/search/docs",
-            "https://learn.microsoft.com/",
+            "https://learn.microsoft.com/en-us/",
             "https://search.google.com/search-console/about",
             "https://studenttimepk.blogspot.com/",
             "https://studenttimepk.blogspot.com/2025/08/top-online-courses-to-learn-in-2025.html",
@@ -1131,13 +1289,11 @@
         {
           "url": "https://studenttimepk.blogspot.com/2026/02/qr-code-generator-create-free-qr-codes.html",
           "title": "Free QR Code Generator: How to Make QR Codes (2026)",
-          "issues": [
-            "unverified response 403: https://www.cloudflare.com/learning/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://developer.mozilla.org/",
+            "https://developer.mozilla.org/en-US/",
             "https://en.wikipedia.org/wiki/QR_code",
             "https://studenttimepk.blogspot.com/2025/08/how-artificial-intelligence-is-changing.html",
             "https://studenttimepk.blogspot.com/2026/07/what-is-my-ip-address-complete.html",
@@ -1160,16 +1316,16 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
+            "https://developers.openai.com/api/docs/guides/prompt-engineering",
             "https://en.wikipedia.org/wiki/Prompt_engineering",
             "https://grow.google/",
-            "https://platform.openai.com/docs/guides/prompt-engineering",
             "https://studenttimepk.blogspot.com/2026/01/prompt-engineering-explained-complete.html",
             "https://studenttimepk.blogspot.com/2026/08/usf-relaunches-free-ai-prompting.html"
           ],
           "images": [
             "https://images.pexels.com/photos/30479283/pexels-photo-30479283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 3
+          "incoming_article_links": 6
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/01/prompt-engineering-explained-complete.html",
@@ -1178,11 +1334,11 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
+            "https://developers.openai.com/api/docs/guides/prompt-engineering",
             "https://en.wikipedia.org/wiki/Prompt_engineering",
             "https://github.com/openai/openai-cookbook",
             "https://grow.google/",
             "https://learnprompting.org",
-            "https://platform.openai.com/docs/guides/prompt-engineering",
             "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
             "https://studenttimepk.blogspot.com/2026/02/prompt-engineering-for-beginners-how-to.html",
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html"
@@ -1199,27 +1355,29 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://ai.google/learn-ai-skills",
+            "https://ai.google/learn-ai-skills/",
             "https://cognitiveclass.ai/courses",
-            "https://cs50.harvard.edu/ai",
+            "https://cs50.harvard.edu/ai/",
             "https://en.wikipedia.org/wiki/Artificial_intelligence",
             "https://grow.google/",
             "https://learn.microsoft.com/en-us/training/",
-            "https://learn.microsoft.com/training/paths/ai-fluency/",
+            "https://learn.microsoft.com/en-us/training/paths/ai-fluency/",
             "https://studenttimepk.blogspot.com/2026/01/prompt-engineering-explained-complete.html",
             "https://studenttimepk.blogspot.com/2026/01/top-5-free-ai-courses-you-can-start.html",
             "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
+            "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-certification-trends-2026-boost-your.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-news-july-2026-databricks-valuation.html",
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
             "https://studenttimepk.blogspot.com/2026/07/generative-ai-for-software-development.html",
             "https://studenttimepk.blogspot.com/2026/10/free-ai-content-generation-courses-in.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
             "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology"
           ],
           "images": [
             "https://images.pexels.com/photos/20432872/pexels-photo-20432872.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 13
+          "incoming_article_links": 15
         },
         {
           "url": "https://studenttimepk.blogspot.com/2026/01/top-5-free-ai-courses-you-can-start.html",
@@ -1274,7 +1432,7 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://ruby-doc.org/core/Enumerable.html",
+            "https://ruby-doc.org/4.0.6/Enumerable.html",
             "https://studenttimepk.blogspot.com/2025/12/From React to Rails The Ultimate Roadmap for Frontend Developers.html",
             "https://studenttimepk.blogspot.com/2025/12/Lesson%201%20Ruby%20Basics%20for%20React%20Developers.html",
             "https://studenttimepk.blogspot.com/2025/12/lesson-3-ruby-oop-dna-of-activerecord.html",
@@ -1418,9 +1576,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/10/the-5-best-free-ai-tools-every.html",
           "title": "Best AI Tools for University Students (2026)",
-          "issues": [
-            "unverified response 403: https://quizlet.com/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -1448,10 +1604,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html",
           "title": "AI Skills for Non-Tech Careers (2026 Guide)",
-          "issues": [
-            "unverified response 403: https://www.bls.gov/ooh/",
-            "unverified response 403: https://www.oecd.org/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -1481,7 +1634,7 @@
           "body_observed": true,
           "links": [
             "https://cloud.google.com/discover/what-are-ai-agents",
-            "https://platform.openai.com/docs/guides/function-calling",
+            "https://developers.openai.com/api/docs/guides/function-calling",
             "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
             "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
@@ -1496,7 +1649,7 @@
           "images": [
             "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 7
+          "incoming_article_links": 10
         },
         {
           "url": "https://studenttimepk.blogspot.com/2025/10/the-new-ai-titans-top-10-models.html",
@@ -1519,9 +1672,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/10/best-ai-tools-in-2025.html",
           "title": "Best AI Productivity Tools (2026 Guide)",
-          "issues": [
-            "unverified response None: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -1550,7 +1701,7 @@
           "links": [
             "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Q2TErRXLFl-jk_zMv9U5pvWQOtRT0fo-xYpssAvWiG25edi_FG0YM4fIrjQYU-5OFq83skJm_FspEsV0MB7b7CkiJ7ThmdV6kTmCmsVJEdqg2rf3hAAR7PibP244y6X32VpGcZCgjYG3YQQPC87Np8gzfzW3XK6hyUx1vOhgR4gTbtWFO629DRPg7yWM/s2048/1758271195897.jpg",
             "https://code.visualstudio.com/docs",
-            "https://developer.mozilla.org/en-US/docs/Learn",
+            "https://developer.mozilla.org/en-US/docs/Learn_web_development",
             "https://studenttimepk.blogspot.com/2025/09/why-ubuntu-is-developers-best-friend.html",
             "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
             "https://studenttimepk.blogspot.com/2026/08/ai-in-dev-why-fixing-vulnerabilities-is.html",
@@ -1632,7 +1783,7 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://cs50.harvard.edu/ai",
+            "https://cs50.harvard.edu/ai/",
             "https://studenttimepk.blogspot.com/",
             "https://studenttimepk.blogspot.com/2025/08/how-artificial-intelligence-is-changing.html",
             "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html",
@@ -1718,14 +1869,12 @@
           "images": [
             "https://images.pexels.com/photos/5912280/pexels-photo-5912280.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 3
+          "incoming_article_links": 4
         },
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html",
           "title": "Studying Abroad: A Guide for International Students",
-          "issues": [
-            "unverified response 503: https://educationusa.state.gov/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -1740,7 +1889,9 @@
             "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html",
             "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html",
             "https://studenttimepk.blogspot.com/2025/08/todays-top-trending-topics.html",
+            "https://studenttimepk.blogspot.com/2025/08/top-online-courses-to-learn-in-2025.html",
             "https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html",
+            "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
             "https://www.google.com/search?ved=1t:260882&q=Australia+Awards+Scholarships&bbid=8491425780932094856&bpid=2119591126256418461",
             "https://www.google.com/search?ved=1t:260882&q=Cambridge+University&bbid=8491425780932094856&bpid=2119591126256418461",
             "https://www.google.com/search?ved=1t:260882&q=Chevening+Scholarship&bbid=8491425780932094856&bpid=2119591126256418461",
@@ -1773,9 +1924,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html",
           "title": "Career Planning for Students: A Complete Guide (2026)",
-          "issues": [
-            "unverified response 403: https://www.bls.gov/ooh/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -1786,6 +1935,8 @@
             "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html",
             "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html",
             "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html",
+            "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html",
+            "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
             "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
             "https://www.bls.gov/ooh/",
             "https://www.google.com/search?ved=1t:260882&q=LinkedIn&bbid=8491425780932094856&bpid=9106828125350114165",
@@ -1804,17 +1955,12 @@
           "images": [
             "https://images.pexels.com/photos/5961083/pexels-photo-5961083.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 14
+          "incoming_article_links": 15
         },
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/todays-top-trending-topics.html",
           "title": "Trending Technology Topics to Watch in 2026",
-          "issues": [
-            "unverified response None: https://www.humflix.tv",
-            "unverified response None: https://www.mubi.com/",
-            "unverified response None: https://www.pmgold.pk",
-            "unverified response 403: https://www.weforum.org/focus/technology/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -1837,7 +1983,6 @@
             "https://www.google.com/search?ved=1t:260882&q=Storm+Floris+Portugal&bbid=8491425780932094856&bpid=3947469148025719962",
             "https://www.google.com/search?ved=1t:260882&q=WWE+SummerSlam+2025&bbid=8491425780932094856&bpid=3947469148025719962",
             "https://www.growveg.com/",
-            "https://www.humflix.tv",
             "https://www.instagram.com/rajabkhan.official",
             "https://www.investing.com",
             "https://www.kitco.com",
@@ -1845,15 +1990,13 @@
             "https://www.mubi.com/",
             "https://www.nhc.noaa.gov",
             "https://www.peacocktv.com/",
-            "https://www.pmgold.pk",
             "https://www.technologyreview.com/",
-            "https://www.viu.com/",
             "https://www.weforum.org/focus/technology/",
             "https://www.wwe.com/",
             "https://www.youtube.com/WWE"
           ],
           "images": [
-            "https://images.pexels.com/photos/17485709/pexels-photo-17485709.png?auto=compress&cs=tinysrgb&h=650&w=940"
+            "https://images.pexels.com/photos/17485709/pexels-photo-17485709.png?auto=compress&cs=tinysrgb&h=560&w=800"
           ],
           "incoming_article_links": 2
         },
@@ -1864,7 +2007,7 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://owl.purdue.edu/owl/purdue_owl.html",
+            "https://owl.purdue.edu/owl/",
             "https://studenttimepk.blogspot.com/2025/08/Your Guide to a Calm Mind Navigating Student Stress and Prioritizing Mental Health.html",
             "https://studenttimepk.blogspot.com/2025/08/beyond-highlighting-ultimate-guide-to.html",
             "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html",
@@ -1891,9 +2034,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/Your Guide to a Calm Mind Navigating Student Stress and Prioritizing Mental Health.html",
           "title": "Student Stress Management: A Practical Guide (2026)",
-          "issues": [
-            "unverified response 403: https://www.cdc.gov/mental-health/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -1931,13 +2072,14 @@
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://mitpe.mit.edu/",
+            "https://physicaleducationandwellness.mit.edu/",
             "https://studenttimepk.blogspot.com/2025/08/Speak Up Stand Out Mastering Communication and Collaboration Skills for Student Success.html",
             "https://studenttimepk.blogspot.com/2025/08/Your Guide to a Calm Mind Navigating Student Stress and Prioritizing Mental Health.html",
             "https://studenttimepk.blogspot.com/2025/08/Your%20Guide%20to%20a%20Calm%20Mind%20Navigating%20Student%20Stress%20and%20Prioritizing%20Mental%20Health.html",
             "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html",
             "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html",
             "https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html",
+            "https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
             "https://www.apa.org/topics/learning-memory",
             "https://www.google.com/search?ved=1t:260882&q=15-Minute+Rule+productivity&bbid=8491425780932094856&bpid=6298451892672263651",
             "https://www.google.com/search?ved=1t:260882&q=David+Allen+time+management&bbid=8491425780932094856&bpid=6298451892672263651",
@@ -1964,9 +2106,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/beyond-highlighting-ultimate-guide-to.html",
           "title": "Best Note-Taking Methods for Students (2026)",
-          "issues": [
-            "unverified response 401: https://unsplash.com/photos/womens-blue-dress-shirt-TVSRWmnW8Us"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -2002,16 +2142,14 @@
             "https://www.google.com/search?ved=1t:260882&q=time+management+hacks+for+students&bbid=8491425780932094856&bpid=4542487774288109147"
           ],
           "images": [
-            "https://unsplash.com/photos/womens-blue-dress-shirt-TVSRWmnW8Us"
+            "https://images.pexels.com/photos/5965889/pexels-photo-5965889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           ],
-          "incoming_article_links": 5
+          "incoming_article_links": 7
         },
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html",
           "title": "How to Improve Memory for Studying (2026)",
-          "issues": [
-            "unverified response 403: https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -2046,10 +2184,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/The Science Behind Sleep Why We Sleep and How to Sleep Better.html",
           "title": "How Sleep Affects Studying (and How to Sleep Better)",
-          "issues": [
-            "unverified response 403: https://www.cdc.gov/sleep/about/index.html",
-            "unverified response 403: https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -2083,9 +2218,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/08/What Does WiFi Actually Mean A Deep Dive into the Myths and Origins.html",
           "title": "What Does Wi-Fi Actually Mean? (2026 Guide)",
-          "issues": [
-            "unverified response 403: https://www.cloudflare.com/learning/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -2109,9 +2242,7 @@
         {
           "url": "https://studenttimepk.blogspot.com/2025/07/free-course-of-day-4-harvards-cs50.html",
           "title": "Harvard CS50: Free Computer Science Course (2026)",
-          "issues": [
-            "unverified response 429: https://www.harvardonline.harvard.edu/sites/default/files/cs50_cover_image.jpg"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -2136,21 +2267,18 @@
             "https://www.google.com/search?ved=1t:260882&q=define+MOOCs&bbid=8491425780932094856&bpid=816136777900589184"
           ],
           "images": [
-            "https://www.harvardonline.harvard.edu/sites/default/files/cs50_cover_image.jpg"
+            "https://images.pexels.com/photos/4078342/pexels-photo-4078342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           ],
           "incoming_article_links": 3
         },
         {
           "url": "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html",
           "title": "How to Use ChatGPT as a Personal AI Tutor (2026)",
-          "issues": [
-            "unverified response 403: https://openai.com/chatgpt/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
-            "https://chat.openai.com",
-            "https://openai.com/chatgpt/",
+            "https://chatgpt.com/",
             "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html",
             "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
             "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
@@ -2174,16 +2302,74 @@
           "incoming_article_links": 3
         }
       ],
-      "inventory_source": "Blogger API LIVE inventory"
+      "inventory_source": "Blogger API LIVE inventory",
+      "historical_url_checks": [
+        {
+          "url": "https://studenttimepk.blogspot.com/p/contact-us.html?m=1",
+          "impressions": 1,
+          "status": 200,
+          "final_url": "https://studenttimepk.blogspot.com/p/contact-us.html?m=1",
+          "redirected": false,
+          "error": null
+        }
+      ],
+      "indexing": [
+        {
+          "url": "https://studenttimepk.blogspot.com/",
+          "verdict": "NEUTRAL",
+          "coverageState": "Redirect error",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "REDIRECT_ERROR",
+          "lastCrawlTime": "2026-11-11T06:33:27Z",
+          "googleCanonical": null,
+          "userCanonical": null
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "lastCrawlTime": "2026-10-27T12:20:18Z",
+          "googleCanonical": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+          "userCanonical": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html"
+        },
+        {
+          "url": "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "lastCrawlTime": "2026-10-11T19:43:44Z",
+          "googleCanonical": "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
+          "userCanonical": "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html"
+        }
+      ]
     },
     "Learner's Link": {
       "current": {
-        "clicks": 1,
-        "impressions": 143,
-        "ctr": 0.006993006993006993,
-        "position": 26.37062937062937
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
       },
-      "current_pages": [
+      "current_pages": [],
+      "previous": {
+        "clicks": 2,
+        "impressions": 192,
+        "ctr": 0.010416666666666666,
+        "position": 24
+      },
+      "previous_pages": [
+        {
+          "keys": [
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html"
+          ],
+          "clicks": 1,
+          "impressions": 8,
+          "ctr": 0.125,
+          "position": 4.875
+        },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html?m=1"
@@ -2198,45 +2384,45 @@
             "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html"
           ],
           "clicks": 0,
-          "impressions": 8,
+          "impressions": 10,
           "ctr": 0,
-          "position": 9.75
+          "position": 9
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html"
           ],
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 7,
           "ctr": 0,
-          "position": 26.666666666666668
+          "position": 23.428571428571427
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html"
           ],
           "clicks": 0,
-          "impressions": 5,
+          "impressions": 7,
           "ctr": 0,
-          "position": 6.2
+          "position": 12.714285714285714
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html"
           ],
           "clicks": 0,
-          "impressions": 18,
+          "impressions": 21,
           "ctr": 0,
-          "position": 10.555555555555555
+          "position": 10.142857142857142
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
           ],
           "clicks": 0,
-          "impressions": 14,
+          "impressions": 16,
           "ctr": 0,
-          "position": 42.214285714285715
+          "position": 38.0625
         },
         {
           "keys": [
@@ -2252,9 +2438,27 @@
             "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html"
           ],
           "clicks": 0,
-          "impressions": 9,
+          "impressions": 12,
           "ctr": 0,
-          "position": 57.333333333333336
+          "position": 44.083333333333336
+        },
+        {
+          "keys": [
+            "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "keys": [
+            "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
         },
         {
           "keys": [
@@ -2270,63 +2474,63 @@
             "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html"
           ],
           "clicks": 0,
-          "impressions": 10,
+          "impressions": 12,
           "ctr": 0,
-          "position": 7.1
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 5.666666666666667
+          "position": 6.666666666666667
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
           ],
           "clicks": 0,
-          "impressions": 20,
+          "impressions": 24,
           "ctr": 0,
-          "position": 6.7
+          "position": 6.833333333333333
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
           ],
           "clicks": 0,
-          "impressions": 28,
+          "impressions": 31,
           "ctr": 0,
-          "position": 46.285714285714285
+          "position": 42.354838709677416
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html"
           ],
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 6,
           "ctr": 0,
-          "position": 60.75
+          "position": 44
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html"
           ],
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0,
-          "position": 11
+          "position": 10.5
+        },
+        {
+          "keys": [
+            "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 6.333333333333333
         },
         {
           "keys": [
             "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html"
           ],
           "clicks": 0,
-          "impressions": 9,
+          "impressions": 23,
           "ctr": 0,
-          "position": 42
+          "position": 40.82608695652174
         },
         {
           "keys": [
@@ -2347,585 +2551,206 @@
           "position": 1
         }
       ],
-      "previous": {
-        "clicks": 1,
-        "impressions": 60,
-        "ctr": 0.016666666666666666,
-        "position": 18.183333333333334
-      },
-      "previous_pages": [
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html"
-          ],
-          "clicks": 1,
-          "impressions": 5,
-          "ctr": 0.2,
-          "position": 4.4
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 6
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 3.5
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 29
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 7.666666666666667
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 9
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 4.333333333333334
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 6.333333333333333
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 4,
-          "ctr": 0,
-          "position": 9.25
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 4.5
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 4,
-          "ctr": 0,
-          "position": 7.5
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 4,
-          "ctr": 0,
-          "position": 4.75
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 68.66666666666667
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 10.5
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 8.5
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 6.333333333333333
-        },
-        {
-          "keys": [
-            "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html"
-          ],
-          "clicks": 0,
-          "impressions": 14,
-          "ctr": 0,
-          "position": 40.07142857142857
-        }
-      ],
-      "priority_pages": [
-        {
-          "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
-          "impressions": 28,
-          "clicks": 0,
-          "position": 46.285714285714285,
-          "previous_impressions": 4,
-          "score": 56,
-          "action": "Improve intent and contextual links"
-        },
-        {
-          "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
-          "impressions": 18,
-          "clicks": 0,
-          "position": 10.555555555555555,
-          "previous_impressions": 3,
-          "score": 54,
-          "action": "Near page one; review missing answers and title"
-        },
-        {
-          "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
-          "impressions": 14,
-          "clicks": 0,
-          "position": 42.214285714285715,
-          "previous_impressions": 2,
-          "score": 28,
-          "action": "Improve intent and contextual links"
-        },
-        {
-          "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
-          "impressions": 8,
-          "clicks": 0,
-          "position": 9.75,
-          "previous_impressions": 2,
-          "score": 24,
-          "action": "Near page one; review missing answers and title"
-        },
-        {
-          "url": "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html",
-          "impressions": 9,
-          "clicks": 0,
-          "position": 42,
-          "previous_impressions": 14,
-          "score": 23,
-          "action": "Investigate lost impressions and query changes"
-        }
-      ],
-      "queries": [
-        {
-          "keys": [
-            "best beginner cash back credit card",
-            "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html"
-          ],
-          "clicks": 0,
-          "impressions": 9,
-          "ctr": 0,
-          "position": 42
-        },
-        {
-          "keys": [
-            "best credit card for business with no revenue",
-            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html"
-          ],
-          "clicks": 0,
-          "impressions": 5,
-          "ctr": 0,
-          "position": 26.8
-        },
-        {
-          "keys": [
-            "best credit cards for ride‑share drivers needing gas rewards, easy statements, and fast dispute help?",
-            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html"
-          ],
-          "clicks": 0,
-          "impressions": 17,
-          "ctr": 0,
-          "position": 10.647058823529411
-        },
-        {
-          "keys": [
-            "best euro savings account",
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 44.5
-        },
-        {
-          "keys": [
-            "best euro savings account interest rates",
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 5,
-          "ctr": 0,
-          "position": 57.4
-        },
-        {
-          "keys": [
-            "best high yield savings accounts with no minimum balance",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 58
-        },
-        {
-          "keys": [
-            "best rewards cards for freelancers in 2026",
-            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 6
-        },
-        {
-          "keys": [
-            "best robo investing fintech for beginners who want easy setup",
-            "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 5,
-          "ctr": 0,
-          "position": 4.2
-        },
-        {
-          "keys": [
-            "best robo-advisor for clear, newbie-friendly investing?",
-            "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 5,
-          "ctr": 0,
-          "position": 8.6
-        },
-        {
-          "keys": [
-            "business checking free ach",
-            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 33
-        },
-        {
-          "keys": [
-            "checking account features that matter most for a small local business doing lots of ach payments",
-            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 1
-        },
-        {
-          "keys": [
-            "credit card for freelancers",
-            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 9
-        },
-        {
-          "keys": [
-            "credit cards that does not focus on revenue?",
-            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 26
-        },
-        {
-          "keys": [
-            "do any beginner cards include 0% introductory periods worth comparing?",
-            "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 9
-        },
-        {
-          "keys": [
-            "euro savings account interest rates",
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 94
-        },
-        {
-          "keys": [
-            "euro savings accounts",
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 66.5
-        },
-        {
-          "keys": [
-            "freelance business bank account requirements",
-            "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html"
-          ],
-          "clicks": 0,
-          "impressions": 6,
-          "ctr": 0,
-          "position": 82
-        },
-        {
-          "keys": [
-            "high interest euro savings account",
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 4,
-          "ctr": 0,
-          "position": 44.25
-        },
-        {
-          "keys": [
-            "high yield savings account no minimum",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 68
-        },
-        {
-          "keys": [
-            "high yield savings account no minimum balance",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 69
-        },
-        {
-          "keys": [
-            "high yield savings account no minimum deposit",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 71
-        },
-        {
-          "keys": [
-            "high yield savings account with no minimum",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 69
-        },
-        {
-          "keys": [
-            "high-yield savings account no minimum",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 67
-        },
-        {
-          "keys": [
-            "no minimum deposit savings account",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 12
-        },
-        {
-          "keys": [
-            "robo advisor vs diy investing",
-            "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 48.5
-        },
-        {
-          "keys": [
-            "robo investing vs doing it yourself",
-            "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 82
-        },
-        {
-          "keys": [
-            "robo vs diy investing",
-            "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 64
-        },
-        {
-          "keys": [
-            "roboadvisor guide (review or blog or comparison or creator or forum or coupon or \"best\") -site:amazon.com -site:walmart.com -site:target.com -site:ebay.com -site:etsy.com -site:iherb.com -site:pinterest.com -site:youtube.com -site:facebook.com -site:tiktok.com -site:instagram.com -site:reddit.com",
-            "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 3
-        },
-        {
-          "keys": [
-            "savings account for gamers 2026",
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 69
-        },
-        {
-          "keys": [
-            "savings accounts in europe",
-            "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 4,
-          "ctr": 0,
-          "position": 55
-        },
-        {
-          "keys": [
-            "site:blogspot.com (intitle:yield basis or inurl:yield basis)",
-            "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 18
-        },
-        {
-          "keys": [
-            "top roboadvisor (review or blog or comparison or creator or forum or coupon or \"best\") -site:amazon.com -site:walmart.com -site:target.com -site:ebay.com -site:etsy.com -site:iherb.com -site:pinterest.com -site:youtube.com -site:facebook.com -site:tiktok.com -site:instagram.com -site:reddit.com",
-            "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0,
-          "position": 4
-        },
-        {
-          "keys": [
-            "what invoicing app lets me attach expense receipts directly to a client invoice?",
-            "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 10
-        },
-        {
-          "keys": [
-            "what types of credit cards help people with irregular income qualify without regular direct deposit?",
-            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html"
-          ],
-          "clicks": 0,
-          "impressions": 3,
-          "ctr": 0,
-          "position": 5.333333333333333
-        },
-        {
-          "keys": [
-            "which online business checking accounts offer free incoming ach transfers?",
-            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 8
-        },
-        {
-          "keys": [
-            "which robo advisor is easiest to use and best suited for beginner investors among charles schwab, e*trade, merrill, and vanguard?",
-            "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
-          ],
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0,
-          "position": 11
-        }
-      ],
+      "priority_pages": [],
+      "queries": [],
       "overlap_candidates": {},
       "referrals": [],
       "audit": [
         {
+          "url": "https://learners-link.blogspot.com/2026/11/how-to-build-freelance-portfolio-2026.html",
+          "title": "How to Build a Freelance Portfolio 2026",
+          "issues": [
+            "missing/empty image alt",
+            "no incoming links from published article bodies"
+          ],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://images.pexels.com/photos/1785874/pexels-photo-1785874.jpeg?auto=compress&w=1260&h=750&dpr=1",
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/11/freelance-contract-checklist-what-to.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-find-your-first-freelance.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-price-freelance-work-without.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-write-freelance-proposal-that.html",
+            "https://portfolio.adobe.com/",
+            "https://www.freelancersunion.org/resources/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/1785874/pexels-photo-1785874.jpeg?auto=compress&w=1260&h=750&dpr=1"
+          ],
+          "incoming_article_links": 0
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/11/how-to-find-your-first-freelance.html",
+          "title": "How to Find Your First Freelance Clients 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://images.pexels.com/photos/5588217/pexels-photo-5588217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/11/freelance-contract-checklist-what-to.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-choose-business-checking-as.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-follow-up-on-unpaid-freelance.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-price-freelance-work-without.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-write-freelance-proposal-that.html",
+            "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+            "https://www.crunch.co.uk/knowledge/article/the-essential-contracts-freelancers-need",
+            "https://www.gov.uk/set-up-as-sole-trader"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/5588217/pexels-photo-5588217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          ],
+          "incoming_article_links": 4
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/11/how-to-follow-up-on-unpaid-freelance.html",
+          "title": "How to Follow Up on an Unpaid Freelance Invoice",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/11/freelance-contract-checklist-what-to.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-choose-business-checking-as.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-price-freelance-work-without.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-write-freelance-proposal-that.html",
+            "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+            "https://www.crunch.co.uk/knowledge/article/the-essential-contracts-freelancers-need",
+            "https://www.gov.uk/late-commercial-payments-interest-debt-recovery",
+            "https://www.pexels.com/@thefullonmonet",
+            "https://www.pexels.com/photo/woman-using-a-laptop-17608506/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 3
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/11/how-to-write-freelance-proposal-that.html",
+          "title": "How to Write a Freelance Proposal That Wins Work",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/11/freelance-contract-checklist-what-to.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-choose-business-checking-as.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-find-your-first-freelance.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-price-freelance-work-without.html",
+            "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+            "https://www.crunch.co.uk/knowledge/article/the-essential-contracts-freelancers-need",
+            "https://www.pexels.com/@thefullonmonet",
+            "https://www.pexels.com/photo/woman-using-a-laptop-17608506/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 6
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/11/how-to-price-freelance-work-without.html",
+          "title": "How to Price Freelance Work Without Undercharging",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-find-your-first-freelance.html",
+            "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+            "https://www.pexels.com/@thefullonmonet",
+            "https://www.pexels.com/photo/woman-using-a-laptop-17608506/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 7
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/11/freelance-contract-checklist-what-to.html",
+          "title": "Freelance Contract Checklist: What to Include First",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-choose-business-checking-as.html",
+            "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+            "https://www.crunch.co.uk/knowledge/article/the-essential-contracts-freelancers-need",
+            "https://www.pexels.com/@thefullonmonet",
+            "https://www.pexels.com/photo/woman-using-a-laptop-17608506/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 8
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+          "title": "Invoicing Apps That Attach Receipts to an Invoice Explained",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+            "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
+            "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://www.pexels.com/@karola-g",
+            "https://www.pexels.com/photo/receipts-and-documents-on-top-of-a-desk-7680681/",
+            "https://www.zoho.com/en-sg/invoice/help/invoice/new-invoice.html",
+            "https://www.zoho.com/in/invoice/help/expense/expenses.html"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/7680681/pexels-photo-7680681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 8
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/11/how-to-choose-business-checking-as.html",
+          "title": "How to Choose Business Checking as a Freelancer 2026",
+          "issues": [],
+          "page_status": 200,
+          "body_observed": true,
+          "links": [
+            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+            "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+            "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+            "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://www.pexels.com/@thefullonmonet",
+            "https://www.pexels.com/photo/woman-using-a-laptop-17608506/"
+          ],
+          "images": [
+            "https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          ],
+          "incoming_article_links": 5
+        },
+        {
           "url": "https://learners-link.blogspot.com/2026/10/robo-advisor-vs-diy-investing-which-is.html",
           "title": "Robo-Advisor vs DIY Investing: Which Is Better for Beginners?",
           "issues": [
-            "unverified response 403: https://www.pexels.com/@jakubzerdzicki",
-            "unverified response 403: https://www.pexels.com/photo/a-calculator-on-a-desk-20552572/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -2933,8 +2758,8 @@
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/search/label/Investing",
             "https://learners-link.blogspot.com/search/label/Personal%20Finance",
             "https://syndication.finra.org/content/know-risks-auto-trading-services-offered-unregistered-entities",
@@ -2953,9 +2778,7 @@
           "url": "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
           "title": "Best Beginner Cash-Back Credit Card: How to Choose One in 2026",
           "issues": [
-            "unverified response 403: https://files.consumerfinance.gov/f/documents/cfpb_adult-fin-ed_how-to-find-the-best-credit-card.pdf",
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/credit-cards/",
-            "unverified response 403: https://www.consumerfinance.gov/data-research/credit-card-data/know-you-owe-credit-cards/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -2963,7 +2786,6 @@
             "https://files.consumerfinance.gov/f/documents/cfpb_adult-fin-ed_how-to-find-the-best-credit-card.pdf",
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
             "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
@@ -2978,14 +2800,13 @@
           "images": [
             "https://images.pexels.com/photos/5242822/pexels-photo-5242822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           ],
-          "incoming_article_links": 3
+          "incoming_article_links": 4
         },
         {
           "url": "https://learners-link.blogspot.com/2026/09/high-yield-savings-vs-cash-sweep.html",
           "title": "High Yield Savings vs Cash Sweep Options for Beginners",
           "issues": [
-            "unverified response 403: https://www.pexels.com/@jakubzerdzicki",
-            "unverified response 403: https://www.pexels.com/photo/a-calculator-on-a-desk-20552572/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -2995,9 +2816,10 @@
             "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
             "https://learners-link.blogspot.com/2026/08/",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/09/",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/10/",
+            "https://learners-link.blogspot.com/2026/11/",
             "https://learners-link.blogspot.com/search/label/Banking%20Guides",
             "https://learners-link.blogspot.com/search/label/Business%20Banking",
             "https://learners-link.blogspot.com/search/label/Business%20Credit",
@@ -3009,6 +2831,14 @@
             "https://learners-link.blogspot.com/search/label/Savings%20%26%20CDs",
             "https://learners-link.blogspot.com/search/label/Small%20Business%20Finance",
             "https://learners-link.blogspot.com/search/label/Taxes",
+            "https://learners-link.blogspot.com/search/label/clients",
+            "https://learners-link.blogspot.com/search/label/contracts",
+            "https://learners-link.blogspot.com/search/label/freelancers",
+            "https://learners-link.blogspot.com/search/label/invoicing",
+            "https://learners-link.blogspot.com/search/label/portfolio",
+            "https://learners-link.blogspot.com/search/label/pricing",
+            "https://learners-link.blogspot.com/search/label/proposals",
+            "https://learners-link.blogspot.com/search/label/small%20business",
             "https://www.blogger.com",
             "https://www.blogger.com/comment/frame/6645616362681304579?po=1555145001683700998&hl=en-GB&saa=85391&origin=https://learners-link.blogspot.com&skin=notable",
             "https://www.blogger.com/go/report-abuse",
@@ -3018,14 +2848,13 @@
           "images": [
             "https://images.pexels.com/photos/20552572/pexels-photo-20552572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           ],
-          "incoming_article_links": 1
+          "incoming_article_links": 3
         },
         {
           "url": "https://learners-link.blogspot.com/2026/09/best-0-apr-balance-transfer-cards-2026.html",
           "title": "Best 0% APR Balance Transfer Cards 2026: How to Choose",
           "issues": [
-            "unverified response 403: https://www.pexels.com/@jakubzerdzicki",
-            "unverified response 403: https://www.pexels.com/photo/a-calculator-on-a-desk-20552572/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3033,7 +2862,7 @@
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.pexels.com/@jakubzerdzicki",
             "https://www.pexels.com/photo/a-calculator-on-a-desk-20552572/"
           ],
@@ -3045,7 +2874,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/09/how-to-do-self-employed-taxes-2026-guide.html",
           "title": "How to Do Self-Employed Taxes: A 2026 Guide",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3053,7 +2884,7 @@
             "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes",
             "https://www.irs.gov/businesses/small-businesses-self-employed/self-employed-individuals-tax-center"
           ],
@@ -3066,7 +2897,7 @@
           "url": "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
           "title": "Best Credit Card for Building Credit (2026)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-and-keep-a-good-credit-score-en-318/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3075,23 +2906,20 @@
             "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
             "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
             "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
-            "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
-            "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-and-keep-a-good-credit-score-en-318/",
-            "https://www.usa.gov/credit-score"
+            "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html"
           ],
           "images": [
             "https://images.pexels.com/photos/164571/pexels-photo-164571.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 9
+          "incoming_article_links": 62
         },
         {
           "url": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
           "title": "Best Cash-Back Credit Card for Groceries (2026)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/credit-cards/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3102,12 +2930,12 @@
             "https://learners-link.blogspot.com/2026/08/",
             "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/09/",
             "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
             "https://learners-link.blogspot.com/2026/10/",
             "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
+            "https://learners-link.blogspot.com/2026/11/",
             "https://learners-link.blogspot.com/search/label/Banking%20Guides",
             "https://learners-link.blogspot.com/search/label/Business%20Banking",
             "https://learners-link.blogspot.com/search/label/Business%20Credit",
@@ -3119,6 +2947,14 @@
             "https://learners-link.blogspot.com/search/label/Savings%20%26%20CDs",
             "https://learners-link.blogspot.com/search/label/Small%20Business%20Finance",
             "https://learners-link.blogspot.com/search/label/Taxes",
+            "https://learners-link.blogspot.com/search/label/clients",
+            "https://learners-link.blogspot.com/search/label/contracts",
+            "https://learners-link.blogspot.com/search/label/freelancers",
+            "https://learners-link.blogspot.com/search/label/invoicing",
+            "https://learners-link.blogspot.com/search/label/portfolio",
+            "https://learners-link.blogspot.com/search/label/pricing",
+            "https://learners-link.blogspot.com/search/label/proposals",
+            "https://learners-link.blogspot.com/search/label/small%20business",
             "https://www.blogger.com",
             "https://www.blogger.com/comment/frame/6645616362681304579?po=7117524185472042366&hl=en-GB&saa=85391&origin=https://learners-link.blogspot.com&skin=notable",
             "https://www.blogger.com/go/report-abuse",
@@ -3134,7 +2970,7 @@
           "url": "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
           "title": "How to Compare Rewards Credit Cards (Beginners)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/credit-cards/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3144,7 +2980,6 @@
             "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
             "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
             "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
@@ -3154,13 +2989,13 @@
           "images": [
             "https://images.pexels.com/photos/7821935/pexels-photo-7821935.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 8
+          "incoming_article_links": 9
         },
         {
           "url": "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
           "title": "Unsecured Personal Loan Comparison (2026 Guide)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/ask-cfpb/category-loans/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3170,9 +3005,8 @@
             "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
             "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
-            "https://www.consumerfinance.gov/ask-cfpb/category-loans/",
+            "https://www.consumerfinance.gov/ask-cfpb/",
             "https://www.fdic.gov/consumer-resource-center/loans"
           ],
           "images": [
@@ -3183,15 +3017,17 @@
         {
           "url": "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
           "title": "Best 529 Plan for Tax Benefits (2026 Guide)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/introduction-529-plans-investor-bulletin",
             "https://www.irs.gov/newsroom/529-plans-questions-and-answers"
           ],
@@ -3205,7 +3041,7 @@
           "url": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
           "title": "Best 0% APR Balance Transfer Cards (2026)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/ask-cfpb/what-is-a-balance-transfer-en-1961/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3213,7 +3049,6 @@
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
             "https://learners-link.blogspot.com/2026/09/best-0-apr-balance-transfer-cards-2026.html",
             "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
@@ -3230,15 +3065,17 @@
         {
           "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
           "title": "Best Robo-Advisor for Beginners (2026 Guide)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/10/robo-advisor-vs-diy-investing-which-is.html",
             "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-45"
           ],
@@ -3246,7 +3083,7 @@
             "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80",
             "https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1200&q=80"
           ],
-          "incoming_article_links": 6
+          "incoming_article_links": 7
         },
         {
           "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
@@ -3260,7 +3097,9 @@
             "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
             "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/09/high-yield-savings-vs-cash-sweep.html",
             "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/depositor-protection/deposit-guarantee-schemes-data",
             "https://www.ecb.europa.eu/",
             "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
@@ -3273,7 +3112,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
           "title": "Robo-Advisor vs DIY Investing (2026 Guide)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3282,7 +3123,7 @@
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
             "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/10/robo-advisor-vs-diy-investing-which-is.html",
             "https://www.investor.gov/introduction-investing",
             "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-45"
@@ -3295,28 +3136,30 @@
         {
           "url": "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
           "title": "Best Investment Apps for Beginners (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
             "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
-            "https://www.finra.org/investors",
-            "https://www.investor.gov/introduction-investing"
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html"
           ],
           "images": [
             "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80",
             "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80"
           ],
-          "incoming_article_links": 49
+          "incoming_article_links": 58
         },
         {
           "url": "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
           "title": "How to Build Business Credit With an EIN (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3324,7 +3167,7 @@
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
             "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
             "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
           ],
@@ -3337,8 +3180,7 @@
           "url": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
           "title": "How to Switch Direct Deposit to a New Bank (2026)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/ask-cfpb/category-bank-accounts-and-services/",
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/bank-accounts/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3347,6 +3189,7 @@
             "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.consumerfinance.gov/ask-cfpb/category-bank-accounts-and-services/",
             "https://www.consumerfinance.gov/consumer-tools/bank-accounts/"
           ],
@@ -3354,13 +3197,13 @@
             "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1200&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop"
           ],
-          "incoming_article_links": 44
+          "incoming_article_links": 2
         },
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
           "title": "Best Credit Cards for Freelancers (2026)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/credit-cards/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3373,7 +3216,7 @@
             "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
             "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
             "https://www.irs.gov/businesses/gig-economy-tax-center"
@@ -3381,12 +3224,14 @@
           "images": [
             "https://images.pexels.com/photos/6207699/pexels-photo-6207699.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 10
+          "incoming_article_links": 15
         },
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
           "title": "Best Invoicing App for Etsy Sellers (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3396,7 +3241,7 @@
             "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
             "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
           ],
@@ -3409,21 +3254,21 @@
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
           "title": "Best Credit Cards for Rideshare Drivers (2026)",
-          "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/credit-cards/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
+            "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
             "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+            "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
             "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
+            "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
             "https://mycreditunion.gov/manage-your-money/consumer-loans-credit-cards",
             "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
             "https://www.irs.gov/businesses/gig-economy-tax-center"
@@ -3436,7 +3281,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
           "title": "No-Fee Business Checking for Low Balances (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3447,19 +3294,21 @@
             "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.fdic.gov/resources/deposit-insurance/",
             "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
           ],
           "images": [
             "https://images.pexels.com/photos/8962451/pexels-photo-8962451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 5
+          "incoming_article_links": 6
         },
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
           "title": "Best Checking Account for Freelancers (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3473,6 +3322,7 @@
             "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/09/how-to-do-self-employed-taxes-2026-guide.html",
             "https://www.fdic.gov/resources/deposit-insurance/",
             "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
@@ -3485,7 +3335,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
           "title": "No-Penalty CD Alternatives: Best 2026 Options",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3493,7 +3345,7 @@
             "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.fdic.gov/resources/deposit-insurance/",
             "https://www.treasurydirect.gov/marketable-securities/treasury-bills/"
           ],
@@ -3506,7 +3358,7 @@
           "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
           "title": "Best High-Yield Savings Account, No Minimum (2026)",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/ask-cfpb/category-bank-accounts-and-services/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3517,6 +3369,7 @@
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
             "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://learners-link.blogspot.com/2026/09/high-yield-savings-vs-cash-sweep.html",
             "https://www.consumerfinance.gov/ask-cfpb/category-bank-accounts-and-services/",
             "https://www.fdic.gov/resources/deposit-insurance/"
@@ -3530,7 +3383,7 @@
           "url": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
           "title": "Best Invoicing App With Expense Tracking (2026)",
           "issues": [
-            "unverified response 403: https://support.waveapps.com/hc/en-us/articles/15601519996436-Receipts-and-Pro-Plan-subscription-fees"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3541,7 +3394,7 @@
             "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
             "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://support.waveapps.com/hc/en-us/articles/15601519996436-Receipts-and-Pro-Plan-subscription-fees",
             "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
             "https://www.irs.gov/forms-pubs/about-schedule-c-form-1040",
@@ -3551,12 +3404,14 @@
           "images": [
             "https://images.pexels.com/photos/5900178/pexels-photo-5900178.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 6
+          "incoming_article_links": 9
         },
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
           "title": "Best Business Checking Account for a New LLC (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3569,7 +3424,7 @@
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
             "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
           ],
@@ -3581,7 +3436,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
           "title": "No-Fee Business Checking for Freelancers (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3594,7 +3451,7 @@
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.fdic.gov/resources/deposit-insurance/",
             "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online"
           ],
@@ -3606,7 +3463,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
           "title": "No-Fee Business Bank Account for Freelancers (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3617,7 +3476,7 @@
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.fdic.gov/resources/deposit-insurance/",
             "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online"
           ],
@@ -3629,7 +3488,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
           "title": "Best Invoicing Software for Freelancers (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3639,31 +3500,32 @@
             "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
             "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+            "https://learners-link.blogspot.com/2026/11/how-to-follow-up-on-unpaid-freelance.html",
             "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
             "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
           ],
           "images": [
             "https://images.pexels.com/photos/5900070/pexels-photo-5900070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 9
+          "incoming_article_links": 14
         },
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
           "title": "Business Checking With Free ACH for a New LLC (2026)",
-          "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/bank-accounts/"
-          ],
+          "issues": [],
           "page_status": 200,
           "body_observed": true,
           "links": [
             "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+            "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
             "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+            "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
             "https://www.fdic.gov/resources/deposit-insurance/",
             "https://www.sba.gov/business-guide/launch-your-business/open-business-bank-account"
@@ -3671,13 +3533,13 @@
           "images": [
             "https://images.pexels.com/photos/29502355/pexels-photo-29502355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 6
+          "incoming_article_links": 11
         },
         {
           "url": "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
           "title": "Mortgage for Freelancers: First-Time Buyer Guide",
           "issues": [
-            "unverified response 403: https://www.consumerfinance.gov/consumer-tools/mortgages/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3688,8 +3550,8 @@
             "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
             "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
             "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.consumerfinance.gov/consumer-tools/mortgages/",
             "https://www.irs.gov/businesses/small-businesses-self-employed/self-employed-individuals-tax-center"
           ],
@@ -3702,7 +3564,7 @@
           "url": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
           "title": "Best Business Credit Cards With No Revenue (2026 Guide)",
           "issues": [
-            "unverified response 403: https://www.experian.com/small-business/business-credit/"
+            "missing meta description; review Blogger search description"
           ],
           "page_status": 200,
           "body_observed": true,
@@ -3715,9 +3577,9 @@
             "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.chase.com/personal/credit-cards/education/basics/business-credit-card-no-revenue",
-            "https://www.experian.com/small-business/business-credit/",
+            "https://www.experian.com/small-business/",
             "https://www.sba.gov/business-guide"
           ],
           "images": [
@@ -3728,7 +3590,9 @@
         {
           "url": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
           "title": "Best Business Credit Cards for a New LLC (2026)",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3737,19 +3601,19 @@
             "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
-            "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
-            "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html"
           ],
           "images": [
             "https://images.pexels.com/photos/7309483/pexels-photo-7309483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 49
+          "incoming_article_links": 58
         },
         {
           "url": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
           "title": "How to Open a Business Bank Account Without an EIN",
-          "issues": [],
+          "issues": [
+            "missing meta description; review Blogger search description"
+          ],
           "page_status": 200,
           "body_observed": true,
           "links": [
@@ -3760,17 +3624,75 @@
             "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
             "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
             "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
-            "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+            "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
             "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
             "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances"
           ],
           "images": [
             "https://images.pexels.com/photos/7821513/pexels-photo-7821513.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           ],
-          "incoming_article_links": 6
+          "incoming_article_links": 7
         }
       ],
-      "inventory_source": "Blogger API LIVE inventory"
+      "inventory_source": "Blogger API LIVE inventory",
+      "historical_url_checks": [
+        {
+          "url": "https://learners-link.blogspot.com/2026/09/best-cashback-credit-card-for-beginners.html",
+          "impressions": 23,
+          "status": 200,
+          "final_url": "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
+          "redirected": true,
+          "error": null
+        },
+        {
+          "url": "https://learners-link.blogspot.com/p/about-us.html",
+          "impressions": 2,
+          "status": 200,
+          "final_url": "https://learners-link.blogspot.com/p/about-us.html",
+          "redirected": false,
+          "error": null
+        },
+        {
+          "url": "https://learners-link.blogspot.com/p/contact-us.html",
+          "impressions": 1,
+          "status": 200,
+          "final_url": "https://learners-link.blogspot.com/p/contact-us.html",
+          "redirected": false,
+          "error": null
+        }
+      ],
+      "indexing": [
+        {
+          "url": "https://learners-link.blogspot.com/",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "lastCrawlTime": "2026-10-10T22:03:44Z",
+          "googleCanonical": "https://learners-link.blogspot.com/",
+          "userCanonical": "https://learners-link.blogspot.com/"
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "lastCrawlTime": "2026-10-15T02:55:48Z",
+          "googleCanonical": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+          "userCanonical": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html"
+        },
+        {
+          "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "lastCrawlTime": "2026-10-08T03:27:28Z",
+          "googleCanonical": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+          "userCanonical": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html"
+        }
+      ]
     }
   },
   "ahrefs": []

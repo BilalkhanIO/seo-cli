@@ -1,0 +1,13 @@
+{
+  "run_id": "20261112T095436Z-4cc599db",
+  "created_at": "2026-11-12T09:54:36.626283+00:00",
+  "mode": "cached",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "script_sha256": {
+    "article_competitor_audit.py": "c85b3eecd2fa7e59a8bf466c5d8ed4db3111f12f704c4a2166cadef4699c1f03",
+    "content_review.py": "8f4db2068f6d666ba8cd466ce4f97346e3cb441154bfda40de0be0982eb5cf9c",
+    "growth_report.py": "3e2100da3c6861ecf3a018d0b151fa4fc6810000658792495ced7389e3b1c263",
+    "open_source_link_check.py": "41a006a09aca7395d1124f6f697ea350e788ceb847c1e129005ebea9030f067b"
+  },
+  "external_mutations": false
+}

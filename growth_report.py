@@ -37,14 +37,25 @@ class Tags(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links, self.images, self.canonicals, self.robots = [], [], [], []
+        self.page_titles, self.meta_descriptions = [], []
+        self._in_title = False
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == "title": self._in_title = True
         if tag == "a" and a.get("href"): self.links.append(a["href"])
         if tag == "img": self.images.append(a)
         if tag == "link" and "canonical" in a.get("rel", "").split(): self.canonicals.append(a.get("href"))
         if tag == "meta" and a.get("name", "").lower() in ("robots", "googlebot"):
             self.robots.append(a.get("content", ""))
+        if tag == "meta" and a.get("name", "").lower() == "description":
+            self.meta_descriptions.append(a.get("content", "").strip())
+
+    def handle_endtag(self, tag):
+        if tag == "title": self._in_title = False
+
+    def handle_data(self, data):
+        if self._in_title and data.strip(): self.page_titles.append(data.strip())
 
 
 def get_url(url):
@@ -54,7 +65,7 @@ def get_url(url):
             return {"status": r.status, "final": r.url, "type": kind,
                     "html": r.read(2_000_000).decode("utf-8", "replace") if "html" in kind else ""}
     except urllib.error.HTTPError as e:
-        return {"status": e.code, "error": "HTTP response"}
+        return {"status": e.code, "final": e.geturl(), "error": "HTTP response"}
     except Exception as e:
         return {"status": None, "error": type(e).__name__}
 
@@ -179,6 +190,8 @@ def audit_posts(blogger, blog_id, site):
         tags = Tags(); tags.feed(body)
         if raw and not full.canonicals: issues.append("missing canonical")
         elif raw and [clean_url(u) for u in full.canonicals] != [clean_url(url)]: issues.append("canonical differs or duplicated")
+        if raw and not " ".join(full.page_titles).strip(): issues.append("missing HTML title")
+        if raw and not any(full.meta_descriptions): issues.append("missing meta description; review Blogger search description")
         if response["status"] == 200 and not raw: issues.append("unverified response 200: HTML unavailable")
         if any("noindex" in x.lower() for x in full.robots): issues.append("noindex")
         if not tags.images: issues.append("missing article image")
@@ -198,21 +211,46 @@ def audit_posts(blogger, blog_id, site):
         audits.append({"url": url, "title": p["title"], "issues": issues,
                        "page_status": response["status"], "body_observed": bool(raw and extract.found),
                        "links": sorted(links), "images": [urljoin(url, x["src"]) for x in tags.images if x.get("src")]})
-    pending = [u for u in checks if u not in fetched]
-    print(f"Checking {len(pending)} additional link/image targets on {site}", flush=True)
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        fetched.update(zip(pending, pool.map(get_url, pending)))
+    fetched_by_clean = {clean_url(url): response for url, response in fetched.items()}
+    pending = [u for u in checks if clean_url(u) not in fetched_by_clean]
+    print(f"Skipping {len(pending)} outbound link/image requests; the dedicated Lychee stage checks those targets", flush=True)
     for a in audits:
         a["incoming_article_links"] = incoming[clean_url(a["url"])]
         if not incoming[clean_url(a["url"])]: a["issues"].append("no incoming links from published article bodies")
         for url in a["links"] + a["images"]:
-            r = fetched[url]
+            # Only use responses already collected for published article URLs.
+            # Lychee independently checks external links and images, avoiding a
+            # second unbounded network crawl here.
+            r = fetched_by_clean.get(clean_url(url))
+            if r is None:
+                continue
             if r["status"] in (404, 410): a["issues"].append(f"broken {checks.get(url, 'link')}: {url}")
             elif r["status"] is None or r["status"] >= 400:
                 a["issues"].append(f"unverified response {r['status']}: {url}")
             elif url in a["images"] and not r.get("type", "").startswith("image/"):
                 a["issues"].append(f"image URL did not return image content: {url}")
     return audits
+
+
+def audit_historical_urls(previous_pages, current_urls, site, limit=5):
+    """Recheck old GSC landing URLs that have disappeared from the live inventory."""
+    live = {clean_url(url) for url in current_urls}
+    candidates = []
+    for row in sorted(previous_pages, key=lambda item: (item.get("impressions", 0), item.get("clicks", 0)), reverse=True):
+        url = row.get("keys", [None])[0]
+        if not url or clean_url(url) in live or not url.startswith(site):
+            continue
+        candidates.append((url, row.get("impressions", 0)))
+        if len(candidates) >= limit: break
+    results = []
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        for (url, impressions), response in zip(candidates, pool.map(get_url, [x[0] for x in candidates])):
+            final = response.get("final")
+            results.append({"url": url, "impressions": impressions,
+                            "status": response.get("status"), "final_url": final,
+                            "redirected": bool(final and clean_url(final) != clean_url(url)),
+                            "error": response.get("error")})
+    return results
 
 
 def md(value):
@@ -228,7 +266,7 @@ def inspect_sample(sc, site, urls):
         try:
             result = sc.urlInspection().index().inspect(body={
                 "inspectionUrl": quote(url, safe=":/?&=%#@+;"), "siteUrl": site,
-            }).execute().get("inspectionResult", {}).get("indexStatusResult")
+            }).execute(num_retries=0).get("inspectionResult", {}).get("indexStatusResult")
             if not result:
                 raise ValueError("No index status returned")
             rows.append({"url": url, **{key: result.get(key) for key in (
@@ -256,6 +294,13 @@ def main():
         sc = build("searchconsole", "v1", credentials=c, cache_discovery=False)
         ga = build("analyticsdata", "v1beta", credentials=c, cache_discovery=False)
         blogger = build("blogger", "v3", credentials=c, cache_discovery=False)
+        # Google API client transports otherwise may wait indefinitely on a
+        # stalled socket. Keep refreshes bounded and avoid retry storms.
+        for service in (sc, ga, blogger):
+            transport = getattr(service, "_http", None)
+            transport = getattr(transport, "http", transport)
+            if hasattr(transport, "timeout"):
+                transport.timeout = 25
     except Exception:
         auth_error = 'Google authorization unavailable. Reconnect using gsc_auth.py; public article audits remain available.'
     all_data = {"date": str(today), "current_window": [str(start), str(end)],
@@ -311,10 +356,19 @@ def main():
                 blog_id = "8491425780932094856" if "studenttimepk" in site else "6645616362681304579"
                 d["audit"] = audit_posts(blogger, blog_id, site)
                 d["inventory_source"] = "public Blogger feed" if blogger is None else "Blogger API LIVE inventory"
+                current_urls = [r["url"] for r in d["audit"]]
+                d["historical_url_checks"] = audit_historical_urls(
+                    d.get("previous_pages", []), current_urls, site)
                 lines.extend(["", "### Published article audit", "", "| Page | Incoming article links | Findings |", "|---|---:|---|"])
                 for r in d["audit"]:
                     if r["issues"]: lines.append(f"| {md(r['url'])} | {r['incoming_article_links']} | {md('; '.join(r['issues']))} |")
-                lines.append(f"\nAudited {len(d['audit'])} published posts. 403/429/timeouts are unverified, not confirmed broken links.")
+                lines.append(f"\nAudited {len(d['audit'])} published posts for response, HTML title, meta description, canonical, indexability, images and internal links. Outbound link and image-target status is delegated to the separate Lychee report. 403/429/timeouts are unverified, not confirmed broken links.")
+                if d["historical_url_checks"]:
+                    lines.extend(["", "### Previously visible URLs missing from the live inventory", "",
+                                  "Top prior-window GSC landing URLs absent from the current Blogger inventory were checked live; redirected URLs are shown with their current destination.", "",
+                                  "| Former URL | Prior-window impressions | Current response | Final URL |", "|---|---:|---:|---|"])
+                    for row in d["historical_url_checks"]:
+                        lines.append(f"| {md(row['url'])} | {row['impressions']} | {row.get('status') or 'unverified'} | {md(row.get('final_url') or row.get('error') or 'Unknown')} |")
             except Exception as exc:
                 d["crawl_error"] = str(exc)[:250]; lines.append(f"Crawl unavailable: {md(d['crawl_error'])}")
         if not args.skip_inspection:
@@ -322,13 +376,25 @@ def main():
                 d["indexing_error"] = auth_error
             else:
                 targets = [site]
-                targets.extend(r["url"] for r in d.get("priority_pages", [])[:1])
-                targets.extend(r["url"] for r in d.get("audit", [])[:1])
+                # When the current GSC window is empty, inspect pages that
+                # actually earned impressions in the preceding window. This
+                # makes a site-wide visibility collapse diagnosable instead
+                # of spending the tiny inspection sample on arbitrary recent
+                # posts. Current-window opportunities still take precedence.
+                targets.extend(r["url"] for r in d.get("priority_pages", [])[:2])
+                historical_pages = sorted(
+                    d.get("previous_pages", []),
+                    key=lambda row: (row.get("impressions", 0), row.get("clicks", 0)),
+                    reverse=True,
+                )
+                targets.extend(r["keys"][0] for r in historical_pages)
+                if len(set(targets)) < 3:
+                    targets.extend(r["url"] for r in d.get("audit", [])[:2])
                 d["indexing"] = inspect_sample(sc, site, targets)
                 if any(r.get("error") for r in d["indexing"]):
                     d["indexing_error"] = "One or more indexing inspections were unavailable; earlier findings remain open."
                 lines.extend(["", "### Google indexing sample", "",
-                    "Stored Google records for up to three selected URLs; not a live URL test or a whole-site indexed-page count.", "",
+                    "Stored Google records for up to three selected URLs (current opportunities, then highest-impression pages from the prior window); not a live URL test or a whole-site indexed-page count.", "",
                     "| URL | Google coverage | Last crawl |", "|---|---|---|"])
                 for row in d["indexing"]:
                     lines.append(f"| {md(row['url'])} | {md(row.get('coverageState') or row.get('error'))} | {md(row.get('lastCrawlTime') or 'Unknown')} |")

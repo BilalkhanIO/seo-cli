@@ -1,0 +1,30 @@
+[
+  {
+    "name": "reading",
+    "query": "student reading book",
+    "block": "<figure style=\"margin:1.2em 0\"><img src=\"https://images.pexels.com/photos/8500276/pexels-photo-8500276.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940\" alt=\"A student in a classroom multitasks by reading a book while using a smartphone, emphasizing modern educational challenges.\" loading=\"eager\" fetchpriority=\"high\" width=\"1200\" height=\"800\" decoding=\"async\" style=\"width:100%;height:auto;border-radius:10px\" /><figcaption style=\"font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em\">Photo by <a href=\"https://www.pexels.com/@rdne\" rel=\"noopener\">RDNE Stock project</a> on <a href=\"https://www.pexels.com/photo/person-holding-black-mobile-phone-while-reading-a-book-8500276/\" rel=\"noopener\">Pexels</a></figcaption></figure>",
+    "alt": "A student in a classroom multitasks by reading a book while using a smartphone, emphasizing modern educational challenges.",
+    "preview": "/tmp/seo-reading-2026-11-11.jpg"
+  },
+  {
+    "name": "notes",
+    "query": "student taking notes",
+    "block": "<figure style=\"margin:1.2em 0\"><img src=\"https://images.pexels.com/photos/5965889/pexels-photo-5965889.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940\" alt=\"From above of crop anonymous African American person outlining text at table with tablet with black screen\" loading=\"eager\" fetchpriority=\"high\" width=\"1200\" height=\"800\" decoding=\"async\" style=\"width:100%;height:auto;border-radius:10px\" /><figcaption style=\"font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em\">Photo by <a href=\"https://www.pexels.com/@charlotte-may\" rel=\"noopener\">Charlotte May</a> on <a href=\"https://www.pexels.com/photo/black-person-in-earphones-highlighting-words-in-text-on-paper-5965889/\" rel=\"noopener\">Pexels</a></figcaption></figure>",
+    "alt": "From above of crop anonymous African American person outlining text at table with tablet with black screen",
+    "preview": "/tmp/seo-notes-2026-11-11.jpg"
+  },
+  {
+    "name": "work",
+    "query": "freelancer laptop desk",
+    "block": "<figure style=\"margin:1.2em 0\"><img src=\"https://images.pexels.com/photos/17608506/pexels-photo-17608506.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940\" alt=\"Close-up of a person working remotely with a laptop, headphones, and camera. Ideal for tech and lifestyle themes.\" loading=\"eager\" fetchpriority=\"high\" width=\"1200\" height=\"800\" decoding=\"async\" style=\"width:100%;height:auto;border-radius:10px\" /><figcaption style=\"font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em\">Photo by <a href=\"https://www.pexels.com/@thefullonmonet\" rel=\"noopener\">Beyzanur K.</a> on <a href=\"https://www.pexels.com/photo/woman-using-a-laptop-17608506/\" rel=\"noopener\">Pexels</a></figcaption></figure>",
+    "alt": "Close-up of a person working remotely with a laptop, headphones, and camera. Ideal for tech and lifestyle themes.",
+    "preview": "/tmp/seo-work-2026-11-11.jpg"
+  },
+  {
+    "name": "invoice",
+    "query": "paper invoice desk",
+    "block": "<figure style=\"margin:1.2em 0\"><img src=\"https://images.pexels.com/photos/7680681/pexels-photo-7680681.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940\" alt=\"Close-up of a tidy desk with receipts, documents, and office stationery for business organization.\" loading=\"eager\" fetchpriority=\"high\" width=\"1200\" height=\"800\" decoding=\"async\" style=\"width:100%;height:auto;border-radius:10px\" /><figcaption style=\"font-size:.8em;color:#94a3b8;text-align:center;margin-top:.3em\">Photo by <a href=\"https://www.pexels.com/@karola-g\" rel=\"noopener\">https://kaboompics.com/</a> on <a href=\"https://www.pexels.com/photo/receipts-and-documents-on-top-of-a-desk-7680681/\" rel=\"noopener\">Pexels</a></figcaption></figure>",
+    "alt": "Close-up of a tidy desk with receipts, documents, and office stationery for business organization.",
+    "preview": "/tmp/seo-invoice-2026-11-11.jpg"
+  }
+]

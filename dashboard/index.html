@@ -124,6 +124,7 @@
     </section>
 
     <div class="grid">
+    <section class="card span"><h3>Workflow evidence and competitor coverage</h3><p class="hint">Saved measurements, pending comparisons and current goals</p><pre id="workbench-status">Loading saved workflow evidence…</pre></section>
       <div class="card">
         <h3>◔ Search Console <span class="tag" id="gsc-tag"></span></h3>
         <div id="gsc"><span class="spin"></span></div>
@@ -187,20 +188,20 @@ function switchSite(k,n,dom){SITE=k;S('site-name').textContent=n;S('site-dom').t
 async function loadOverview(){
   const d=await q('/api/overview');
   S('site-name').textContent=d.site.name;S('site-dom').textContent=d.site.domain;
-  S('hero-impr').textContent=(d.signal.impressions||0).toLocaleString();
-  S('hero-sub').textContent=`${d.signal.clicks||0} clicks · ${d.counts.pillars} pillars`;
+  S('hero-impr').textContent=d.signal.impressions==null?'Unavailable':d.signal.impressions.toLocaleString();
+  S('hero-sub').textContent=`${d.signal.clicks??'Unavailable'} clicks · ${d.counts.pillars} pillars · ${d.evidence?.window?.join(' to ')||'period unavailable'}`;
   const st=d.signal.stage;
   $('ribbon').innerHTML=STAGES.map((s,i)=>`<div class="stage ${i<st?'done':i===st?'now':''}"><div class="node"></div><div class="t">${s[0]}</div><div class="s">${s[1]}</div></div>`).join('');
   $('queue-card').style.display=d.counts.has_queue?'':'none';
 }
 async function loadGsc(){
   const d=await q('/api/gsc');
-  if(!d.connected){$('gsc').innerHTML='<span class="chip c-no">not connected for this blog</span>';return;}
+  if(!d.connected){$('gsc').innerHTML='<span class="chip c-mid">Search measurements unavailable — refresh the workbench</span>';return;}
   const t=d.totals||{};$('gsc-tag').textContent=(d.row_count||0)+' queries';
   let h=`<div class="row"><span class="k">Clicks</span><span class="v">${t.clicks||0}</span></div>
          <div class="row"><span class="k">Impressions</span><span class="v">${t.impressions||0}</span></div>
          <div class="row"><span class="k">Avg position</span><span class="v">${(t.position||0).toFixed(1)}</span></div>`;
-  if((t.impressions||0)===0)h+=`<div class="row"><span class="chip c-mid">Not indexed yet — do redirects + request indexing</span></div>`;
+  if((t.impressions||0)===0)h+=`<div class="row"><span class="chip c-mid">No impressions in this reporting window; inspect Google coverage before changing redirects</span></div>`;
   if(d.striking&&d.striking.length){h+='<div class="muted" style="margin:10px 0 4px;font-size:12px">Striking-distance (quick wins)</div>'+
     d.striking.map(s=>`<div class="row"><span class="k">${s.kw}</span><span class="v">#${s.pos}</span></div>`).join('');}
   else if(d.top&&d.top.length){h+='<div class="muted" style="margin:10px 0 4px;font-size:12px">Top queries</div>'+
@@ -215,7 +216,7 @@ async function loadAdsense(){
     <div class="row"><span class="k">Page views</span><span class="v">${m.PAGE_VIEWS??'—'}</span></div>
     <div class="row"><span class="k">Clicks</span><span class="v">${m.CLICKS??'—'}</span></div>
     <div class="row"><span class="k">Impressions</span><span class="v">${m.IMPRESSIONS??'—'}</span></div>
-    <div class="hint" style="margin-top:8px">Account-level (all your blogs)</div>`;
+    <div class="hint" style="margin-top:8px">Selected blog · last 30 days · estimated earnings</div>`;
 }
 async function loadBing(){const d=await q('/api/bing');S('bingq').textContent=d.connected?(d.daily?.toLocaleString()+' /day'):'—';}
 async function loadQueue(){
@@ -223,7 +224,7 @@ async function loadQueue(){
   $('queue').innerHTML=d.groups.length?d.groups.map(g=>`<div class="qgroup"><b>${g.name}</b> <span class="hint">→ ${g.to}</span><pre style="max-height:none">${g.from.join('\n')}</pre></div>`).join(''):'<span class="muted">No queue for this blog.</span>';
 }
 async function loadIndex(){
-  $('idx').innerHTML='<span class="spin"></span> inspecting in Google…';
+  $('idx').innerHTML='<span class="spin"></span> loading stored Google inspection records…';
   const d=await q('/api/index');
   $('idx').innerHTML=d.pages.map(p=>{const g=/^indexed|submitted and indexed/i.test(p.coverage);const c=g?'c-ok':/discover|unknown|redirect|neutral/i.test(p.coverage)?'c-mid':'c-no';
     return `<div class="row"><a href="${p.url}" target="_blank" class="k">${p.name}</a><span class="chip ${c}">${p.coverage}</span></div>`;}).join('');
@@ -237,7 +238,25 @@ async function runRank(){$('rk-out').innerHTML='<span class="spin"></span> searc
 async function runPsi(){$('act-out').style.display='block';$('act-out').textContent='running PageSpeed…';const d=await q('/api/pagespeed');$('act-out').textContent=d.error?('PSI: '+d.error):('Lighthouse (mobile) '+d.url+'\n'+JSON.stringify(d.scores,null,2));}
 async function act(n){$('act-out').style.display='block';$('act-out').textContent='running '+n+'…';const d=await fetch('/api/action/'+n,{method:'POST'}).then(r=>r.json());$('act-out').textContent=d.output;}
 
-function loadAll(){$('synced').textContent='syncing…';Promise.all([loadOverview(),loadGsc(),loadAdsense(),loadBing(),loadQueue()]).then(()=>{$('synced').textContent='synced '+new Date().toLocaleTimeString();});}
+async function loadWorkbench(){
+  const output=$('workbench-status');
+  try{
+    const data=await q('/api/workbench');
+    const c=data.competitors||{}, queue=data.queue||{};
+    const lines=[`Published articles: ${c.published_articles??'Unavailable'}`,
+      `Competitor coverage: ${Object.entries(c.coverage||{}).map(([name,count])=>`${name.replaceAll('_',' ')}: ${count}`).join('; ')||'Unavailable'}`,
+      `Comparison report: ${c.created_at?new Date(c.created_at).toLocaleString():'Unavailable'}`,
+      `Inventory observed: ${c.inventory_modified_at?new Date(c.inventory_modified_at).toLocaleString():'Unavailable'}`];
+    for(const goal of data.goals||[])lines.push(`Goal: ${goal.description}${goal.due_date?' — due '+goal.due_date:''}`);
+    if(c.error||c.inventory_refresh_error)lines.push(`Attention: ${c.error||c.inventory_refresh_error}`);
+    lines.push('',`Queued actions for this blog: ${(queue.actions||[]).length}`);
+    for(const action of (queue.actions||[]).slice(0,5))lines.push(`• ${action.detail}`);
+    lines.push('',`Workflow stages: ${(queue.stages||[]).map(stage=>`${stage.name}: ${stage.status}`).join('; ')||'Unavailable'}`);
+    if(queue.error)lines.push(queue.error);
+    output.textContent=lines.join('\n');
+  }catch(error){output.textContent='Saved workflow evidence unavailable: '+error.message;}
+}
+function loadAll(){$('synced').textContent='syncing…';Promise.allSettled([loadOverview(),loadGsc(),loadAdsense(),loadBing(),loadQueue(),loadWorkbench()]).then(()=>{$('synced').textContent='synced '+new Date().toLocaleTimeString();});}
 loadBlogs();loadAll();
 </script>
 </body>

@@ -1,0 +1,204 @@
+{
+  "checked_at": "2026-11-11T07:18:51.985844+00:00",
+  "sampling": "12 selected home, cluster and new URLs; not a whole-site index count",
+  "results": [
+    {
+      "site": "https://studenttimepk.blogspot.com/",
+      "url": "https://studenttimepk.blogspot.com/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Redirect error",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "REDIRECT_ERROR",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-11-11T06:33:27Z",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "sitemap": null,
+      "referringUrls": [
+        "https://studenttimepk.blogspot.com/2026/08/eu-ai-act-updates-what-developers-must.html",
+        "https://www.facebook.com/ladbiblenz/posts/its-national-underwear-day-time-to-strip-down-with-confidence-/1219594430202982/",
+        "https://studenttimepk.blogspot.com/2020/04/akimbo-online-youth-workshop-2020-fully.html?spref=tw",
+        "https://studenttimepk.blogspot.com/"
+      ]
+    },
+    {
+      "site": "https://studenttimepk.blogspot.com/",
+      "url": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-11-01T18:45:30Z",
+      "googleCanonical": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+      "userCanonical": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+      "sitemap": [
+        "https://studenttimepk.blogspot.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://dev.to/bilalkhanio/a-beginners-learning-path-for-free-generative-ai-courses-3igj",
+        "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html"
+      ]
+    },
+    {
+      "site": "https://studenttimepk.blogspot.com/",
+      "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-10-27T12:20:18Z",
+      "googleCanonical": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+      "userCanonical": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+      "sitemap": null,
+      "referringUrls": [
+        "https://studenttimepk.blogspot.com/2026/07/ai-certification-trends-2026-boost-your.html"
+      ]
+    },
+    {
+      "site": "https://studenttimepk.blogspot.com/",
+      "url": "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-10-19T23:13:10Z",
+      "googleCanonical": "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
+      "userCanonical": "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
+      "sitemap": [
+        "https://studenttimepk.blogspot.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://studenttimepk.blogspot.com/2026/02/blog-post.html"
+      ]
+    },
+    {
+      "site": "https://studenttimepk.blogspot.com/",
+      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Redirect error",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "REDIRECT_ERROR",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-11-11T06:26:34Z",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "sitemap": null,
+      "referringUrls": null
+    },
+    {
+      "site": "https://studenttimepk.blogspot.com/",
+      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "sitemap": null,
+      "referringUrls": null
+    },
+    {
+      "site": "https://learners-link.blogspot.com/",
+      "url": "https://learners-link.blogspot.com/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-10-10T22:03:44Z",
+      "googleCanonical": "https://learners-link.blogspot.com/",
+      "userCanonical": "https://learners-link.blogspot.com/",
+      "sitemap": null,
+      "referringUrls": [
+        "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html?m=1",
+        "https://learners-link.blogspot.com/2025/08/episode-1-calm-before-storm.html"
+      ]
+    },
+    {
+      "site": "https://learners-link.blogspot.com/",
+      "url": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-10-13T01:54:11Z",
+      "googleCanonical": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+      "userCanonical": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+      "sitemap": null,
+      "referringUrls": [
+        "https://learners-link.blogspot.com/2026/07/",
+        "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html"
+      ]
+    },
+    {
+      "site": "https://learners-link.blogspot.com/",
+      "url": "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Redirect error",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "REDIRECT_ERROR",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-11-11T06:39:57Z",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "sitemap": null,
+      "referringUrls": null
+    },
+    {
+      "site": "https://learners-link.blogspot.com/",
+      "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-10-14T12:28:31Z",
+      "googleCanonical": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+      "userCanonical": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+      "sitemap": [
+        "https://learners-link.blogspot.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html?m=1"
+      ]
+    },
+    {
+      "site": "https://learners-link.blogspot.com/",
+      "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-10-14T08:14:57Z",
+      "googleCanonical": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+      "userCanonical": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+      "sitemap": null,
+      "referringUrls": [
+        "https://learners-link.blogspot.com/p/contact-us.html?m=1"
+      ]
+    },
+    {
+      "site": "https://learners-link.blogspot.com/",
+      "url": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "robotsTxtState": "ALLOWED",
+      "lastCrawlTime": "2026-10-15T02:55:48Z",
+      "googleCanonical": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+      "userCanonical": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+      "sitemap": null,
+      "referringUrls": [
+        "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html"
+      ]
+    }
+  ]
+}

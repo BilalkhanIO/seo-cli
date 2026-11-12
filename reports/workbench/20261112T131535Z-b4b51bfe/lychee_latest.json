@@ -1,0 +1,672 @@
+{
+  "timeouts": 0,
+  "remaps": 0,
+  "excludes": 0,
+  "errors": 35,
+  "success_map": {},
+  "error_map": {
+    "/home/kwikcoders/seo/reports/link_inputs/ea3f23efb60504c6f7231809f03f93ecf4dda14145bc097fd4b631c9545e2480.html": [
+      {
+        "url": "https://www.axios.com/newsletters/axios-am-e6e15a72-3b81-4056-9657-5c07f9825685",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 2349
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 283256026
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/ec8ca7f67b38bd8d38a07a995dcd64da450e2d96f27fda27f2ca3c078b6ef4e9.html": [
+      {
+        "url": "https://axios.com/2026/03/24/labor-department-ai-literacy-course",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "redirects": {
+          "origin": "https://axios.com/2026/03/24/labor-department-ai-literacy-course",
+          "redirects": [
+            {
+              "url": "https://www.axios.com/2026/03/24/labor-department-ai-literacy-course",
+              "code": 301
+            }
+          ]
+        },
+        "span": {
+          "line": 1,
+          "column": 11044
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 575012757
+        }
+      },
+      {
+        "url": "https://beta.dol.gov/ai-ready",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 7515
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 675465472
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/ec3082d094656329b61adc5c02c854e35a32736571591f3f9e58aabea0c648cd.html": [
+      {
+        "url": "https://www.cloudflare.com/learning/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 298
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 28148139
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/8228de4f610b7f751a218d8088f5672cf095babfabc6264809a55ff0a297b61a.html": [
+      {
+        "url": "https://gemini.google.com/",
+        "status": {
+          "text": "Network error: HTTP/2 protocol error. Server may not support HTTP/2 properly (error sending request for url (https://gemini.google.com/))",
+          "details": "HTTP/2 protocol error. Server may not support HTTP/2 properly"
+        },
+        "span": {
+          "line": 32,
+          "column": 87
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 655232467
+        }
+      },
+      {
+        "url": "https://quizlet.com/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 59,
+          "column": 107
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 186501443
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/16ed70a64d8767ddfee16d8d53027c29a7810fcd69ec2c82f59105b516caec74.html": [
+      {
+        "url": "https://www.oecd.org/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 15,
+          "column": 74
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 211316985
+        }
+      },
+      {
+        "url": "https://www.bls.gov/ooh/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 298
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/a06fe6ed3e84c3e70daa31aaad75d168d68e823fabdd13703c6dec9bda26603f.html": [
+      {
+        "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+        "status": {
+          "text": "Network error: HTTP/2 protocol error. Server may not support HTTP/2 properly (error sending request for url (https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai))",
+          "details": "HTTP/2 protocol error. Server may not support HTTP/2 properly"
+        },
+        "span": {
+          "line": 1,
+          "column": 3326
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 626822393
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/b8655a26b9cebf54c6ce9f879e569d7796b9063a80a34de984fc940092e22d16.html": [
+      {
+        "url": "https://educationusa.state.gov/",
+        "status": {
+          "text": "Rejected status code: 503 Service Unavailable",
+          "code": 503
+        },
+        "span": {
+          "line": 1,
+          "column": 619
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 859134061
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/0cbd8a9a4f4a5a98fdb97b40d79c3d1e63d38b267ae6e70cf5c792206e4ba3d5.html": [
+      {
+        "url": "https://www.bls.gov/ooh/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 658
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 524060803
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/81dae3cf6cfa4f44f66b46d6218e4bf63f2aa15b8d4815d296c82179cd58f22c.html": [
+      {
+        "url": "https://www.weforum.org/focus/technology/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 412
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 581901526
+        }
+      },
+      {
+        "url": "https://www.hum.tv/",
+        "status": {
+          "text": "Rejected status code: 526 Unknown status code",
+          "code": 526
+        },
+        "span": {
+          "line": 29,
+          "column": 65
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 413129044
+        }
+      },
+      {
+        "url": "https://www.mubi.com/",
+        "status": {
+          "text": "Network error: Network error: Connection reset by peer (os error 104) (error sending request for url (https://www.mubi.com/))",
+          "details": "Network error: Connection reset by peer (os error 104)"
+        },
+        "span": {
+          "line": 29,
+          "column": 267
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 339041874
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/2027fb59bdd473d835d40a7d4e0542303a00aa233acf2595b12d4a140a363c89.html": [
+      {
+        "url": "https://www.cdc.gov/mental-health/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 298
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 580708356
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/031864650724620d200846fa62b55b3a79136416044d0a7352ec88f52c52cc88.html": [
+      {
+        "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 422
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 832234371
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/deda95b49f4762fe7ec407ee11453f961f98df93e3b1a59ef4e4616a6f2fdc7e.html": [
+      {
+        "url": "https://www.cdc.gov/sleep/about/index.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 298
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 146569293
+        }
+      },
+      {
+        "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 416
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/226fc9004e5d864295d8dd5c17dd5d812295ba90ade2d8a1ca3286dfab7b9347.html": [
+      {
+        "url": "https://www.cloudflare.com/learning/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 394
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/16c038954e46b2bee27c699fcda2ba29a92413088e7118fe258f9c7dd5639292.html": [
+      {
+        "url": "https://files.consumerfinance.gov/f/documents/cfpb_adult-fin-ed_how-to-find-the-best-credit-card.pdf",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 93,
+          "column": 14
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 585590645
+        }
+      },
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 95,
+          "column": 14
+        }
+      },
+      {
+        "url": "https://www.consumerfinance.gov/data-research/credit-card-data/know-you-owe-credit-cards/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 94,
+          "column": 14
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 133147710
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/e779abc7522624b7e7372f1916dbbf30d0930bf6a26cc55be302a872e2a2ee3b.html": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 303
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/91cb815906fc9503dcc036f92b0eca8df5a33e25bbf72323fe58b6d0aa3ea9ba.html": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 303
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 577452714
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/5862421f5a6aa366cd108cb6ef257ee8037e35782a66348e126591467bea5e93.html": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 303
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 132155482
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/e05d8fc725e22f125c7124aba2a83135e3cdcc53a979df7c35cbd54bcfe007f2.html": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-balance-transfer-en-1961/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 303
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 132778236
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/a5fbaf90aa20b4293bc3b532ac600c59adbf0a5c27acae43859eb1c9612c0a3e.html": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 303
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 132715343
+        }
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/category-bank-accounts-and-services/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 443
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 133776996
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/ada12868492c6ce494d6e34173998937144d95b395dad756c1cbfff5bf19586c.html": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 443
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/d04a6343a0994fcf16ff159b7c4c35de4d1589e66993ac0233c2c566de9c6a8f.html": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 13,
+          "column": 463
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/cd28371af37371b19ff9a3fc0011b56807bd40bdecd221a9e8d2113285ceffde.html": [
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/category-bank-accounts-and-services/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 760
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/8b414535d7156a2276ea7df998d9978c2357b1abfb6a40e6e7c3a89558ad34c1.html": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 5,
+          "column": 305
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/550cbf7f9c8662f59f95acc263856ee3fdf062cdaa0910cf5fcf13daef967474.html": [
+      {
+        "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 303
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 138965570
+        }
+      }
+    ],
+    "/home/kwikcoders/seo/reports/link_inputs/db050a495250e637750b50b69c0c593e2f6cea50d6baf15f795ef5c016734777.html": [
+      {
+        "url": "https://www.experian.com/small-business/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 1,
+          "column": 468
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 715994538
+        }
+      }
+    ]
+  },
+  "timeout_map": {},
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {},
+  "input_sources": {
+    "/home/kwikcoders/seo/reports/link_inputs/9361189b4f25f544224b63e5ddced9aa4acf6fa36ac6c94991c4a468d870d4ac.html": "https://studenttimepk.blogspot.com/2026/11/how-to-stay-focused-while-studying-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/b505b373c842351cbda7ca9f3b7f79122ae9dbb2e29498944b2db6f80dc6ddbe.html": "https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
+    "/home/kwikcoders/seo/reports/link_inputs/73c14f6cc4d2b811c929122ca7f0b27f8b48f67bbe811734c0e4e2bb49109694.html": "https://studenttimepk.blogspot.com/2026/11/how-to-revise-without-rereading-notes.html",
+    "/home/kwikcoders/seo/reports/link_inputs/faa14fe937ee6f83a7f7e1347b4ad86c228868786bb85f3932486b15a08386a0.html": "https://studenttimepk.blogspot.com/2026/11/how-to-make-study-schedule-that-works.html",
+    "/home/kwikcoders/seo/reports/link_inputs/583d1ea2e3fdace9abcdece609f7cbb09fa329f7cf33894fa472933a63bfe348.html": "https://studenttimepk.blogspot.com/2026/11/how-to-take-notes-that-help-you.html",
+    "/home/kwikcoders/seo/reports/link_inputs/fb31cdf4ff20541c5bb0bc6e0b43864e3335cfd44b14bf07fa150135d93f5d4a.html": "https://studenttimepk.blogspot.com/2026/11/how-to-check-if-free-ai-course.html",
+    "/home/kwikcoders/seo/reports/link_inputs/15a68805307e6903e9b1a9982202e79f443a37295a66e9c4f00c72168dd63bb4.html": "https://studenttimepk.blogspot.com/2026/10/free-ai-content-generation-courses-in.html",
+    "/home/kwikcoders/seo/reports/link_inputs/4f85061f76b4941cfd23341320c8f580f9de9776fda93a6d904bb868ad5d3b98.html": "https://studenttimepk.blogspot.com/2026/10/ai-skills-for-non-technical.html",
+    "/home/kwikcoders/seo/reports/link_inputs/ea3f23efb60504c6f7231809f03f93ecf4dda14145bc097fd4b631c9545e2480.html": "https://studenttimepk.blogspot.com/2026/08/ai-singularity-debate-heats-up-as.html",
+    "/home/kwikcoders/seo/reports/link_inputs/cd2b6daf705148a951162909cddc8083f825fc2c84a2bcce1eaaafeb92413182.html": "https://studenttimepk.blogspot.com/2026/08/openai-astra-next-gen-ai-model-and-what.html",
+    "/home/kwikcoders/seo/reports/link_inputs/4a379c27880a7b4061aa2719e7bcbaaf20ee92460d563cb3d07f3d8fdb607628.html": "https://studenttimepk.blogspot.com/2026/08/usf-relaunches-free-ai-prompting.html",
+    "/home/kwikcoders/seo/reports/link_inputs/52e478c77a5702fc87070735cd2964c691e47d39e163600f268363470f8fbf62.html": "https://studenttimepk.blogspot.com/2026/08/ai-in-dev-why-fixing-vulnerabilities-is.html",
+    "/home/kwikcoders/seo/reports/link_inputs/1e9ed0f822f317702f75ecc3933ebbc8fbb7fcf351fc82974640957ffd0f73bc.html": "https://studenttimepk.blogspot.com/2026/08/eu-ai-act-updates-what-developers-must.html",
+    "/home/kwikcoders/seo/reports/link_inputs/9761b496b033eb1c4c8fa90f0786f28eca0f772f8a3789cf164cf3579f483453.html": "https://studenttimepk.blogspot.com/2026/07/gpt-live-expands-voice-ai-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/ab6347df3a6a3bd3e17f3a585942f98a29bd33e0c32548cc7bad49b5b98d25e0.html": "https://studenttimepk.blogspot.com/2026/07/ai-certification-trends-2026-boost-your.html",
+    "/home/kwikcoders/seo/reports/link_inputs/fe20edbeddf76ac50600b764e952f8d304751d4f0b731d4c200fab2c5ddf6dd9.html": "https://studenttimepk.blogspot.com/2026/07/generative-ai-for-software-development.html",
+    "/home/kwikcoders/seo/reports/link_inputs/b4e768cd736b461d882dbea6b3223ade610fd67e64a2b4747e2b1a0d184e3665.html": "https://studenttimepk.blogspot.com/2026/07/google-ai-overviews-arrive-in-france.html",
+    "/home/kwikcoders/seo/reports/link_inputs/365ca00bd047629400c346711b335832fc79bd5999f6b323b00092d5509c24cf.html": "https://studenttimepk.blogspot.com/2026/07/ai-dev-tools-boom-what-build-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/88addb6dad475744874ae464aa71fbbe1b4c8bd58b47a01fc8df7b130110f2ad.html": "https://studenttimepk.blogspot.com/2026/07/ai-news-july-2026-databricks-valuation.html",
+    "/home/kwikcoders/seo/reports/link_inputs/d715d7ccc74887c5ebbb912630bb97e32cdc54274c2718dbc9ee9f25d40edaf1.html": "https://studenttimepk.blogspot.com/2026/07/universal-ai-pathway-free-intro-course.html",
+    "/home/kwikcoders/seo/reports/link_inputs/b0e1bed7852c48e02ead22baccd60da6593b7b238adc34004e81383545dd5a31.html": "https://studenttimepk.blogspot.com/2026/07/free-ai-courses-with-certificates-in.html",
+    "/home/kwikcoders/seo/reports/link_inputs/1d1eacb6e802fb14f3a4b484772a8be4a90fba49e84a3f6deacb926b4a31b91d.html": "https://studenttimepk.blogspot.com/2026/07/ai-news-roundup-2026-claude-fable-5.html",
+    "/home/kwikcoders/seo/reports/link_inputs/15bda5c96ab910456361442bd4d388b5459df37e35baf94d53a9c87d7260fc36.html": "https://studenttimepk.blogspot.com/2026/07/muse-image-metas-new-ai-image-generator.html",
+    "/home/kwikcoders/seo/reports/link_inputs/ec8ca7f67b38bd8d38a07a995dcd64da450e2d96f27fda27f2ca3c078b6ef4e9.html": "https://studenttimepk.blogspot.com/2026/07/make-america-ai-ready-free-7day-ai.html",
+    "/home/kwikcoders/seo/reports/link_inputs/9f0d87d8cc5373158f746603d4a2e6bc0d1719a3de66303a5056b73a53fe0a1f.html": "https://studenttimepk.blogspot.com/2026/07/google-antigravity-20-ai-agents-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/c92c2280d82782c2de8de94f4dd9b1ac3a44ad0db9b1eed3c0e1b44ed6ddbce2.html": "https://studenttimepk.blogspot.com/2026/07/what-is-my-ip-address-complete.html",
+    "/home/kwikcoders/seo/reports/link_inputs/b5bf53ec5d8bc22042171e50a3389a02ea2c0970cac0eb68de902e5d181dd319.html": "https://studenttimepk.blogspot.com/2026/06/5-free-ai-study-tools-every-student.html",
+    "/home/kwikcoders/seo/reports/link_inputs/07f28c0267f088386fa73e4dbc7641e6462c8dec6e3ef7dfa51eff5cc91346dc.html": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
+    "/home/kwikcoders/seo/reports/link_inputs/a3be09cde6b17a3816f461602fc58f0c42c3f4ff96732934ada06bbd4d1f88ce.html": "https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html",
+    "/home/kwikcoders/seo/reports/link_inputs/82441dba3d1e6a4459e91bd27aaa76c974d965b7b81692034cd121260a5041d3.html": "https://studenttimepk.blogspot.com/2026/03/how-students-can-use-chatgpt-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/4bfe71de94e892ca175acee98c69f4bccbf0f3fe98d2f214b767d3a018ad9830.html": "https://studenttimepk.blogspot.com/2026/03/best-ai-tools-for-students-in-2026-free.html",
+    "/home/kwikcoders/seo/reports/link_inputs/7fa67596ea8cead2e9776f2271285e86f55df19b86c16a676928250e4095057e.html": "https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html",
+    "/home/kwikcoders/seo/reports/link_inputs/ebce1ad65cdbddabac16c8eaadf97d38e370f17e08e9beca4adaf8aa87079ffa.html": "https://studenttimepk.blogspot.com/2026/02/blog-post.html",
+    "/home/kwikcoders/seo/reports/link_inputs/56f8412b66dc23a2b9f527fe353fba5d362ef5242e6add74d44e43f234f6d451.html": "https://studenttimepk.blogspot.com/2026/02/seo-geo-targeting-for-blogger-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/ec3082d094656329b61adc5c02c854e35a32736571591f3f9e58aabea0c648cd.html": "https://studenttimepk.blogspot.com/2026/02/qr-code-generator-create-free-qr-codes.html",
+    "/home/kwikcoders/seo/reports/link_inputs/f2b50090dff53946fb33fa1745217b16365acb5b486b2ce6d266579dc0092ffd.html": "https://studenttimepk.blogspot.com/2026/02/prompt-engineering-for-beginners-how-to.html",
+    "/home/kwikcoders/seo/reports/link_inputs/1e1b8f914036b8208af0ef6bdcbd560677e67fc2ac9e9f8562b4c2187cf666ae.html": "https://studenttimepk.blogspot.com/2026/01/prompt-engineering-explained-complete.html",
+    "/home/kwikcoders/seo/reports/link_inputs/1bb4b95daa1b3d689a2f28ba0784e279f33c9726ab90c19d28ea25525f509c8a.html": "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/dd6ed3567730682bdf8b4226da857d9167069548a1b57f5f119d114f5b6acd4c.html": "https://studenttimepk.blogspot.com/2026/01/top-5-free-ai-courses-you-can-start.html",
+    "/home/kwikcoders/seo/reports/link_inputs/8efcd42ea9c30f824a9e10fcfa524c79a6ed4425ae640d0c97af61ac3babefb4.html": "https://studenttimepk.blogspot.com/2025/12/lesson-3-ruby-oop-dna-of-activerecord.html",
+    "/home/kwikcoders/seo/reports/link_inputs/bee02e8375ad4715cf3baa77121edca47a587cbc434daa176186448494d48cf4.html": "https://studenttimepk.blogspot.com/2025/12/lesson-2-collections-enumerables-logic.html",
+    "/home/kwikcoders/seo/reports/link_inputs/fd1dcf6f60854972daa8d87b2d607f891ceb1794816eae99ae348b9693783131.html": "https://studenttimepk.blogspot.com/2025/12/Lesson 1 Ruby Basics for React Developers.html",
+    "/home/kwikcoders/seo/reports/link_inputs/54809acc327ad5e0ea8a78dea95b5d988b7e53f4fb1a04fbe369be841cc196d2.html": "https://studenttimepk.blogspot.com/2025/12/From React to Rails The Ultimate Roadmap for Frontend Developers.html",
+    "/home/kwikcoders/seo/reports/link_inputs/c6163187cf3f71fc8435c05c9f784579e4e0e8244f5b9023e84b0e80d6fb02e8.html": "https://studenttimepk.blogspot.com/2025/11/google-anti-gravity.html",
+    "/home/kwikcoders/seo/reports/link_inputs/88a7456bcb7e184012789f9329f019f9bf973cb2a5743e1cb66cafc07877a323.html": "https://studenttimepk.blogspot.com/2025/10/top-10-ai-tools-for-students.html",
+    "/home/kwikcoders/seo/reports/link_inputs/8228de4f610b7f751a218d8088f5672cf095babfabc6264809a55ff0a297b61a.html": "https://studenttimepk.blogspot.com/2025/10/the-5-best-free-ai-tools-every.html",
+    "/home/kwikcoders/seo/reports/link_inputs/16ed70a64d8767ddfee16d8d53027c29a7810fcd69ec2c82f59105b516caec74.html": "https://studenttimepk.blogspot.com/2025/10/how-ai-is-reshaping-non-tech-careers-in.html",
+    "/home/kwikcoders/seo/reports/link_inputs/f7b76aac153c39acd5727d501d668a7646ed2a3025fb8feed44e2a794a5db19f.html": "https://studenttimepk.blogspot.com/2025/10/mastering-ai-agent-orchestration-rise.html",
+    "/home/kwikcoders/seo/reports/link_inputs/74845a84f03224efc19541638fe00e8cdc58126e83d734700f2788187569e3bd.html": "https://studenttimepk.blogspot.com/2025/10/the-new-ai-titans-top-10-models.html",
+    "/home/kwikcoders/seo/reports/link_inputs/a06fe6ed3e84c3e70daa31aaad75d168d68e823fabdd13703c6dec9bda26603f.html": "https://studenttimepk.blogspot.com/2025/10/best-ai-tools-in-2025.html",
+    "/home/kwikcoders/seo/reports/link_inputs/9fba8bed2248c1055ddf153cf4b538f061656f29cba3578289b3f714af9e9c97.html": "https://studenttimepk.blogspot.com/2025/09/from-zero-to-hero-your-ultimate-guide.html",
+    "/home/kwikcoders/seo/reports/link_inputs/c3053f253e2a7bdfdcad196810a4e43ced4bbbfd2033bb751180c5f4e9734fef.html": "https://studenttimepk.blogspot.com/2025/09/why-ubuntu-is-developers-best-friend.html",
+    "/home/kwikcoders/seo/reports/link_inputs/2165ce145a32a2e41110dcb8482469c3b6e6589f776893fa8016d7def5563375.html": "https://studenttimepk.blogspot.com/2025/08/how-artificial-intelligence-is-changing.html",
+    "/home/kwikcoders/seo/reports/link_inputs/78bc0582e2248b90bdbb74134e8c7005198cbcb914980ff8c03c7a62a89ea384.html": "https://studenttimepk.blogspot.com/2025/08/top-online-courses-to-learn-in-2025.html",
+    "/home/kwikcoders/seo/reports/link_inputs/b8655a26b9cebf54c6ce9f879e569d7796b9063a80a34de984fc940092e22d16.html": "https://studenttimepk.blogspot.com/2025/08/world-ultimate-guide-to-studying-abroad.html",
+    "/home/kwikcoders/seo/reports/link_inputs/0cbd8a9a4f4a5a98fdb97b40d79c3d1e63d38b267ae6e70cf5c792206e4ba3d5.html": "https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html",
+    "/home/kwikcoders/seo/reports/link_inputs/81dae3cf6cfa4f44f66b46d6218e4bf63f2aa15b8d4815d296c82179cd58f22c.html": "https://studenttimepk.blogspot.com/2025/08/todays-top-trending-topics.html",
+    "/home/kwikcoders/seo/reports/link_inputs/4c15bdbfdf94df6981b1e86d84821a682bc171545257dd0f3b4b05b3d4a4100e.html": "https://studenttimepk.blogspot.com/2025/08/Speak Up Stand Out Mastering Communication and Collaboration Skills for Student Success.html",
+    "/home/kwikcoders/seo/reports/link_inputs/2027fb59bdd473d835d40a7d4e0542303a00aa233acf2595b12d4a140a363c89.html": "https://studenttimepk.blogspot.com/2025/08/Your Guide to a Calm Mind Navigating Student Stress and Prioritizing Mental Health.html",
+    "/home/kwikcoders/seo/reports/link_inputs/e416069e2c0cf62d84e7bec548b99002d41a1dd55506a64a98778ad6c70c0f4a.html": "https://studenttimepk.blogspot.com/2025/08/the-ultimate-time-management-blueprint.html",
+    "/home/kwikcoders/seo/reports/link_inputs/5a07216b265e14f6015b4e7206e23eae32d70985d1efa40e90724ec616e55b42.html": "https://studenttimepk.blogspot.com/2025/08/beyond-highlighting-ultimate-guide-to.html",
+    "/home/kwikcoders/seo/reports/link_inputs/031864650724620d200846fa62b55b3a79136416044d0a7352ec88f52c52cc88.html": "https://studenttimepk.blogspot.com/2025/08/the-ultimate-guide-to-supercharging.html",
+    "/home/kwikcoders/seo/reports/link_inputs/deda95b49f4762fe7ec407ee11453f961f98df93e3b1a59ef4e4616a6f2fdc7e.html": "https://studenttimepk.blogspot.com/2025/08/The Science Behind Sleep Why We Sleep and How to Sleep Better.html",
+    "/home/kwikcoders/seo/reports/link_inputs/226fc9004e5d864295d8dd5c17dd5d812295ba90ade2d8a1ca3286dfab7b9347.html": "https://studenttimepk.blogspot.com/2025/08/What Does WiFi Actually Mean A Deep Dive into the Myths and Origins.html",
+    "/home/kwikcoders/seo/reports/link_inputs/b6a50d4d7336853e04244e86604e95812c0b3ba2a98faff64cb269c9aa178012.html": "https://studenttimepk.blogspot.com/2025/07/free-course-of-day-4-harvards-cs50.html",
+    "/home/kwikcoders/seo/reports/link_inputs/8575fb33a9d997be3f4224cb4a809782699547a4216f41fb1799370875495194.html": "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html",
+    "/home/kwikcoders/seo/reports/link_inputs/ac2cb854f5f4c1e5e201db7150b6557d3e45593891491cd4226c6765cb78d3c8.html": "https://learners-link.blogspot.com/2026/11/how-to-find-your-first-freelance.html",
+    "/home/kwikcoders/seo/reports/link_inputs/243d8afdeab90d6252edd295b5c47d539020e8786b0aa2683df0fa7abf9013f5.html": "https://learners-link.blogspot.com/2026/11/how-to-follow-up-on-unpaid-freelance.html",
+    "/home/kwikcoders/seo/reports/link_inputs/00e10047c9cd764bb2faf289d2a2793a96f9515ea568fb24d93405d54160bdc2.html": "https://learners-link.blogspot.com/2026/11/how-to-write-freelance-proposal-that.html",
+    "/home/kwikcoders/seo/reports/link_inputs/25bbb9c4194a0ca953127439e867a7f57395d1819e737846c324eb656f05b8e8.html": "https://learners-link.blogspot.com/2026/11/how-to-price-freelance-work-without.html",
+    "/home/kwikcoders/seo/reports/link_inputs/d212cc11ddd978075da681ddf1db754c5b5fa79a8826984729b0bd26783d814a.html": "https://learners-link.blogspot.com/2026/11/freelance-contract-checklist-what-to.html",
+    "/home/kwikcoders/seo/reports/link_inputs/86e9ae113c35d8dc2bd6ebd2d16b25c569258095f5b9b0d3471f863e38e08e09.html": "https://learners-link.blogspot.com/2026/11/invoicing-apps-that-attach-receipts-to.html",
+    "/home/kwikcoders/seo/reports/link_inputs/fa2314b09cc508fa8e98a3c189850ba22e79d0b488b0db8f96f84f50516eb6bc.html": "https://learners-link.blogspot.com/2026/11/how-to-choose-business-checking-as.html",
+    "/home/kwikcoders/seo/reports/link_inputs/8701ce2a83fe29651dfe982d08d610d3a91338ddeb2a87674c7a55151fa68b2c.html": "https://learners-link.blogspot.com/2026/10/robo-advisor-vs-diy-investing-which-is.html",
+    "/home/kwikcoders/seo/reports/link_inputs/16c038954e46b2bee27c699fcda2ba29a92413088e7118fe258f9c7dd5639292.html": "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
+    "/home/kwikcoders/seo/reports/link_inputs/18bd2f5e10711c81f3cdf6f4ac3ca686f7df0ef51fe231403774e3b3ba710de7.html": "https://learners-link.blogspot.com/2026/09/high-yield-savings-vs-cash-sweep.html",
+    "/home/kwikcoders/seo/reports/link_inputs/25ec866af629857c0605d955d37c1ee699c1e39eaeaf58ad8bcac1ba1a404aae.html": "https://learners-link.blogspot.com/2026/09/best-0-apr-balance-transfer-cards-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/188e57a16e7bc76eb48c8d038696af44d4aaf4f56f74caae98cd7c58f637dd52.html": "https://learners-link.blogspot.com/2026/09/how-to-do-self-employed-taxes-2026-guide.html",
+    "/home/kwikcoders/seo/reports/link_inputs/7c93936444d02ecc415dfa06895699261dafa658c80d7405272c6fcfda4603dc.html": "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
+    "/home/kwikcoders/seo/reports/link_inputs/e779abc7522624b7e7372f1916dbbf30d0930bf6a26cc55be302a872e2a2ee3b.html": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
+    "/home/kwikcoders/seo/reports/link_inputs/91cb815906fc9503dcc036f92b0eca8df5a33e25bbf72323fe58b6d0aa3ea9ba.html": "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/5862421f5a6aa366cd108cb6ef257ee8037e35782a66348e126591467bea5e93.html": "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/84984637c1789ad0651d0ed821b3e361b66f97af51f21e1163fb6c6d62170174.html": "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
+    "/home/kwikcoders/seo/reports/link_inputs/e05d8fc725e22f125c7124aba2a83135e3cdcc53a979df7c35cbd54bcfe007f2.html": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
+    "/home/kwikcoders/seo/reports/link_inputs/5331974cdf11a4154f307ac6d3f6e95724464bb41f6c03622a19ec7604f98407.html": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/dc94dae6371b7ca79b703cbc9b7b5094630e014ae99e02079495699adfe8779c.html": "https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/51d393c423e4839cf25957d8722dbe86171d54efd68571513567a205ddd08436.html": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/6e8cd472dc09f8f35f481f169da2d2cb8a1c14c8fc4b3ced7091038487c6c051.html": "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
+    "/home/kwikcoders/seo/reports/link_inputs/14e7e8f7d18391bcbbbe4cf05db0330f4fc6fb08a9277f0254d89dc0f1c78b16.html": "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
+    "/home/kwikcoders/seo/reports/link_inputs/a5fbaf90aa20b4293bc3b532ac600c59adbf0a5c27acae43859eb1c9612c0a3e.html": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
+    "/home/kwikcoders/seo/reports/link_inputs/ada12868492c6ce494d6e34173998937144d95b395dad756c1cbfff5bf19586c.html": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
+    "/home/kwikcoders/seo/reports/link_inputs/e4818f3a7851fc9ef5eef7129892bfc60518c37234bdb1829cf3cfc9a32831d9.html": "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
+    "/home/kwikcoders/seo/reports/link_inputs/d04a6343a0994fcf16ff159b7c4c35de4d1589e66993ac0233c2c566de9c6a8f.html": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-rideshare-drivers.html",
+    "/home/kwikcoders/seo/reports/link_inputs/b1a8bb1088f321029d26ebaa74df6456be6e000921293b52c03ebe38c967b1c3.html": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/f3194bb1447dfd21f5849ec2fbd113bb8fd7dccfffb2246bb0ee0fc47c742f0f.html": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
+    "/home/kwikcoders/seo/reports/link_inputs/4e694a935449f802676ca3dcadd5e0e4a1a2b7328241baf01ea3047582408241.html": "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
+    "/home/kwikcoders/seo/reports/link_inputs/cd28371af37371b19ff9a3fc0011b56807bd40bdecd221a9e8d2113285ceffde.html": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
+    "/home/kwikcoders/seo/reports/link_inputs/8a0651e33d701c7e19802c4521f4e5d8a539b90233adc90cd90cf713ac1b2e08.html": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
+    "/home/kwikcoders/seo/reports/link_inputs/5a19d68537461d7e3415aa6e23744172023587d524d20c31a224e97a32ff0b6c.html": "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
+    "/home/kwikcoders/seo/reports/link_inputs/2f04e33f770aa865b1efe670e13df13c7c65298d482fdd525a21ec6201b87a71.html": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/9cc16eb18af0b29a6c03012b6a429c27ec3d4d017c65124c884aa48f228840e1.html": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
+    "/home/kwikcoders/seo/reports/link_inputs/1f7a0552b2eed84e3f0ffdd41365bcb62d51218a1c58d70533db0aef111f39c1.html": "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
+    "/home/kwikcoders/seo/reports/link_inputs/8b414535d7156a2276ea7df998d9978c2357b1abfb6a40e6e7c3a89558ad34c1.html": "https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html",
+    "/home/kwikcoders/seo/reports/link_inputs/550cbf7f9c8662f59f95acc263856ee3fdf062cdaa0910cf5fcf13daef967474.html": "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
+    "/home/kwikcoders/seo/reports/link_inputs/db050a495250e637750b50b69c0c593e2f6cea50d6baf15f795ef5c016734777.html": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
+    "/home/kwikcoders/seo/reports/link_inputs/6d8e99bbf52f1ab065eca83f8a3b37b3579759d48d4e75dda8cc24d14765a124.html": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
+    "/home/kwikcoders/seo/reports/link_inputs/2fa0326ed5bd73c5b6b48a50092be6b2da6305fa5b87402f00a448a10d87d6e1.html": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html"
+  },
+  "explicit_targets": [],
+  "created_at": "2026-11-12T09:53:52.300285+00:00",
+  "exit_code": 2,
+  "source_evidence_at": "2026-11-12T09:53:52.300285+00:00",
+  "reconciled_at": "2026-11-12T13:15:35.685523+00:00",
+  "reconciliation": {
+    "mode": "reused_unchanged_reference_sets",
+    "network_requests_this_run": 0,
+    "changed_inputs": [
+      {
+        "url": "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html",
+        "removed_references": 1
+      }
+    ],
+    "note": "HTTP status checks retain their original measurement date; changed articles were compared locally and no new references were found."
+  },
+  "parent_evidence": "/home/kwikcoders/seo/reports/link_evidence/a8a4ca7d1d3b7844cd318ca3a4bc88ce9af29b820aae6ea52e7651748c10cc9e.json"
+}

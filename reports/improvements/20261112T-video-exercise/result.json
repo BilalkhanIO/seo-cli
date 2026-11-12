@@ -1,0 +1,20 @@
+{
+  "url": "https://studenttimepk.blogspot.com/2025/07/how-to-use-chatgpt-as-your-personal-ai.html",
+  "post_id": "5929376573647575041",
+  "status": "verified",
+  "recorded_at": "2026-11-12T09:55:57.834876+00:00",
+  "change": "Replaced an unverifiable YouTube embed with an original study exercise",
+  "evidence": {
+    "lychee_embed_status": 404,
+    "direct_embed_status": 200,
+    "youtube_oembed_status": 404,
+    "playability": "unverified"
+  },
+  "before_hash": "6df29320e6e164f98df0e509e731a218d015451927d4d721f9ddbf89a43cd264",
+  "after_hash": "7d84dfd9726ec25f8c649ec81997c3ba9dcd8d36f4f7c44b4335dd2302fa97c5",
+  "backup": "backups/study-exercise-20261112T095555Z.json",
+  "published_before": "2025-07-18T01:14:00+05:00",
+  "published_after": "2025-07-18T01:14:00+05:00",
+  "metadata_date": "2026-11-12",
+  "link_set_unchanged_after_metadata_edit": true
+}

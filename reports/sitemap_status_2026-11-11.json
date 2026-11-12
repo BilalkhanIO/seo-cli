@@ -1,0 +1,94 @@
+{
+  "https://studenttimepk.blogspot.com/": {
+    "registered_sitemaps": [
+      {
+        "path": "https://studenttimepk.blogspot.com/sitemap.xml",
+        "lastSubmitted": "2026-11-11T07:27:31.781Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-11-11T07:27:32.313Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "65",
+            "indexed": "0"
+          }
+        ]
+      },
+      {
+        "path": "https://studenttimepk.blogspot.com/sitemap-pages.xml",
+        "lastSubmitted": "2026-10-27T06:42:57.717Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-11-05T10:23:13.327Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "5",
+            "indexed": "0"
+          }
+        ]
+      }
+    ],
+    "public_xml_check": {
+      "status": 200,
+      "type": "application/atom+xml; charset=UTF-8",
+      "url_count": 65,
+      "duplicates": 0,
+      "all_same_https_property": true,
+      "mobile_user_agent_redirects": 0
+    }
+  },
+  "https://learners-link.blogspot.com/": {
+    "registered_sitemaps": [
+      {
+        "path": "https://learners-link.blogspot.com/sitemap.xml",
+        "lastSubmitted": "2026-11-11T07:27:32.478Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-11-11T07:27:35.028Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "40",
+            "indexed": "0"
+          }
+        ]
+      },
+      {
+        "path": "https://learners-link.blogspot.com/sitemap-pages.xml",
+        "lastSubmitted": "2026-11-02T07:12:52.139Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-11-06T20:52:22.442Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "5",
+            "indexed": "0"
+          }
+        ]
+      }
+    ],
+    "public_xml_check": {
+      "status": 200,
+      "type": "application/atom+xml; charset=UTF-8",
+      "url_count": 40,
+      "duplicates": 0,
+      "all_same_https_property": true,
+      "mobile_user_agent_redirects": 0
+    }
+  }
+}

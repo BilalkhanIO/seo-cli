@@ -1,0 +1,40 @@
+--- before
++++ after
+@@ -192,23 +192,20 @@
+ 
+   </ul>
+ 
+-  <!--Embedded Video-->
+-
+-  <div style="margin: 30px 0px; text-align: center;">
+-
+-    <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/2K-sx8M8Z-M" style="border-radius: 8px;" title="Using ChatGPT as a Study Partner" width="100%">
+-
+-    </iframe>
+-
+-    <p style="color: #777777; font-size: 12px; margin-top: 5px;">
+-
+-      Video: How to use ChatGPT effectively for learning (YouTube).
+-
+-    </p>
+-
+-  </div>
+-
+-  <!--Conclusion & CTA-->
++  <!--Study exercise replacing an unverifiable external video-->
++<section class="study-exercise">
++<h2>Try a five-minute ChatGPT study exercise</h2>
++<ol>
++<li>Choose a short section of your own notes that you are allowed to share. Remove personal or confidential information.</li>
++<li>Ask: <em>Using only these notes, ask me three practice questions, one at a time. Wait for my answer before giving feedback. If the notes do not contain an answer, say so.</em></li>
++<li>Answer each question from memory. If you get stuck, ask for one hint before viewing the explanation.</li>
++<li>Check each explanation against your textbook or class notes and correct any errors.</li>
++<li>Write down one idea you still need to practise, then try that question again later.</li>
++</ol>
++<p>This is a suggested practice routine. Check your teacher's rules for AI use and verify the output before relying on it.</p>
++</section>
++
++<!--Conclusion & CTA-->
+ 
+   <div style="border-radius: 5px; border: 1px solid rgb(76, 175, 80); margin-top: 40px; padding: 20px;">
+ 

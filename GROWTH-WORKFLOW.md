@@ -1,6 +1,6 @@
 # Weekly growth workflow
 
-Run `python3 growth_report.py` once a week. For analytics without HTTP audits, run `python3 growth_report.py --skip-crawl`.
+Run `python3 growth_report.py` once a week for fresh GSC/GA4 metrics, a public crawl, and a bounded stored-index sample. `--skip-crawl` also replaces the latest report with an API-only report; use it only when replacing the newest public crawl section is intentional. The persistent runner snapshots each stage separately.
 
 Outputs:
 
@@ -19,6 +19,8 @@ GA4 referral tables show sessions attributed to dev.to and medium.com and the la
 Export Ahrefs Backlinks, Referring domains, Organic keywords and Site Audit issues as CSV. Keep original headers and name each file with its site, report type and date. Imported row counts describe exports only. Public Ahrefs keys do not supply full backlink reports.
 
 No scheduler, external publishing, automatic content removal or paid API usage is enabled by this workflow. Keep a weekly review cadence and evaluate small-data results over several periods.
+
+Google API capabilities, limits, source-backed SEO guidance and official learning resources are summarized in [`docs/seo-technical-reference.md`](docs/seo-technical-reference.md). Search Console's stored URL inspection is not a live URL test; the API cannot trigger the Search Console UI's Request indexing action. Google Trends API is alpha-only; `pytrends` is unofficial.
 
 ## Local open-source writing and link checks
 

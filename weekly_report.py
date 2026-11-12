@@ -33,9 +33,14 @@ def creds():
     return c
 
 
-def daterange(days):
-    end = datetime.date.today()
-    return str(end - datetime.timedelta(days=days)), str(end)
+def gsc_windows(today=None):
+    """Return adjacent, complete 28-day windows; Search Console lags recent days."""
+    today = today or datetime.datetime.now(ZoneInfo("Asia/Karachi")).date()
+    current_end = today - datetime.timedelta(days=3)
+    current_start = current_end - datetime.timedelta(days=27)
+    previous_end = current_start - datetime.timedelta(days=1)
+    previous_start = previous_end - datetime.timedelta(days=27)
+    return (str(current_start), str(current_end)), (str(previous_start), str(previous_end))
 
 
 def collect():
@@ -43,7 +48,7 @@ def collect():
     sc = build("searchconsole", "v1", credentials=c, cache_discovery=False)
     ga = build("analyticsdata", "v1beta", credentials=c, cache_discovery=False)
     ad = build("adsense", "v2", credentials=c, cache_discovery=False)
-    s28, e28 = daterange(28)
+    (s28, e28), (sp28, ep28) = gsc_windows()
     out = {}
     for name, site, prop, acct, domain in BLOGS:
         d = {}
@@ -68,6 +73,12 @@ def collect():
                 "startDate": s28, "endDate": e28, "dimensions": [], "rowLimit": 1}).execute().get("rows", [])
             d["gsc_impr"] = int(g[0]["impressions"]) if g else 0
             d["gsc_clicks"] = int(g[0]["clicks"]) if g else 0
+            d["gsc_window"] = f"{s28}–{e28}"
+            pg = sc.searchanalytics().query(siteUrl=site, body={
+                "startDate": sp28, "endDate": ep28, "dimensions": [], "rowLimit": 1}).execute().get("rows", [])
+            d["gsc_previous_impr"] = int(pg[0]["impressions"]) if pg else 0
+            d["gsc_previous_clicks"] = int(pg[0]["clicks"]) if pg else 0
+            d["gsc_previous_window"] = f"{sp28}–{ep28}"
             q = sc.searchanalytics().query(siteUrl=site, body={
                 "startDate": s28, "endDate": e28, "dimensions": ["query"], "rowLimit": 5}).execute().get("rows", [])
             d["top_queries"] = [(r["keys"][0], int(r["impressions"]), round(r["position"], 1)) for r in q]
@@ -124,7 +135,9 @@ def main():
             return f" ({'+' if diff >= 0 else ''}{diff} vs {prev['date']})"
         return ""
 
-    lines = [f"# Weekly SEO Report — {today}", ""]
+    (cw_start, cw_end), (pw_start, pw_end) = gsc_windows()
+    lines = [f"# Weekly SEO Report — {today}", "",
+             f"_Search Console windows: {cw_start}–{cw_end} vs {pw_start}–{pw_end} (complete, non-overlapping 28-day periods)._", ""]
     if prev:
         lines.append(f"_Compared to previous report: {prev['date']}_\n")
     for name, _, _, _, _ in BLOGS:
@@ -137,8 +150,12 @@ def main():
                      "This field is not the property's total indexed pages; use URL Inspection and the Page indexing dashboard.")
         lines.append("")
         lines.append("**Organic search (GSC, 28d) — the real signal:**")
-        lines.append(f"- Impressions: **{d.get('gsc_impr', 'n/a')}**{delta(name, 'gsc_impr')}")
-        lines.append(f"- Clicks: **{d.get('gsc_clicks', 'n/a')}**{delta(name, 'gsc_clicks')}")
+        if "gsc_previous_impr" in d:
+            lines.append(f"- Impressions: **{d['gsc_impr']}** ({d['gsc_impr'] - d['gsc_previous_impr']:+} vs {d['gsc_previous_impr']})")
+            lines.append(f"- Clicks: **{d['gsc_clicks']}** ({d['gsc_clicks'] - d['gsc_previous_clicks']:+} vs {d['gsc_previous_clicks']})")
+        else:
+            lines.append(f"- Impressions: **{d.get('gsc_impr', 'n/a')}**{delta(name, 'gsc_impr')}")
+            lines.append(f"- Clicks: **{d.get('gsc_clicks', 'n/a')}**{delta(name, 'gsc_clicks')}")
         if d.get("top_queries"):
             lines.append("- Top queries: " + "; ".join(f"{q} ({i}i, pos {p})" for q, i, p in d["top_queries"]))
         lines.append("")
