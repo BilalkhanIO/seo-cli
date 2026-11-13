@@ -26,6 +26,11 @@ from seo_pipeline_check import ArticleExtractor
 BASE = Path(__file__).resolve().parent
 REPORTS = BASE / "reports"
 UA = {"User-Agent": "StudentsTime-growth-audit/1.0"}
+GOOGLEBOT_SMARTPHONE_UA = (
+    "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile "
+    "Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+)
 
 
 def clean_url(url):
@@ -58,9 +63,11 @@ class Tags(HTMLParser):
         if self._in_title and data.strip(): self.page_titles.append(data.strip())
 
 
-def get_url(url):
+def get_url(url, user_agent=None):
     try:
-        with urllib.request.urlopen(urllib.request.Request(quote(url, safe=":/?&=%#@+;"), headers=UA), timeout=15) as r:
+        headers = dict(UA)
+        if user_agent: headers["User-Agent"] = user_agent
+        with urllib.request.urlopen(urllib.request.Request(quote(url, safe=":/?&=%#@+;"), headers=headers), timeout=15) as r:
             kind = r.headers.get("Content-Type", "")
             return {"status": r.status, "final": r.url, "type": kind,
                     "html": r.read(2_000_000).decode("utf-8", "replace") if "html" in kind else ""}
@@ -68,6 +75,27 @@ def get_url(url):
         return {"status": e.code, "final": e.geturl(), "error": "HTTP response"}
     except Exception as e:
         return {"status": None, "error": type(e).__name__}
+
+
+def probe_mobile_redirect(url):
+    """Check whether a stored Blogger redirect error is its standard mobile URL variant."""
+    response = get_url(url, user_agent=GOOGLEBOT_SMARTPHONE_UA)
+    final = response.get("final") or ""
+    final_parts = urlsplit(final)
+    source_parts = urlsplit(url)
+    mobile_variant = (final_parts.hostname == source_parts.hostname
+                      and final_parts.path == source_parts.path
+                      and dict(parse_qsl(final_parts.query)).get("m") == "1")
+    tags = Tags(); tags.feed(response.get("html", ""))
+    canonical = tags.canonicals[0] if len(tags.canonicals) == 1 else None
+    canonical_matches = bool(canonical and clean_url(canonical) == clean_url(url))
+    noindex = any("noindex" in value.lower() for value in tags.robots)
+    expected = response.get("status") == 200 and mobile_variant and canonical_matches and not noindex
+    return {"url": url, "status": response.get("status"), "final_url": final,
+            "mobile_variant": mobile_variant, "canonical": canonical,
+            "canonical_matches": canonical_matches, "noindex": noindex,
+            "expected_blogger_mobile_redirect": expected,
+            "error": response.get("error")}
 
 
 def search_rows(sc, site, start, end, dimensions):
@@ -391,6 +419,11 @@ def main():
                 if len(set(targets)) < 3:
                     targets.extend(r["url"] for r in d.get("audit", [])[:2])
                 d["indexing"] = inspect_sample(sc, site, targets)
+                d["mobile_redirect_probes"] = [
+                    probe_mobile_redirect(row["url"])
+                    for row in d["indexing"]
+                    if row.get("pageFetchState") == "REDIRECT_ERROR"
+                ]
                 if any(r.get("error") for r in d["indexing"]):
                     d["indexing_error"] = "One or more indexing inspections were unavailable; earlier findings remain open."
                 lines.extend(["", "### Google indexing sample", "",
@@ -398,6 +431,13 @@ def main():
                     "| URL | Google coverage | Last crawl |", "|---|---|---|"])
                 for row in d["indexing"]:
                     lines.append(f"| {md(row['url'])} | {md(row.get('coverageState') or row.get('error'))} | {md(row.get('lastCrawlTime') or 'Unknown')} |")
+                if d["mobile_redirect_probes"]:
+                    lines.extend(["", "#### Smartphone redirect verification", "",
+                                  "A Googlebot-smartphone user-agent probe is separate from Search Console's stored fetch. A `?m=1` response is considered the expected Blogger variant only when it returns 200, has one clean self-canonical and is not noindexed.",
+                                  "", "| Clean URL | Probe result | Final URL | Canonical |", "|---|---|---|---|"])
+                    for probe in d["mobile_redirect_probes"]:
+                        result = "expected Blogger mobile variant" if probe.get("expected_blogger_mobile_redirect") else f"needs review ({probe.get('status') or probe.get('error') or 'unknown'})"
+                        lines.append(f"| {md(probe['url'])} | {md(result)} | {md(probe.get('final_url') or 'Unknown')} | {md(probe.get('canonical') or 'Missing/duplicate')} |")
         lines.append("")
     lines.extend(["## Ahrefs CSV imports", ""])
     if not all_data["ahrefs"]: lines.append("No CSV exports found in ahrefs_exports/. Import pending; no backlink counts inferred.")

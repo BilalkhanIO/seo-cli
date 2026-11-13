@@ -1,59 +1,24 @@
 # SEO workbench action queue
 
-Run: 20261112T134611Z-766c653b
+Run: 20261113T061613Z-b78072da
 
-New: 0; persistent: 187; reopened: 0; resolved: 0.
+New: 2; persistent: 151; reopened: 0; resolved: 2.
 
 Analysis suggestions only. Cached evidence retains its original timestamp; an unobserved issue is not assumed fixed.
 
 | Priority | Page or file | Type | Action/evidence |
 |---:|---|---|---|
-| 100 | https://studenttimepk.blogspot.com/ | indexing-blocker | Google index status: Redirect error |
 | 100 | https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html | indexing-blocker | Google index status: Redirect error |
-| 95 | https://learners-link.blogspot.com/ | indexing-blocker | Google index status: Crawled - currently not indexed |
 | 95 | https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html | indexing-blocker | Google index status: Crawled - currently not indexed |
 | 95 | https://learners-link.blogspot.com/2026/08/best-savings-accounts-in-europe-2026.html | indexing-blocker | Google index status: Crawled - currently not indexed |
 | 95 | https://learners-link.blogspot.com/2026/11/how-to-find-your-first-freelance.html | indexing-blocker | Google index status: URL is unknown to Google |
 | 95 | https://learners-link.blogspot.com/2026/11/how-to-follow-up-on-unpaid-freelance.html | indexing-blocker | Google index status: URL is unknown to Google |
 | 95 | https://learners-link.blogspot.com/p/about-us.html | indexing-blocker | Google index status: Crawled - currently not indexed |
+| 95 | https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html | indexing-blocker | Google index status: Crawled - currently not indexed |
 | 95 | https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html | indexing-blocker | Google index status: Crawled - currently not indexed |
 | 95 | https://studenttimepk.blogspot.com/2026/03/microsoft-ai-skills-free-course-free.html | indexing-blocker | Google index status: Crawled - currently not indexed |
 | 95 | https://studenttimepk.blogspot.com/2026/11/how-to-stay-focused-while-studying-2026.html | indexing-blocker | Google index status: URL is unknown to Google |
-| 80 | https://learners-link.blogspot.com/2026/11/how-to-build-freelance-portfolio-2026.html | technical | missing/empty image alt |
-| 80 | https://studenttimepk.blogspot.com/2026/11/how-to-write-university-essay-2026.html | technical | missing/empty image alt |
-| 55 | https://learners-link.blogspot.com/2026/11/how-to-build-freelance-portfolio-2026.html | technical | no incoming links from published article bodies |
-| 55 | https://studenttimepk.blogspot.com/2026/11/how-to-write-university-essay-2026.html | technical | no incoming links from published article bodies |
-| 45 | https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/09/best-0-apr-balance-transfer-cards-2026.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/09/high-yield-savings-vs-cash-sweep.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/09/how-to-do-self-employed-taxes-2026-guide.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html | metadata-review | missing meta description; review Blogger search description |
-| 45 | https://learners-link.blogspot.com/2026/10/robo-advisor-vs-diy-investing-which-is.html | metadata-review | missing meta description; review Blogger search description |
+| 90 | https://studenttimepk.blogspot.com/2025/07/scholarship-of-day-1-hec-commonwealth.html?m=1 | historical-url | Previously visible GSC URL currently returns 404 |
 | 45 | https://studenttimepk.blogspot.com/2025/08/your-future-starts-now-ultimate-guide.html | content-opportunity | Near page one; review missing answers and title |
 | 45 | https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html | content-opportunity | Improve intent and contextual links |
 | 45 | https://studenttimepk.blogspot.com/2026/03/free-ai-tools-for-assignment-writing-in.html | content-opportunity | Improve intent and contextual links |
@@ -170,6 +135,8 @@ Analysis suggestions only. Cached evidence retains its original timestamp; an un
 | 30 | drafts/learners-link-robo-advisor-vs-diy-investing.md | writing-review | Pipeline.Overclaim: Review unsupported claim 'guaranteed returns'; provide evidence or qualify it. [guaranteed returns] |
 | 30 | drafts/learners-link-robo-advisor-vs-diy-investing.md | writing-review | Pipeline.Overclaim: Review unsupported claim 'risk-free investing'; provide evidence or qualify it. [risk-free investing] |
 | 25 | pillar_free_ai_courses_2026.html | writing-review | Long sentence: Free learning is a good first step, but a paid program can make sense when it offers something you genuinely need: instructor feedback, graded projects, career services, a proctored credential, access to labs, or a recognized vendor exam. |
+| 20 | https://learners-link.blogspot.com/ | platform-mobile-redirect | Search Console stored a redirect error; current smartphone probe follows Blogger's ?m=1 variant to HTTP 200 with the clean URL as canonical. Check Search Console Live Test if the stored state persists; do not alter Blogger redirects from this probe alone. |
+| 20 | https://studenttimepk.blogspot.com/ | platform-mobile-redirect | Search Console stored a redirect error; current smartphone probe follows Blogger's ?m=1 variant to HTTP 200 with the clean URL as canonical. Check Search Console Live Test if the stored state persists; do not alter Blogger redirects from this probe alone. |
 | 15 | https://learners-link.blogspot.com/2026/07/best-business-checking-for-new-llc-no.html | verify-response | Error (cached): https://www.consumerfinance.gov/consumer-tools/bank-accounts/ |
 | 15 | https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html | verify-response | Rejected status code: 403 Forbidden: https://www.experian.com/small-business/ |
 | 15 | https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html | verify-response | Error (cached): https://www.consumerfinance.gov/consumer-tools/credit-cards/ |
@@ -205,6 +172,6 @@ Analysis suggestions only. Cached evidence retains its original timestamp; an un
 ## Evidence availability
 
 - competitors: partial; source timestamp: 2026-11-12T13:34:32.341496+00:00; Competitor comparisons pending or incomplete; see article coverage report
-- growth: cached; source timestamp: 2026-11-12T13:46:11.116504+00:00;
+- growth: cached; source timestamp: 2026-11-13T06:16:13.443901+00:00;
 - links: cached; source timestamp: 2026-11-12T13:37:04.074663+00:00;
 - writing: cached; source timestamp: 2026-11-12T13:34:34.020510+00:00;

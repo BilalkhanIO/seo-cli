@@ -408,5 +408,72 @@
     "ga_avg_dur": 831
    }
   }
+ },
+ {
+  "date": "2026-11-13",
+  "data": {
+   "Students Time": {
+    "home_coverage": "Redirect error",
+    "home_lastcrawl": "2026-11-12",
+    "sm_submitted": "65",
+    "sm_indexed": "0",
+    "gsc_impr": 32,
+    "gsc_clicks": 0,
+    "gsc_window": "2026-10-14\u20132026-11-10",
+    "gsc_previous_impr": 19,
+    "gsc_previous_clicks": 0,
+    "gsc_previous_window": "2026-09-16\u20132026-10-13",
+    "top_queries": [
+     [
+      "assignment writing ai free",
+      1,
+      94
+     ],
+     [
+      "digital garage by google",
+      1,
+      91
+     ],
+     [
+      "free ai content generation courses 2026",
+      1,
+      63
+     ],
+     [
+      "google digital garage learn digital skills with free training",
+      2,
+      91.5
+     ],
+     [
+      "machine learning courses free 2026",
+      1,
+      65
+     ]
+    ],
+    "ga_sessions": 126,
+    "ga_engaged": 28,
+    "ga_avg_dur": 157,
+    "ad_impr": "156",
+    "ad_clicks": "0",
+    "ad_earn": "0.02",
+    "ad_rpm": "0.15"
+   },
+   "Learner's Link": {
+    "home_coverage": "Redirect error",
+    "home_lastcrawl": "2026-11-12",
+    "sm_submitted": "40",
+    "sm_indexed": "0",
+    "gsc_impr": 0,
+    "gsc_clicks": 0,
+    "gsc_window": "2026-10-14\u20132026-11-10",
+    "gsc_previous_impr": 192,
+    "gsc_previous_clicks": 2,
+    "gsc_previous_window": "2026-09-16\u20132026-10-13",
+    "top_queries": [],
+    "ga_sessions": 19,
+    "ga_engaged": 11,
+    "ga_avg_dur": 1025
+   }
+  }
  }
 ]

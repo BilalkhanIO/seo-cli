@@ -1,12 +1,12 @@
 {
-  "created_at": "2026-11-12T18:25:10.155777+05:00",
+  "created_at": "2026-11-13T11:09:44.090312+05:00",
   "current_window": [
-    "2026-08-12",
-    "2026-11-09"
+    "2026-08-13",
+    "2026-11-10"
   ],
   "previous_window": [
-    "2026-05-14",
-    "2026-08-11"
+    "2026-05-15",
+    "2026-08-12"
   ],
   "note": "Observed Search Console queries only; anonymized queries may be omitted. No search-volume estimates are inferred.",
   "sites": [
@@ -597,7 +597,7 @@
       "previous_query_page_query_count": 13,
       "previous_query_page_count": 5,
       "current_page_count": 22,
-      "previous_page_count": 17,
+      "previous_page_count": 18,
       "current_queries": [
         {
           "query": "best beginner cash back credit card",
@@ -1876,12 +1876,12 @@
         },
         {
           "page": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
-          "impressions": 5,
+          "impressions": 4,
           "clicks": 0,
-          "position": 6.4,
+          "position": 5.25,
           "visible_query_page_impressions": 0,
           "visible_query_rows": 0,
-          "query_detail_gap": 5,
+          "query_detail_gap": 4,
           "queries": []
         },
         {

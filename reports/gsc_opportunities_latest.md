@@ -1,6 +1,6 @@
-# GSC keyword and page clusters — 2026-11-12
+# GSC keyword and page clusters — 2026-11-13
 
-Current: 2026-08-12–2026-11-09. Previous: 2026-05-14–2026-08-11 (90 complete days each).
+Current: 2026-08-13–2026-11-10. Previous: 2026-05-15–2026-08-12 (90 complete days each).
 
 Observed Search Console queries only; anonymized queries may be omitted. No search-volume estimates are inferred.
 Query opportunity tables use the query-only report. Page totals use a separate page-only report; query examples and page mappings come from query+page data. Search Console may omit anonymized queries and dimensional exports can expose different subsets. A page's total impressions can exceed the sum of its visible queries. Treat query rows as partial observations, not a complete inventory.
@@ -116,7 +116,7 @@ No multi-page matches in the visible query+page rows. This does not rule out ove
 
 ### Query opportunities
 
-Query-only: 44 visible queries current / 13 previous. Query+page: 44 visible queries across 14 pages current / 13 queries across 5 pages previous. Page-only: 22 pages current / 17 previous.
+Query-only: 44 visible queries current / 13 previous. Query+page: 44 visible queries across 14 pages current / 13 queries across 5 pages previous. Page-only: 22 pages current / 18 previous.
 
 | Query | Intent | Impressions | Change | Clicks | Position | Position Δ | Page(s) where reported | Review cue |
 |---|---|---:|---:|---:|---:|---:|---|---|
@@ -253,7 +253,7 @@ Page impressions/clicks are from the page-only export. The listed queries are on
 5 page impressions · 0 page clicks · avg. position 17.6 · 0 impressions attributed to visible queries · 5 without visible query attribution
 
 #### https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html
-5 page impressions · 0 page clicks · avg. position 6.4 · 0 impressions attributed to visible queries · 5 without visible query attribution
+4 page impressions · 0 page clicks · avg. position 5.2 · 0 impressions attributed to visible queries · 4 without visible query attribution
 
 #### https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html
 4 page impressions · 0 page clicks · avg. position 9.2 · 0 impressions attributed to visible queries · 4 without visible query attribution

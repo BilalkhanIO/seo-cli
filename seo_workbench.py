@@ -66,6 +66,7 @@ def findings(stage, data):
     if stage == "growth":
         for name, site in data.get("sites", {}).items():
             live_urls = {page["url"] for page in site.get("audit", [])}
+            mobile_probes = {row["url"]: row for row in site.get("mobile_redirect_probes", [])}
             for page in site.get("audit", []):
                 scope = f"audit:{name}:{page['url']}"
                 details = page.get("issues", [])
@@ -94,8 +95,13 @@ def findings(stage, data):
                 coverage.add(scope)
                 if row["verdict"] != "PASS":
                     state = row.get("coverageState") or "Unspecified Google indexing state"
-                    priority = 100 if row.get("pageFetchState") == "REDIRECT_ERROR" or row.get("indexingState") == "BLOCKED_BY_META_TAG" else 95
-                    out.append(issue(scope, row["url"], "indexing-blocker", "Google index status: " + state, priority))
+                    probe = mobile_probes.get(row["url"])
+                    if row.get("pageFetchState") == "REDIRECT_ERROR" and probe and probe.get("expected_blogger_mobile_redirect"):
+                        out.append(issue(scope, row["url"], "platform-mobile-redirect",
+                            "Search Console stored a redirect error; current smartphone probe follows Blogger's ?m=1 variant to HTTP 200 with the clean URL as canonical. Check Search Console Live Test if the stored state persists; do not alter Blogger redirects from this probe alone.", 20))
+                    else:
+                        priority = 100 if row.get("pageFetchState") == "REDIRECT_ERROR" or row.get("indexingState") == "BLOCKED_BY_META_TAG" else 95
+                        out.append(issue(scope, row["url"], "indexing-blocker", "Google index status: " + state, priority))
             for row in site.get("historical_url_checks", []):
                 scope = f"historical-url:{name}:{row['url']}"
                 if row.get("status") in (404, 410):

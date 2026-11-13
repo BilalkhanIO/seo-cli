@@ -1,10 +1,10 @@
 {
-  "run_id": "20261112T134611Z-766c653b",
+  "run_id": "20261113T061613Z-b78072da",
   "transitions": {
-    "new": 0,
-    "persistent": 187,
+    "new": 2,
+    "persistent": 151,
     "reopened": 0,
-    "resolved": 0
+    "resolved": 2
   },
   "stages": [
     {
@@ -16,7 +16,7 @@
     {
       "name": "growth",
       "status": "cached",
-      "source_modified_at": "2026-11-12T13:46:11.116504+00:00",
+      "source_modified_at": "2026-11-13T06:16:13.443901+00:00",
       "error": null
     },
     {
@@ -34,18 +34,6 @@
   ],
   "queue": [
     {
-      "id": "9cdb00e91b47b0d03dd7cb0dc2366138e4346f7cba8f7fdbac6a4855388d0c61",
-      "scope": "indexing:Students Time:https://studenttimepk.blogspot.com/",
-      "url": "https://studenttimepk.blogspot.com/",
-      "kind": "indexing-blocker",
-      "detail": "Google index status: Redirect error",
-      "priority": 100,
-      "state": "open",
-      "first_run": "20261111T072736Z-0c576efc",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
       "id": "d51b0c1f09948fead6491123dadb733f7fa6d453a1163f885d7bcc4473c2d2b9",
       "scope": "indexing:Students Time:https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
       "url": "https://studenttimepk.blogspot.com/2026/11/how-to-read-textbook-faster-for-exams.html",
@@ -58,18 +46,6 @@
       "resolved_run": null
     },
     {
-      "id": "a00d7495a285a7354db88d35ef2b556e7172d7694e6c825e13e47eddc08db76e",
-      "scope": "indexing:Learner's Link:https://learners-link.blogspot.com/",
-      "url": "https://learners-link.blogspot.com/",
-      "kind": "indexing-blocker",
-      "detail": "Google index status: Crawled - currently not indexed",
-      "priority": 95,
-      "state": "open",
-      "first_run": "20261111T072736Z-0c576efc",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
       "id": "97cb0360378f0ac2334bf49c68ee654202d3cb279e5bcec54e78f642ac68dab7",
       "scope": "indexing:Learner's Link:https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
       "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
@@ -78,7 +54,7 @@
       "priority": 95,
       "state": "open",
       "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -90,7 +66,7 @@
       "priority": 95,
       "state": "open",
       "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -130,6 +106,18 @@
       "resolved_run": null
     },
     {
+      "id": "b99f5db9435b9cd08926265479bf7da28c9480c6e11f5790d35ad85148abf15e",
+      "scope": "indexing:Students Time:https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+      "url": "https://studenttimepk.blogspot.com/2026/01/top-free-ai-courses-to-start-today-2026.html",
+      "kind": "indexing-blocker",
+      "detail": "Google index status: Crawled - currently not indexed",
+      "priority": 95,
+      "state": "open",
+      "first_run": "20261113T061111Z-dd708061",
+      "last_seen_run": "20261113T061613Z-b78072da",
+      "resolved_run": null
+    },
+    {
       "id": "2deacd34d9ff1dfa0e267417e6abe0a3d895cb17fb8d5ea1a420d98762ee48da",
       "scope": "indexing:Students Time:https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
       "url": "https://studenttimepk.blogspot.com/2026/03/meta-social-media-marketing-course-free-certificate.html",
@@ -138,7 +126,7 @@
       "priority": 95,
       "state": "open",
       "first_run": "20261111T072736Z-0c576efc",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -150,7 +138,7 @@
       "priority": 95,
       "state": "open",
       "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261112T140052Z-bcd5ec3e",
       "resolved_run": null
     },
     {
@@ -166,423 +154,15 @@
       "resolved_run": null
     },
     {
-      "id": "0cad1e2524a7d158a07abd81e5e4c3086a1f406deb28eab261e408291fedf94a",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/11/how-to-build-freelance-portfolio-2026.html",
-      "url": "https://learners-link.blogspot.com/2026/11/how-to-build-freelance-portfolio-2026.html",
-      "kind": "technical",
-      "detail": "missing/empty image alt",
-      "priority": 80,
+      "id": "501421e215b9dee36c2e820f9c8d8dba8921d1d3e25018330a66bc9c19f656c1",
+      "scope": "historical-url:Students Time:https://studenttimepk.blogspot.com/2025/07/scholarship-of-day-1-hec-commonwealth.html?m=1",
+      "url": "https://studenttimepk.blogspot.com/2025/07/scholarship-of-day-1-hec-commonwealth.html?m=1",
+      "kind": "historical-url",
+      "detail": "Previously visible GSC URL currently returns 404",
+      "priority": 90,
       "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "484e85dfd07977c720d8ead0c7627ccbff6e02146799d5c48aa4ae71646e842c",
-      "scope": "audit:Students Time:https://studenttimepk.blogspot.com/2026/11/how-to-write-university-essay-2026.html",
-      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-write-university-essay-2026.html",
-      "kind": "technical",
-      "detail": "missing/empty image alt",
-      "priority": 80,
-      "state": "open",
-      "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "5f3d3523f43575528b47d9ed111c56ded27e4259657f924456e70b576b9522d1",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/11/how-to-build-freelance-portfolio-2026.html",
-      "url": "https://learners-link.blogspot.com/2026/11/how-to-build-freelance-portfolio-2026.html",
-      "kind": "technical",
-      "detail": "no incoming links from published article bodies",
-      "priority": 55,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "27146ff7fce585d24c04ab2d1c00166a088f5608a663cd34de5d71f26264c3a1",
-      "scope": "audit:Students Time:https://studenttimepk.blogspot.com/2026/11/how-to-write-university-essay-2026.html",
-      "url": "https://studenttimepk.blogspot.com/2026/11/how-to-write-university-essay-2026.html",
-      "kind": "technical",
-      "detail": "no incoming links from published article bodies",
-      "priority": 55,
-      "state": "open",
-      "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "d06f9b3b74908f0b2f07333eefa9549526a2225826a3c874c359d9cb01ca97f3",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-business-checking-account-for-new.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "4d52978950155df7c59ed870feb560b33b28ed557856a3b43b2b12edea6b6c52",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new-llc.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "1985d21f8d63c8246406c7cfc8c7a634d9781055f02d74fcd388f9aa77d5cb27",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-business-credit-cards-for-new.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "daeb762141e6c5fff429354aceb9e3a59f5170b14b3e74d56e41b5db9db7b2a2",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-checking-account-for-freelancers.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "aa656816436bbccd72966c1dc80a4e2202cf532d09b27262ddd8bdf0dc271296",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-credit-cards-for-freelancers-with.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "ade806801a876e4ca73420670bf7d063daecd78e6638b0ed5b9a807f46c10eb7",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-high-yield-savings-account-no.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "36cc64dc2d57b36d26fc594fb82eabc7997284b0ba84b87adde92c15e6c5be04",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-invoicing-app-for-etsy-sellers-low.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "8c79dbfc5192e593f925c654ba1e096ce331862a409dfd2bb20c5172b89e8b55",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-invoicing-software-for-freelancers.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "d370fba67ddd8682c3038e7d12ad531b8b7d40754d0dac2ba6f44691214ad40f",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
-      "url": "https://learners-link.blogspot.com/2026/07/best-no-fee-business-bank-account-for.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "e99079aaf23d836039f5251fbcb0964e27d9cd9ba6e1199ae96699df09b18bcd",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
-      "url": "https://learners-link.blogspot.com/2026/07/how-to-open-business-bank-account.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "32c6ba510713a51e42d736c6cdc186cfe769e5855ddd8684636963a9123de30d",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
-      "url": "https://learners-link.blogspot.com/2026/07/mortgage-for-freelancers-first-time.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "19b25708e1bd1dc8be64815a23fba3b9fde9b4c635df8d6324f00bef3821ef0f",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
-      "url": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-accounts-for.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "95f0041305deffc5dc526ccaf87c91368697c7f32c7c6c6863ae78a76fb689c3",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
-      "url": "https://learners-link.blogspot.com/2026/07/no-fee-business-checking-for.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "815181be05edf11191e413ab39e81ca27dbbc3dbe76dbbfb33374c221db0d824",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
-      "url": "https://learners-link.blogspot.com/2026/07/no-penalty-cd-alternatives-best-2026.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "e994e6852256f01b987a3d4cf8b6029c6a14c6ee434d002ef1d1499372090045",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
-      "url": "https://learners-link.blogspot.com/2026/07/top-invoicing-app-for-freelancers-with.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "c4b724e9590be51732548b7c879e1435ddb2235b8e03741280985f8f793ff9a0",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
-      "url": "https://learners-link.blogspot.com/2026/08/best-0-apr-intro-balance-transfer.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "01446d2787bb6c6de5ab1218eaee65f08fab9e0090f92df4b812092ba2efe039",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-      "url": "https://learners-link.blogspot.com/2026/08/best-beginner-investment-apps-2026-top.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "9f7441db961e0d9058666aedd97652ec993f6c112ec39fefb2aba9734b4417d6",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
-      "url": "https://learners-link.blogspot.com/2026/08/best-robo-advisor-for-beginners-2026.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "a3528296aa7150c2b5dc68efb45ced252ac420d9d751d54745886beea8b07cce",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
-      "url": "https://learners-link.blogspot.com/2026/08/best-state-529-plan-for-tax-benefits.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "5ed24c6b9c09cc8297b22ffa84dffec6db7b96bc209a3d9484afc45d5917bc92",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
-      "url": "https://learners-link.blogspot.com/2026/08/how-to-build-business-credit-with-ein.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "875e61959d0a1f080ed5b022eb506619c14f0e5b9b795fe5c6b0f503c4837538",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
-      "url": "https://learners-link.blogspot.com/2026/08/how-to-switch-direct-deposit-to-new.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "51bc5620ec2cd81941f9144c7211bf4cf8decf659dad4d7c4ce8fefc7c0d24e2",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
-      "url": "https://learners-link.blogspot.com/2026/08/robo-advisor-vs-diy-investing-for.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "a26d69123974e2d4817d6c3adcb946464f6bc2b9c27dfc88d5cafd059e5ae5cb",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
-      "url": "https://learners-link.blogspot.com/2026/08/unsecured-personal-loan-comparison-2026.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "dc1391eb631e8a21863bd16a11f9effcb3bf9f00922f9ff3d0a92cc67c0f5b06",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/09/best-0-apr-balance-transfer-cards-2026.html",
-      "url": "https://learners-link.blogspot.com/2026/09/best-0-apr-balance-transfer-cards-2026.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "1a10a17f3201357b70c4185d9fe3d81602548a9431a15d627496e446fc6ae982",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
-      "url": "https://learners-link.blogspot.com/2026/09/best-beginner-grocery-credit-card.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "f910c7d26f0919d58eaf7feb520a896a984e66d6202e98e1f5859ba0fd64778f",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
-      "url": "https://learners-link.blogspot.com/2026/09/best-credit-card-for-building-credit.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "da5e36f8dd85cd51213d74449e612097d6f440fcbe40b5b3fbf88d34d90da927",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/09/high-yield-savings-vs-cash-sweep.html",
-      "url": "https://learners-link.blogspot.com/2026/09/high-yield-savings-vs-cash-sweep.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "97fae46f19b444b671c974cfc5663b1a431192f17ab5823a2d60cbc5d022b52c",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
-      "url": "https://learners-link.blogspot.com/2026/09/how-to-compare-rewards-credit-cards-for.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "27d7460ed570aff88591957fad9a59737c83bcffbec329904a2ea9b3d1000909",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/09/how-to-do-self-employed-taxes-2026-guide.html",
-      "url": "https://learners-link.blogspot.com/2026/09/how-to-do-self-employed-taxes-2026-guide.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "12f0d6bc2ba1c8032f423178b1e74cc4f6420d0af5518fa0fe649ad60ef2c5b8",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
-      "url": "https://learners-link.blogspot.com/2026/10/best-beginner-cash-back-credit-card-how.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
-      "resolved_run": null
-    },
-    {
-      "id": "00d80e495843cb06f388778b0c385447419b928e7774cbd97b9ef37324684cff",
-      "scope": "audit:Learner's Link:https://learners-link.blogspot.com/2026/10/robo-advisor-vs-diy-investing-which-is.html",
-      "url": "https://learners-link.blogspot.com/2026/10/robo-advisor-vs-diy-investing-which-is.html",
-      "kind": "metadata-review",
-      "detail": "missing meta description; review Blogger search description",
-      "priority": 45,
-      "state": "open",
-      "first_run": "20261112T134237Z-284401f8",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "first_run": "20261113T061111Z-dd708061",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -594,7 +174,7 @@
       "priority": 45,
       "state": "open",
       "first_run": "20261031T113132Z-f527fdb5",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -606,7 +186,7 @@
       "priority": 45,
       "state": "open",
       "first_run": "20261027T135859Z-fa474fe4",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -618,7 +198,7 @@
       "priority": 45,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -630,7 +210,7 @@
       "priority": 45,
       "state": "open",
       "first_run": "20261027T135859Z-fa474fe4",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -642,7 +222,7 @@
       "priority": 45,
       "state": "open",
       "first_run": "20261027T135859Z-fa474fe4",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -654,7 +234,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -666,7 +246,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -678,7 +258,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -690,7 +270,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -702,7 +282,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -714,7 +294,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -726,7 +306,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -738,7 +318,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -750,7 +330,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -762,7 +342,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -774,7 +354,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -786,7 +366,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -798,7 +378,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -810,7 +390,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -822,7 +402,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -834,7 +414,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -846,7 +426,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -858,7 +438,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -870,7 +450,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -882,7 +462,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -894,7 +474,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -906,7 +486,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -918,7 +498,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -930,7 +510,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -942,7 +522,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -954,7 +534,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -966,7 +546,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -978,7 +558,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -990,7 +570,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1002,7 +582,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1014,7 +594,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1026,7 +606,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1038,7 +618,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1050,7 +630,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1062,7 +642,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1074,7 +654,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1086,7 +666,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1098,7 +678,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1110,7 +690,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1122,7 +702,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1134,7 +714,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1146,7 +726,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1158,7 +738,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1170,7 +750,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1182,7 +762,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1194,7 +774,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1206,7 +786,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1218,7 +798,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1230,7 +810,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1242,7 +822,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1254,7 +834,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1266,7 +846,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1278,7 +858,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1290,7 +870,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1302,7 +882,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1314,7 +894,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1326,7 +906,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1338,7 +918,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1350,7 +930,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1362,7 +942,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1374,7 +954,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1386,7 +966,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1398,7 +978,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1410,7 +990,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1422,7 +1002,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1434,7 +1014,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1446,7 +1026,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1458,7 +1038,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1470,7 +1050,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1482,7 +1062,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1494,7 +1074,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1506,7 +1086,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1518,7 +1098,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1530,7 +1110,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1542,7 +1122,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1554,7 +1134,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1566,7 +1146,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1578,7 +1158,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1590,7 +1170,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1602,7 +1182,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1614,7 +1194,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1626,7 +1206,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1638,7 +1218,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1650,7 +1230,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1662,7 +1242,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1674,7 +1254,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1686,7 +1266,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1698,7 +1278,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1710,7 +1290,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1722,7 +1302,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1734,7 +1314,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1746,7 +1326,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1758,7 +1338,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1770,7 +1350,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1782,7 +1362,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1794,7 +1374,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1806,7 +1386,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1818,7 +1398,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1830,7 +1410,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1842,7 +1422,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1854,7 +1434,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1866,7 +1446,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1878,7 +1458,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1890,7 +1470,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1902,7 +1482,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1914,7 +1494,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1926,7 +1506,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T094651Z-abda38d6",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1938,7 +1518,7 @@
       "priority": 35,
       "state": "open",
       "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1950,7 +1530,7 @@
       "priority": 30,
       "state": "open",
       "first_run": "20261027T135859Z-fa474fe4",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1962,7 +1542,7 @@
       "priority": 30,
       "state": "open",
       "first_run": "20261027T135859Z-fa474fe4",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1974,7 +1554,31 @@
       "priority": 25,
       "state": "open",
       "first_run": "20261027T135859Z-fa474fe4",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
+      "resolved_run": null
+    },
+    {
+      "id": "50e598af20b74bf92b70009d32cbee9407ce67545871336bedaa16f4b9d1b823",
+      "scope": "indexing:Learner's Link:https://learners-link.blogspot.com/",
+      "url": "https://learners-link.blogspot.com/",
+      "kind": "platform-mobile-redirect",
+      "detail": "Search Console stored a redirect error; current smartphone probe follows Blogger's ?m=1 variant to HTTP 200 with the clean URL as canonical. Check Search Console Live Test if the stored state persists; do not alter Blogger redirects from this probe alone.",
+      "priority": 20,
+      "state": "open",
+      "first_run": "20261113T061613Z-b78072da",
+      "last_seen_run": "20261113T061613Z-b78072da",
+      "resolved_run": null
+    },
+    {
+      "id": "6939b6793ee1164f88ad4b866b7a912ea71111def27f68edcc3a528d6288ee04",
+      "scope": "indexing:Students Time:https://studenttimepk.blogspot.com/",
+      "url": "https://studenttimepk.blogspot.com/",
+      "kind": "platform-mobile-redirect",
+      "detail": "Search Console stored a redirect error; current smartphone probe follows Blogger's ?m=1 variant to HTTP 200 with the clean URL as canonical. Check Search Console Live Test if the stored state persists; do not alter Blogger redirects from this probe alone.",
+      "priority": 20,
+      "state": "open",
+      "first_run": "20261113T061613Z-b78072da",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1986,7 +1590,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -1998,7 +1602,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2010,7 +1614,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2022,7 +1626,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2034,7 +1638,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2046,7 +1650,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2058,7 +1662,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2070,7 +1674,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2082,7 +1686,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2094,7 +1698,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2106,7 +1710,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2118,7 +1722,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2130,7 +1734,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2142,7 +1746,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2154,7 +1758,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2166,7 +1770,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2178,7 +1782,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2190,7 +1794,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2202,7 +1806,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2214,7 +1818,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2226,7 +1830,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2238,7 +1842,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2250,7 +1854,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2262,7 +1866,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2274,7 +1878,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2286,7 +1890,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2298,7 +1902,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2310,7 +1914,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2322,7 +1926,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T095436Z-4cc599db",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
@@ -2334,7 +1938,7 @@
       "priority": 15,
       "state": "open",
       "first_run": "20261112T133250Z-677f6016",
-      "last_seen_run": "20261112T134611Z-766c653b",
+      "last_seen_run": "20261113T061613Z-b78072da",
       "resolved_run": null
     },
     {
