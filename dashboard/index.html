@@ -193,13 +193,14 @@ const STAGES=[['Submitted','sitemap sent'],['Discovered','Google found it'],['In
 async function loadBlogs(){
   const d=await fetch('/api/sites').then(r=>r.json());
   $('blogs').innerHTML=d.sites.map(s=>`
-    <button class="blog ${s.key===SITE?'on':''}" onclick="switchSite('${s.key}','${s.name}','${s.domain}')">
+    <button class="blog ${s.key===SITE?'on':''}" data-site-key="${s.key}" data-site-name="${s.name}" data-site-domain="${s.domain}">
       <b>${s.name}</b><span class="dom">${s.domain}</span>
       <span class="dots"><span class="dot ${s.gsc?'a':''}" title="GSC"></span><span class="dot ${s.bing?'a':''}" title="Bing"></span></span>
     </button>`).join('');
+  $('blogs').onclick=event=>{const button=event.target.closest('.blog');if(button)switchSite(button.dataset.siteKey,button.dataset.siteName,button.dataset.siteDomain,button);};
 }
-function switchSite(k,n,dom){SITE=k;S('site-name').textContent=n;S('site-dom').textContent=dom;
-  document.querySelectorAll('.blog').forEach(b=>b.classList.remove('on'));event.currentTarget.classList.add('on');loadAll();}
+function switchSite(k,n,dom,button){SITE=k;S('site-name').textContent=n;S('site-dom').textContent=dom;
+  document.querySelectorAll('.blog').forEach(b=>b.classList.remove('on'));button.classList.add('on');loadAll();}
 
 async function loadOverview(){
   const d=await q('/api/overview');
