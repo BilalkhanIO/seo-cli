@@ -6,10 +6,12 @@ claude-seo's google_auth.py expects, so gsc_query/gsc_inspect/ga4_report work.
 """
 import json
 import os
+from pathlib import Path
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-CLIENT_SECRET = "/home/kwikcoders/seo/client_secret.json"
+BASE = Path(__file__).resolve().parent
+CLIENT_SECRET = str(BASE / "client_secret.json")
 CONF_DIR = os.path.expanduser("~/.config/claude-seo")
 TOKEN_PATH = os.path.join(CONF_DIR, "oauth-token.json")
 CONFIG_PATH = os.path.join(CONF_DIR, "google-api.json")
@@ -58,9 +60,10 @@ with open(CONFIG_PATH, "w") as f:
 os.chmod(CONFIG_PATH, 0o600)
 
 # Also write Blogger token (authorized_user format) so blogger_cli.py uses the SAME auth.
-with open("/home/kwikcoders/seo/blogger_token.json", "w") as f:
+blogger_token_path = BASE / "blogger_token.json"
+with open(blogger_token_path, "w") as f:
     f.write(creds.to_json())
-os.chmod("/home/kwikcoders/seo/blogger_token.json", 0o600)
+os.chmod(blogger_token_path, 0o600)
 
 print("AUTH_OK: GSC + GA4 + AdSense + Blogger — all tokens written from one auth")
 print("refresh_token present:", bool(creds.refresh_token))

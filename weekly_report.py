@@ -6,12 +6,13 @@ and writes a dated markdown report to reports/. Run weekly (cron) or on demand.
 Usage: python weekly_report.py
 """
 import json, os, datetime
+from pathlib import Path
 from zoneinfo import ZoneInfo
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 
-BASE = "/home/kwikcoders/seo"
+BASE = str(Path(__file__).resolve().parent)
 REPORTS = os.path.join(BASE, "reports")
 HIST = os.path.join(BASE, "tracking_history.json")
 os.makedirs(REPORTS, exist_ok=True)

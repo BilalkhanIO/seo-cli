@@ -88,6 +88,8 @@
   .field{display:flex;gap:8px;margin-bottom:9px}
   input{flex:1;background:var(--surface2);border:1px solid var(--line2);color:var(--text);border-radius:9px;padding:9px 11px;font-size:13px;font-family:var(--body)}
   input:focus{outline:none;border-color:var(--signal)}
+  textarea{width:100%;min-height:100px;resize:vertical;background:var(--surface2);border:1px solid var(--line2);color:var(--text);border-radius:9px;padding:11px;font:13px var(--body);line-height:1.55}
+  textarea:focus{outline:none;border-color:var(--signal)}
   pre{background:#060e0f;border:1px solid var(--line);border-radius:10px;padding:12px;font-family:var(--mono);font-size:11.5px;color:#bcd;overflow:auto;max-height:300px;white-space:pre-wrap;margin:10px 0 0}
   .hint{color:var(--dim);font-size:11px}
   .muted{color:var(--muted)}
@@ -108,7 +110,7 @@
   <main class="main">
     <div class="top">
       <div><h2 id="site-name">—</h2><div class="dom" id="site-dom"></div></div>
-      <button class="refresh" onclick="loadAll()"><span id="rf">↻</span> Refresh</button>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="refresh" onclick="loadAll()">Reload saved</button><button id="run-pipeline" class="btn" onclick="refreshReports()">Run full SEO refresh</button></div>
     </div>
 
     <section class="hero">
@@ -124,7 +126,21 @@
     </section>
 
     <div class="grid">
-    <section class="card span"><h3>Workflow evidence and competitor coverage</h3><p class="hint">Saved measurements, pending comparisons and current goals</p><pre id="workbench-status">Loading saved workflow evidence…</pre></section>
+    <section class="card span"><h3>Workflow evidence and competitor coverage</h3><p class="hint">Saved measurements, pending comparisons and current goals</p><pre id="workbench-status">Loading saved workflow evidence…</pre><pre id="refresh-output" style="display:none"></pre></section>
+      <section class="card span" aria-labelledby="gemini-heading">
+        <h3 id="gemini-heading">✦ Gemini SEO copilot <span class="tag" id="gemini-state">Checking setup…</span></h3>
+        <div class="field"><input id="gemini-key" type="password" autocomplete="new-password" placeholder="Gemini API key" aria-label="Gemini API key"><button class="btn g" onclick="saveGeminiKey()">Save key</button></div>
+        <div class="hint" style="margin:0 0 12px">Key is saved on this computer only. Your question and the selected blog’s recent SEO report context are sent to Google Gemini. <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener" style="color:var(--signal)">Get a key ↗</a></div>
+        <textarea id="gemini-question" maxlength="5000" aria-label="Ask Gemini about SEO" placeholder="Ask about the selected blog’s search data, article improvements, keyword clusters, or next actions…"></textarea>
+        <div class="field" style="margin-top:9px;margin-bottom:0"><span class="hint" style="align-self:center">AI suggestions only; nothing is published or edited.</span><button id="gemini-ask" class="btn" onclick="askGemini()">Ask Gemini</button></div>
+        <pre id="gemini-answer" aria-live="polite" style="display:none"></pre>
+      </section>
+      <section class="card span" aria-labelledby="google-heading">
+        <h3 id="google-heading">Google account <span class="tag" id="google-state">Checking setup…</span></h3>
+        <div class="row"><span class="k">Search Console, Analytics, AdSense and Blogger read/write scopes</span><button id="google-connect" class="btn g" onclick="connectGoogle()">Connect Google</button></div>
+        <div class="hint" style="margin-top:8px">Google OAuth needs a Desktop OAuth client JSON saved as <code>client_secret.json</code> in this project folder. Credentials stay on this computer.</div>
+        <p id="google-auth-link" style="display:none"><a id="google-auth-anchor" target="_blank" rel="noopener" style="color:var(--signal)">Open Google sign-in ↗</a></p>
+      </section>
       <div class="card">
         <h3>◔ Search Console <span class="tag" id="gsc-tag"></span></h3>
         <div id="gsc"><span class="spin"></span></div>
@@ -257,6 +273,15 @@ async function loadWorkbench(){
   }catch(error){output.textContent='Saved workflow evidence unavailable: '+error.message;}
 }
 function loadAll(){$('synced').textContent='syncing…';Promise.allSettled([loadOverview(),loadGsc(),loadAdsense(),loadBing(),loadQueue(),loadWorkbench()]).then(()=>{$('synced').textContent='synced '+new Date().toLocaleTimeString();});}
+async function loadGemini(){try{const d=await fetch('/api/gemini/status').then(r=>r.json());$('gemini-state').textContent=d.configured?`${d.model} · ready`:'API key needed';}catch(error){$('gemini-state').textContent='Unavailable';}}
+async function saveGeminiKey(){const key=$('gemini-key').value.trim();if(!key){$('gemini-state').textContent='Paste a key first';return;}const response=await fetch('/api/gemini/key',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key})});const d=await response.json();if(!response.ok){$('gemini-state').textContent=d.error||'Could not save key';return;}$('gemini-key').value='';$('gemini-state').textContent='Saved privately on this computer';}
+async function askGemini(){const question=$('gemini-question').value.trim();if(!question){$('gemini-state').textContent='Enter a question first';return;}const button=$('gemini-ask'),answer=$('gemini-answer');button.disabled=true;button.textContent='Thinking…';answer.style.display='block';answer.textContent='Gemini is reviewing the selected blog and its saved SEO evidence…';try{const response=await fetch('/api/gemini/ask?site='+encodeURIComponent(SITE),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question})});const d=await response.json();answer.textContent=response.ok?d.answer:(d.error||'Gemini request failed.');if(d.model)$('gemini-state').textContent=d.model;}catch(error){answer.textContent='Could not reach the local app or Gemini. Check the connection and retry.';}finally{button.disabled=false;button.textContent='Ask Gemini';}}
+async function loadGoogle(){try{const d=await fetch('/api/google/status').then(r=>r.json());$('google-state').textContent=d.connected?'Connected on this computer':(d.client_ready?'Ready to connect':'OAuth client file needed');$('google-connect').textContent=d.connected?'Reconnect Google':'Connect Google';}catch(error){$('google-state').textContent='Unavailable';}}
+async function monitorGoogleAuth(){for(let i=0;i<180;i++){await new Promise(resolve=>setTimeout(resolve,2000));const response=await fetch('/api/google/auth-link');const d=await response.json();if(d.connected){$('google-state').textContent='Google connected';$('google-auth-link').style.display='none';return;}if(d.error){$('google-state').textContent=d.error;return;}}$('google-state').textContent='Sign-in is still waiting. Finish the Google browser step, then reload this page.';}
+async function connectGoogle(){const button=$('google-connect'),state=$('google-state');button.disabled=true;state.textContent='Starting Google sign-in…';$('google-auth-link').style.display='none';try{const start=await fetch('/api/google/connect',{method:'POST'}).then(r=>r.json());if(!start.started)throw Error(start.error||'Could not start sign-in');for(let i=0;i<20;i++){await new Promise(resolve=>setTimeout(resolve,800));const response=await fetch('/api/google/auth-link');const d=await response.json();if(d.url){$('google-auth-anchor').href=d.url;$('google-auth-link').style.display='block';state.textContent='Sign in using the link above';monitorGoogleAuth();break;}if(d.connected){state.textContent='Google connected';$('google-auth-link').style.display='none';break;}if(d.error)throw Error(d.error);}}catch(error){state.textContent=error.message;}finally{button.disabled=false;}}
+async function refreshReports(){const button=$('run-pipeline'),output=$('refresh-output');button.disabled=true;output.style.display='block';output.textContent='Starting weekly Google measurements, Search Console keyword clusters, and the complete SEO workbench refresh. This can take several minutes.';try{const response=await fetch('/api/refresh',{method:'POST'});const d=await response.json();if(!response.ok&&!d.running)throw Error(d.error||'Refresh could not start');for(;;){await new Promise(resolve=>setTimeout(resolve,2500));const state=await fetch('/api/refresh/status').then(r=>r.json());output.textContent=`Status: ${state.stage}${state.error?'\n'+state.error:''}\n\n${state.output||''}`;output.scrollTop=output.scrollHeight;if(!state.running){if(state.stage==='complete')loadAll();break;}}}catch(error){output.textContent='Could not run the refresh: '+error.message;}finally{button.disabled=false;}}
+loadGemini();
+loadGoogle();
 loadBlogs();loadAll();
 </script>
 </body>
