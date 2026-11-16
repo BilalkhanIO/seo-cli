@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Local multi-blog SEO Dashboard — Flask backend.
 
-Run:  /home/kwikcoders/.local/share/claude-seo/.venv/bin/python dashboard/app.py
+Run:  ./START-SEO-APP.sh
 Open: http://localhost:5000
 """
 import json
@@ -11,6 +11,8 @@ import stat
 import subprocess
 import sys
 import threading
+import time
+import webbrowser
 from pathlib import Path
 from collections import Counter
 from datetime import datetime, timezone
@@ -470,4 +472,27 @@ def queue():
 
 
 if __name__ == "__main__":
+    def open_dashboard_when_ready():
+        url = "http://127.0.0.1:5000"
+        deadline = time.monotonic() + 30
+        while time.monotonic() < deadline:
+            try:
+                with urllib.request.urlopen(url + "/api/sites", timeout=1) as response:
+                    if response.status == 200:
+                        if os.environ.get("SEO_OPEN_BROWSER", "1") == "1":
+                            if os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY"):
+                                try:
+                                    opened = webbrowser.open_new_tab(url)
+                                except Exception:
+                                    opened = False
+                                if not opened:
+                                    print(f"Open the dashboard in your browser: {url}", flush=True)
+                            else:
+                                print(f"No desktop browser session detected. Open: {url}", flush=True)
+                        return
+            except Exception:
+                time.sleep(0.25)
+        print(f"Dashboard did not respond in time. Open this address if the server is running: {url}", flush=True)
+
+    threading.Thread(target=open_dashboard_when_ready, daemon=True).start()
     app.run(host="127.0.0.1", port=5000, debug=False)

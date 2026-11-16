@@ -6,7 +6,7 @@ A private, local dashboard for the Students Time and Learner's Link SEO workflow
 
 1. Install Python 3.10 or newer.
 2. Run `START-SEO-APP.sh` on Linux/macOS, or double-click `START-SEO-APP.bat` on Windows.
-3. The first launch creates a local `.venv` and installs the Python packages. The app opens at <http://127.0.0.1:5000>.
+3. The first launch installs the Python packages. On Linux systems without `ensurepip`, packages go into the ignored project-local `.app-packages` folder; the system Python is not modified. Once the server responds, the launcher opens the dashboard at <http://127.0.0.1:5000>.
 4. Keep the terminal window open while using the app. Press Ctrl+C there to stop it.
 
 The server listens only on your computer (`127.0.0.1`). It is not published to the internet.

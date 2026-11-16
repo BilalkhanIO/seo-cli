@@ -17,4 +17,5 @@ backups/
 serpapi_key.txt
 
 .venv/
+.app-packages/
 research/competitor_cache/
